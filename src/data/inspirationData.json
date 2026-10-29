@@ -1,20 +1,3033 @@
 {
   "metadata": {
-    "generated_at": "2026-10-29 02:15:27",
-    "total_count": 150,
-    "ai_tagged_count": 150,
+    "generated_at": "2026-10-29 15:32:18",
+    "total_count": 191,
+    "ai_tagged_count": 191,
     "stats": {
       "Pinterest": {
-        "excel_count": 55,
-        "images_on_disk": 55
+        "excel_count": 76,
+        "images_on_disk": 76
       },
       "小红书": {
-        "excel_count": 95,
-        "images_on_disk": 96
+        "excel_count": 115,
+        "images_on_disk": 116
       }
     }
   },
   "items": [
+    {
+      "id": "pinterest_140",
+      "filename": "2026102915273669106.jpg",
+      "local_path": "Pinterest图片下载/2026102915273669106.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/248331366924146995/",
+      "image_url": "https://i.pinimg.com/736x/7f/4b/2b/7f4b2bf6445cb244fbaeb2e946317e4d.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:27:36",
+      "width": 476,
+      "height": 750,
+      "aspect_ratio": 1.576,
+      "tags": [
+        "建筑模型",
+        "建筑立面",
+        "参数化设计",
+        "未来主义",
+        "自然主义",
+        "金属",
+        "混凝土",
+        "玻璃",
+        "黑白摄影",
+        "高对比",
+        "明暗分明",
+        "方案参考",
+        "建筑细节",
+        "AI渲染案例"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑模型",
+          "建筑立面"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义",
+          "自然主义"
+        ],
+        "materials": [
+          "金属",
+          "混凝土",
+          "玻璃"
+        ],
+        "color_tone": [
+          "黑白摄影",
+          "高对比",
+          "明暗分明"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑细节",
+          "AI渲染案例"
+        ],
+        "image_description": "该建筑立面采用参数化生成的波浪形金属板构成动态肌理，与下方混凝土基座形成材质与形态对比，黑白摄影强化了线条的韵律感与光影层次，是极具表现力的建筑表皮设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:25"
+      },
+      "ai_description": "该建筑立面采用参数化生成的波浪形金属板构成动态肌理，与下方混凝土基座形成材质与形态对比，黑白摄影强化了线条的韵律感与光影层次，是极具表现力的建筑表皮设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_139",
+      "filename": "2026102915270441956.jpg",
+      "local_path": "Pinterest图片下载/2026102915270441956.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nfassade 2",
+      "raw_content": "Description\nfassade 2",
+      "likes": 13,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/462604192947272128/",
+      "image_url": "https://i.pinimg.com/736x/9e/da/e1/9edae14acfb739e83310860c05320e45.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:27:04",
+      "width": 736,
+      "height": 981,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "建筑立面",
+        "建筑模型",
+        "现代主义",
+        "参数化设计",
+        "混凝土",
+        "玻璃",
+        "冷色调",
+        "低饱和",
+        "高对比",
+        "方案参考",
+        "建筑立面设计",
+        "概念方案"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面",
+          "建筑模型"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑立面设计",
+          "概念方案"
+        ],
+        "image_description": "该建筑立面采用重复的几何体块构成，以混凝土为基底材料，形成强烈的韵律感与立体阴影，深色玻璃窗框与浅灰混凝土形成高对比视觉效果，是现代主义建筑中极具表现力的立面构造参考案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:21"
+      },
+      "ai_description": "该建筑立面采用重复的几何体块构成，以混凝土为基底材料，形成强烈的韵律感与立体阴影，深色玻璃窗框与浅灰混凝土形成高对比视觉效果，是现代主义建筑中极具表现力的立面构造参考案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_138",
+      "filename": "2026102915263848985.jpg",
+      "local_path": "Pinterest图片下载/2026102915263848985.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 33,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/607352699771262288/",
+      "image_url": "https://i.pinimg.com/736x/e3/a2/eb/e3a2ebc878b0e257779bc39030891df0.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:26:38",
+      "width": 564,
+      "height": 846,
+      "aspect_ratio": 1.5,
+      "tags": [
+        "建筑模型",
+        "建筑立面",
+        "参数化设计",
+        "现代主义",
+        "自然主义",
+        "金属",
+        "木饰面",
+        "玻璃",
+        "暖色系",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "建筑立面设计",
+        "AI渲染案例"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑模型",
+          "建筑立面"
+        ],
+        "design_style": [
+          "参数化设计",
+          "现代主义",
+          "自然主义"
+        ],
+        "materials": [
+          "金属",
+          "木饰面",
+          "玻璃"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑立面设计",
+          "AI渲染案例"
+        ],
+        "image_description": "该建筑立面采用参数化生成的波浪形层叠结构，外立面结合金属与木饰面条板，形成富有韵律感的光影效果。整体设计现代而自然，具有强烈的视觉表现力，适合作为建筑立面或概念方案的参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:17"
+      },
+      "ai_description": "该建筑立面采用参数化生成的波浪形层叠结构，外立面结合金属与木饰面条板，形成富有韵律感的光影效果。整体设计现代而自然，具有强烈的视觉表现力，适合作为建筑立面或概念方案的参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_137",
+      "filename": "2026102915260714776.jpg",
+      "local_path": "Pinterest图片下载/2026102915260714776.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 16,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/3166662231708277/",
+      "image_url": "https://i.pinimg.com/736x/b2/5c/73/b25c73dafec62d69794772b1dd02c57b.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:26:07",
+      "width": 523,
+      "height": 720,
+      "aspect_ratio": 1.377,
+      "tags": [
+        "办公建筑",
+        "现代主义",
+        "极简主义",
+        "混凝土",
+        "砖",
+        "玻璃",
+        "冷色调",
+        "低饱和",
+        "高对比",
+        "方案参考",
+        "办公空间",
+        "建筑立面"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "办公建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义"
+        ],
+        "materials": [
+          "混凝土",
+          "砖",
+          "玻璃"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "办公空间",
+          "建筑立面"
+        ],
+        "image_description": "现代风格办公建筑立面特写，以深色砖墙与浅灰色混凝土挑板构成强烈几何对比，竖向玻璃窗带穿插其间，整体色调冷静克制，具有鲜明的极简主义特征，适合作为办公建筑立面设计的参考案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:14"
+      },
+      "ai_description": "现代风格办公建筑立面特写，以深色砖墙与浅灰色混凝土挑板构成强烈几何对比，竖向玻璃窗带穿插其间，整体色调冷静克制，具有鲜明的极简主义特征，适合作为办公建筑立面设计的参考案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_136",
+      "filename": "2026102915253450211.jpg",
+      "local_path": "Pinterest图片下载/2026102915253450211.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nPinterest Saves • Instagram",
+      "raw_content": "Description\nPinterest Saves • Instagram",
+      "likes": 161,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/509680882846230206/",
+      "image_url": "https://i.pinimg.com/736x/5e/d5/bc/5ed5bc424b45cfd369cd3df612d84ec0.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:25:34",
+      "width": 736,
+      "height": 905,
+      "aspect_ratio": 1.23,
+      "tags": [
+        "商业建筑",
+        "建筑模型",
+        "未来主义",
+        "参数化设计",
+        "AI渲染",
+        "玻璃",
+        "灯光装置",
+        "金属框架",
+        "暖色系",
+        "高饱和",
+        "渐变光影",
+        "AI渲染案例",
+        "概念方案",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑模型"
+        ],
+        "design_style": [
+          "未来主义",
+          "参数化设计",
+          "AI渲染"
+        ],
+        "materials": [
+          "玻璃",
+          "灯光装置",
+          "金属框架"
+        ],
+        "color_tone": [
+          "暖色系",
+          "高饱和",
+          "渐变光影"
+        ],
+        "scene_usage": [
+          "AI渲染案例",
+          "概念方案",
+          "方案参考"
+        ],
+        "image_description": "该建筑为未来主义风格的商业空间概念模型，立面采用波浪形半透明玻璃幕墙，内嵌暖橙色渐变灯光装置，形成流动的光影效果。金属框架勾勒轮廓，整体视觉极具科技感与艺术张力，适合作为创新商业立面设计的AI渲染参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:11"
+      },
+      "ai_description": "该建筑为未来主义风格的商业空间概念模型，立面采用波浪形半透明玻璃幕墙，内嵌暖橙色渐变灯光装置，形成流动的光影效果。金属框架勾勒轮廓，整体视觉极具科技感与艺术张力，适合作为创新商业立面设计的AI渲染参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_135",
+      "filename": "2026102915251013458.jpg",
+      "local_path": "Pinterest图片下载/2026102915251013458.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 55,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/531213718566050324/",
+      "image_url": "https://i.pinimg.com/736x/3a/a2/1f/3aa21fd0344fe782e17cb283766799fe.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:25:10",
+      "width": 736,
+      "height": 1308,
+      "aspect_ratio": 1.777,
+      "tags": [
+        "建筑模型",
+        "商业建筑",
+        "未来主义",
+        "参数化设计",
+        "玻璃",
+        "金属",
+        "黄色膜材",
+        "暖色系",
+        "高饱和",
+        "明亮通透",
+        "概念方案",
+        "AI渲染案例",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑模型",
+          "商业建筑"
+        ],
+        "design_style": [
+          "未来主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "黄色膜材"
+        ],
+        "color_tone": [
+          "暖色系",
+          "高饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "概念方案",
+          "AI渲染案例",
+          "方案参考"
+        ],
+        "image_description": "该建筑立面采用参数化设计，由黄色半透明膜材与金属框架构成的垂直褶皱结构，形成强烈的视觉冲击力。玻璃幕墙与膜材结合，营造出未来感与通透感，是极具参考价值的创新立面设计案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:06"
+      },
+      "ai_description": "该建筑立面采用参数化设计，由黄色半透明膜材与金属框架构成的垂直褶皱结构，形成强烈的视觉冲击力。玻璃幕墙与膜材结合，营造出未来感与通透感，是极具参考价值的创新立面设计案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_134",
+      "filename": "2026102915243963684.jpg",
+      "local_path": "Pinterest图片下载/2026102915243963684.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nInstagram",
+      "raw_content": "Description\nInstagram",
+      "likes": 31,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/467459636345752515/",
+      "image_url": "https://i.pinimg.com/736x/0f/d4/2a/0fd42ac066e7bf131ef2dbfaaef9f62f.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:24:39",
+      "width": 736,
+      "height": 920,
+      "aspect_ratio": 1.25,
+      "tags": [
+        "文化建筑",
+        "商业建筑",
+        "地域性建筑",
+        "参数化设计",
+        "自然主义",
+        "砖",
+        "玻璃",
+        "混凝土",
+        "绿植",
+        "暖色系",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "文旅场景",
+        "城市设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "商业建筑"
+        ],
+        "design_style": [
+          "地域性建筑",
+          "参数化设计",
+          "自然主义"
+        ],
+        "materials": [
+          "砖",
+          "玻璃",
+          "混凝土",
+          "绿植"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "文旅场景",
+          "城市设计"
+        ],
+        "image_description": "该建筑采用参数化设计手法，以波浪形砖砌镂空立面形成独特的光影效果，结合玻璃幕墙与混凝土基座，营造出富有地域文化气息的公共空间。入口处阶梯与绿植点缀，整体氛围温暖柔和，适合作为文旅建筑或文化空间的方案参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:02"
+      },
+      "ai_description": "该建筑采用参数化设计手法，以波浪形砖砌镂空立面形成独特的光影效果，结合玻璃幕墙与混凝土基座，营造出富有地域文化气息的公共空间。入口处阶梯与绿植点缀，整体氛围温暖柔和，适合作为文旅建筑或文化空间的方案参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_133",
+      "filename": "2026102915241562771.jpg",
+      "local_path": "Pinterest图片下载/2026102915241562771.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/437623288816867655/",
+      "image_url": "https://i.pinimg.com/736x/01/31/93/0131930e17ad8e7d0b96066a7a99ec87.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:24:15",
+      "width": 600,
+      "height": 804,
+      "aspect_ratio": 1.34,
+      "tags": [
+        "商业建筑",
+        "办公建筑",
+        "现代主义",
+        "参数化设计",
+        "自然主义",
+        "玻璃",
+        "金属",
+        "混凝土",
+        "木饰面",
+        "暖色系",
+        "高对比",
+        "明亮通透",
+        "方案参考",
+        "城市设计",
+        "商业街区"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "办公建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计",
+          "自然主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "混凝土",
+          "木饰面"
+        ],
+        "color_tone": [
+          "暖色系",
+          "高对比",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "商业街区"
+        ],
+        "image_description": "该现代风格商业办公建筑采用参数化设计语言，立面由垂直金属条与玻璃幕墙构成，底部混凝土基座形成独特悬挑结构，结合木饰面与绿植营造自然氛围，整体造型极具视觉张力，适合作为城市地标或商业综合体方案参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:57"
+      },
+      "ai_description": "该现代风格商业办公建筑采用参数化设计语言，立面由垂直金属条与玻璃幕墙构成，底部混凝土基座形成独特悬挑结构，结合木饰面与绿植营造自然氛围，整体造型极具视觉张力，适合作为城市地标或商业综合体方案参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_132",
+      "filename": "2026102915234458927.jpg",
+      "local_path": "Pinterest图片下载/2026102915234458927.jpg",
+      "exists_locally": true,
+      "title": "Parametric panels of Gateway Plaza façade",
+      "raw_title": "Parametric panels of Gateway Plaza façade",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nGateway Plaza is an office skyscraper in Richmond, Virginia. Clayco and Forum Studio collaborated with Brininstool + Lynch for the façade design.",
+      "raw_content": "Description\nGateway Plaza is an office skyscraper in Richmond, Virginia. Clayco and Forum Studio collaborated with Brininstool + Lynch for the façade design.",
+      "likes": 3,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/268667934018038381/",
+      "image_url": "https://i.pinimg.com/736x/e0/00/f5/e000f52917d80320f52100483ad08b24.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:23:44",
+      "width": 736,
+      "height": 1101,
+      "aspect_ratio": 1.496,
+      "tags": [
+        "建筑外墙",
+        "景观空间",
+        "参数化设计",
+        "现代主义",
+        "金属",
+        "白色墙面",
+        "绿植",
+        "水体",
+        "冷色调",
+        "明亮通透",
+        "柔和自然",
+        "方案参考",
+        "建筑立面",
+        "景观设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑外墙",
+          "景观空间"
+        ],
+        "design_style": [
+          "参数化设计",
+          "现代主义"
+        ],
+        "materials": [
+          "金属",
+          "白色墙面",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑立面",
+          "景观设计"
+        ],
+        "image_description": "建筑外立面采用白色金属板构成的参数化几何肌理，通过高低错落的折面形成强烈的光影与立体感，底部搭配自然生长的黄色花卉与绿植，整体呈现现代、简洁且富有韵律的视觉效果，适合作为建筑立面或景观节点的设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:53"
+      },
+      "ai_description": "建筑外立面采用白色金属板构成的参数化几何肌理，通过高低错落的折面形成强烈的光影与立体感，底部搭配自然生长的黄色花卉与绿植，整体呈现现代、简洁且富有韵律的视觉效果，适合作为建筑立面或景观节点的设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_131",
+      "filename": "2026102915232632149.jpg",
+      "local_path": "Pinterest图片下载/2026102915232632149.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nWA RASSE",
+      "raw_content": "Description\nWA RASSE",
+      "likes": 99,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/47991552250281548/",
+      "image_url": "https://i.pinimg.com/736x/5b/f3/67/5bf367a4bbf0cc64371458a8ce252b5d.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:23:26",
+      "width": 534,
+      "height": 800,
+      "aspect_ratio": 1.498,
+      "tags": [
+        "文化建筑",
+        "建筑模型",
+        "现代主义",
+        "参数化设计",
+        "金属",
+        "玻璃",
+        "混凝土",
+        "暖色系",
+        "高对比",
+        "明亮通透",
+        "方案参考",
+        "建筑立面",
+        "概念方案"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "建筑模型"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "金属",
+          "玻璃",
+          "混凝土"
+        ],
+        "color_tone": [
+          "暖色系",
+          "高对比",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑立面",
+          "概念方案"
+        ],
+        "image_description": "该建筑立面采用红色金属竖向条板构成动态波浪形态，与白色墙体形成强烈视觉对比，入口处设有玻璃与混凝土结构的遮蔽空间，整体设计富有雕塑感与参数化特征，适合作为文化建筑立面或概念方案的参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:49"
+      },
+      "ai_description": "该建筑立面采用红色金属竖向条板构成动态波浪形态，与白色墙体形成强烈视觉对比，入口处设有玻璃与混凝土结构的遮蔽空间，整体设计富有雕塑感与参数化特征，适合作为文化建筑立面或概念方案的参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_130",
+      "filename": "2026102915230009429.jpg",
+      "local_path": "Pinterest图片下载/2026102915230009429.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 1,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/336292297201247127/",
+      "image_url": "https://i.pinimg.com/736x/f7/f6/d3/f7f6d3713c12aa99124316a99711dd4e.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:23:00",
+      "width": 600,
+      "height": 1075,
+      "aspect_ratio": 1.792,
+      "tags": [
+        "商业建筑",
+        "办公建筑",
+        "生态建筑",
+        "参数化设计",
+        "未来主义",
+        "混凝土",
+        "玻璃",
+        "绿植",
+        "金属",
+        "冷色调",
+        "明亮通透",
+        "自然色",
+        "方案参考",
+        "城市设计",
+        "文旅场景"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "办公建筑"
+        ],
+        "design_style": [
+          "生态建筑",
+          "参数化设计",
+          "未来主义"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "绿植",
+          "金属"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透",
+          "自然色"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "文旅场景"
+        ],
+        "image_description": "该建筑为参数化设计的商业办公综合体，外立面由垂直混凝土板条构成螺旋式肌理，嵌入垂直绿化系统，形成独特的生态立面。建筑底部开放广场与周边景观融合，整体呈现未来感与自然共生的视觉效果，适合作为城市生态建筑方案参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:40"
+      },
+      "ai_description": "该建筑为参数化设计的商业办公综合体，外立面由垂直混凝土板条构成螺旋式肌理，嵌入垂直绿化系统，形成独特的生态立面。建筑底部开放广场与周边景观融合，整体呈现未来感与自然共生的视觉效果，适合作为城市生态建筑方案参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_129",
+      "filename": "2026102915222524909.jpg",
+      "local_path": "Pinterest图片下载/2026102915222524909.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 62,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/869828115543039636/",
+      "image_url": "https://i.pinimg.com/736x/f2/ae/14/f2ae144a97161b95aaf4614ac22953a8.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:22:25",
+      "width": 735,
+      "height": 904,
+      "aspect_ratio": 1.23,
+      "tags": [
+        "商业建筑",
+        "办公建筑",
+        "参数化设计",
+        "未来主义",
+        "现代主义",
+        "玻璃",
+        "金属",
+        "灯光装置",
+        "暖色系",
+        "高对比",
+        "柔和自然",
+        "方案参考",
+        "城市设计",
+        "AI渲染案例"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "办公建筑"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义",
+          "现代主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "灯光装置"
+        ],
+        "color_tone": [
+          "暖色系",
+          "高对比",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "AI渲染案例"
+        ],
+        "image_description": "该建筑为现代风格的商业办公综合体，立面采用参数化设计的波浪形金属格栅与玻璃幕墙组合，内部暖光透出形成强烈光影对比，营造出未来感与科技感并存的都市空间氛围，极具方案设计参考价值。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:28"
+      },
+      "ai_description": "该建筑为现代风格的商业办公综合体，立面采用参数化设计的波浪形金属格栅与玻璃幕墙组合，内部暖光透出形成强烈光影对比，营造出未来感与科技感并存的都市空间氛围，极具方案设计参考价值。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_128",
+      "filename": "2026102915215299546.jpg",
+      "local_path": "Pinterest图片下载/2026102915215299546.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 82,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/6192518231302541/",
+      "image_url": "https://i.pinimg.com/736x/0c/da/04/0cda04b4339454aab822cd12cca1183e.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:21:52",
+      "width": 720,
+      "height": 975,
+      "aspect_ratio": 1.354,
+      "tags": [
+        "文化建筑",
+        "公共建筑",
+        "参数化设计",
+        "未来主义",
+        "自然主义",
+        "白色墙面",
+        "混凝土",
+        "金属",
+        "玻璃",
+        "冷色调",
+        "明亮通透",
+        "高对比",
+        "概念方案",
+        "城市设计",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "公共建筑"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义",
+          "自然主义"
+        ],
+        "materials": [
+          "白色墙面",
+          "混凝土",
+          "金属",
+          "玻璃"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透",
+          "高对比"
+        ],
+        "scene_usage": [
+          "概念方案",
+          "城市设计",
+          "方案参考"
+        ],
+        "image_description": "该建筑为参数化设计的公共文化空间，立面由连续的白色波浪形垂直构件构成，形成强烈的光影与体量节奏，材质以混凝土与金属为主，搭配玻璃窗，整体呈现未来感与自然流动的视觉效果，适合作为城市公共建筑概念方案参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:19"
+      },
+      "ai_description": "该建筑为参数化设计的公共文化空间，立面由连续的白色波浪形垂直构件构成，形成强烈的光影与体量节奏，材质以混凝土与金属为主，搭配玻璃窗，整体呈现未来感与自然流动的视觉效果，适合作为城市公共建筑概念方案参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_127",
+      "filename": "2026102915211807156.jpg",
+      "local_path": "Pinterest图片下载/2026102915211807156.jpg",
+      "exists_locally": true,
+      "title": "Gallery of SHUIBEI International Center / Aedas - 3",
+      "raw_title": "Gallery of SHUIBEI International Center / Aedas - 3",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nGallery of SHUIBEI International Center / Aedas - 3",
+      "raw_content": "Description\nGallery of SHUIBEI International Center / Aedas - 3",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/460141286933054445/",
+      "image_url": "https://i.pinimg.com/736x/0b/bd/c2/0bbdc24e99d39c9c70ca0497fe98b2b7.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:21:18",
+      "width": 736,
+      "height": 981,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "商业建筑",
+        "办公建筑",
+        "参数化设计",
+        "未来主义",
+        "现代主义",
+        "玻璃",
+        "金属",
+        "白色墙面",
+        "冷色调",
+        "明亮通透",
+        "高对比",
+        "方案参考",
+        "城市设计",
+        "AI渲染案例"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "办公建筑"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义",
+          "现代主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "AI渲染案例"
+        ],
+        "image_description": "该建筑为现代风格商业办公综合体，立面采用参数化波浪形金属板与玻璃幕墙组合，形成极具动感的视觉效果。底层入口处设有弧形遮阳结构，整体造型前卫，适合用作城市地标或方案设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:15"
+      },
+      "ai_description": "该建筑为现代风格商业办公综合体，立面采用参数化波浪形金属板与玻璃幕墙组合，形成极具动感的视觉效果。底层入口处设有弧形遮阳结构，整体造型前卫，适合用作城市地标或方案设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_126",
+      "filename": "2026102915210173882.jpg",
+      "local_path": "Pinterest图片下载/2026102915210173882.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 10,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/5699937024643363/",
+      "image_url": "https://i.pinimg.com/736x/a9/18/b1/a918b185df6eeef771f615bb9449dbc4.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:21:01",
+      "width": 564,
+      "height": 732,
+      "aspect_ratio": 1.298,
+      "tags": [
+        "文化建筑",
+        "展览建筑",
+        "参数化设计",
+        "未来主义",
+        "自然主义",
+        "混凝土",
+        "白色墙面",
+        "金属格栅",
+        "冷色调",
+        "低饱和",
+        "明亮通透",
+        "方案参考",
+        "城市设计",
+        "建筑模型"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "展览建筑"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "白色墙面",
+          "金属格栅"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "建筑模型"
+        ],
+        "image_description": "该建筑呈现参数化设计的波浪形立面，由连续的白色垂直构件构成，形成富有韵律感的光影效果。整体造型流畅，材质以混凝土与金属格栅为主，营造出未来感与自然流动的视觉氛围，适合作为文化或展览建筑的方案参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:10"
+      },
+      "ai_description": "该建筑呈现参数化设计的波浪形立面，由连续的白色垂直构件构成，形成富有韵律感的光影效果。整体造型流畅，材质以混凝土与金属格栅为主，营造出未来感与自然流动的视觉氛围，适合作为文化或展览建筑的方案参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_125",
+      "filename": "2026102915202669835.jpg",
+      "local_path": "Pinterest图片下载/2026102915202669835.jpg",
+      "exists_locally": true,
+      "title": "Metal Facade Company India | Parametric Cladding & Elevations | Metaguise",
+      "raw_title": "Metal Facade Company India | Parametric Cladding & Elevations | Metaguise",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nMetaguise designs and installs metal facades, parametric cladding and aluminium elevations across India. 1800+ projects completed. Get a free facade consultation today.",
+      "raw_content": "Description\nMetaguise designs and installs metal facades, parametric cladding and aluminium elevations across India. 1800+ projects completed. Get a free facade consultation today.",
+      "likes": 17,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/984529168516379897/",
+      "image_url": "https://i.pinimg.com/736x/f6/83/4b/f6834ba1e6271e88bcb75ba9eac35079.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:20:26",
+      "width": 660,
+      "height": 1013,
+      "aspect_ratio": 1.535,
+      "tags": [
+        "建筑外墙",
+        "景观建筑",
+        "参数化设计",
+        "现代主义",
+        "自然主义",
+        "石材",
+        "金属",
+        "白色墙面",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "建筑立面",
+        "景观设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑外墙",
+          "景观建筑"
+        ],
+        "design_style": [
+          "参数化设计",
+          "现代主义",
+          "自然主义"
+        ],
+        "materials": [
+          "石材",
+          "金属",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑立面",
+          "景观设计"
+        ],
+        "image_description": "建筑外立面采用参数化排列的白色石材圆盘与金属构件组合，形成富有韵律感的波浪式肌理，材质纯净，色彩柔和，营造出兼具科技感与自然气息的现代立面效果，适合作为建筑外饰面或景观构筑物的设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:29:03"
+      },
+      "ai_description": "建筑外立面采用参数化排列的白色石材圆盘与金属构件组合，形成富有韵律感的波浪式肌理，材质纯净，色彩柔和，营造出兼具科技感与自然气息的现代立面效果，适合作为建筑外饰面或景观构筑物的设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_124",
+      "filename": "2026102915200818295.jpg",
+      "local_path": "Pinterest图片下载/2026102915200818295.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 66,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/968977676108485458/",
+      "image_url": "https://i.pinimg.com/736x/a5/39/72/a53972fc26530052c7852300cfd33318.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:20:08",
+      "width": 474,
+      "height": 583,
+      "aspect_ratio": 1.23,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "参数化设计",
+        "未来主义",
+        "自然主义",
+        "玻璃",
+        "金属",
+        "透光膜",
+        "暖色系",
+        "低饱和",
+        "粉紫暮色",
+        "方案参考",
+        "城市设计",
+        "AI渲染案例"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义",
+          "自然主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "透光膜"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "粉紫暮色"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "AI渲染案例"
+        ],
+        "image_description": "该建筑立面采用参数化波浪形金属与透光膜构成的动态表皮，黄昏时分透出暖橙色光影，形成如流动山峦般的视觉效果，兼具科技感与自然意象，是城市商业建筑立面设计的创新参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:28:59"
+      },
+      "ai_description": "该建筑立面采用参数化波浪形金属与透光膜构成的动态表皮，黄昏时分透出暖橙色光影，形成如流动山峦般的视觉效果，兼具科技感与自然意象，是城市商业建筑立面设计的创新参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_123",
+      "filename": "2026102915193780359.jpg",
+      "local_path": "Pinterest图片下载/2026102915193780359.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nDesigned by SOAarchitecture, The \"Sami Frashëri\" School with its parametric facade provides a new perspective for the new generation of educational buildings in Tirana, Albania. ParametricArchitecture\nSee more",
+      "raw_content": "Description\nDesigned by SOAarchitecture, The \"Sami Frashëri\" School with its parametric facade provides a new perspective for the new generation of educational buildings in Tirana, Albania. ParametricArchitecture\nSee more",
+      "likes": 35,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/458311699594321449/",
+      "image_url": "https://i.pinimg.com/736x/91/53/d2/9153d24ac95d6bf586a7ebb555dea131.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:19:37",
+      "width": 736,
+      "height": 876,
+      "aspect_ratio": 1.19,
+      "tags": [
+        "文化建筑",
+        "公共建筑",
+        "参数化设计",
+        "自然主义",
+        "现代主义",
+        "金属",
+        "玻璃",
+        "白色墙面",
+        "暖色系",
+        "明亮通透",
+        "高对比",
+        "方案参考",
+        "城市设计",
+        "建筑模型"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "公共建筑"
+        ],
+        "design_style": [
+          "参数化设计",
+          "自然主义",
+          "现代主义"
+        ],
+        "materials": [
+          "金属",
+          "玻璃",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "暖色系",
+          "明亮通透",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "建筑模型"
+        ],
+        "image_description": "该建筑立面采用参数化生成的连续波浪形金属板，形成富有韵律感的垂直肌理，与玻璃幕墙及白色墙体形成材质与光影对比，整体造型轻盈现代，具有强烈的视觉表现力，适合作为公共建筑或文化设施的立面设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:28:56"
+      },
+      "ai_description": "该建筑立面采用参数化生成的连续波浪形金属板，形成富有韵律感的垂直肌理，与玻璃幕墙及白色墙体形成材质与光影对比，整体造型轻盈现代，具有强烈的视觉表现力，适合作为公共建筑或文化设施的立面设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_122",
+      "filename": "2026102915191264650.jpg",
+      "local_path": "Pinterest图片下载/2026102915191264650.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 14,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/326581410475755467/",
+      "image_url": "https://i.pinimg.com/736x/f7/27/01/f7270167632a85f649d17b6f27f6583a.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:19:12",
+      "width": 733,
+      "height": 738,
+      "aspect_ratio": 1.007,
+      "tags": [
+        "建筑立面",
+        "建筑模型",
+        "参数化设计",
+        "未来主义",
+        "金属",
+        "白色墙面",
+        "玻璃",
+        "冷色调",
+        "高对比",
+        "明亮通透",
+        "方案参考",
+        "建筑立面设计",
+        "AI渲染案例"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面",
+          "建筑模型"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义"
+        ],
+        "materials": [
+          "金属",
+          "白色墙面",
+          "玻璃"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑立面设计",
+          "AI渲染案例"
+        ],
+        "image_description": "该建筑立面采用参数化生成的菱形几何网格，白色金属构件与深色镂空形成强烈视觉对比，底层嵌入玻璃幕墙，整体造型极具未来感与科技感，是建筑表皮设计与光影效果的优秀案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:28:50"
+      },
+      "ai_description": "该建筑立面采用参数化生成的菱形几何网格，白色金属构件与深色镂空形成强烈视觉对比，底层嵌入玻璃幕墙，整体造型极具未来感与科技感，是建筑表皮设计与光影效果的优秀案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_121",
+      "filename": "2026102915184161624.jpg",
+      "local_path": "Pinterest图片下载/2026102915184161624.jpg",
+      "exists_locally": true,
+      "title": "Parametric panels of Gateway Plaza façade",
+      "raw_title": "Parametric panels of Gateway Plaza façade",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nParametric panels of Gateway Plaza façade - ParametricArchitecture",
+      "raw_content": "Description\nParametric panels of Gateway Plaza façade - ParametricArchitecture",
+      "likes": 3,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/509680882841385252/",
+      "image_url": "https://i.pinimg.com/736x/99/ea/ba/99eaba0b51b324ccbd7794d9bcb7c512.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:18:41",
+      "width": 736,
+      "height": 1101,
+      "aspect_ratio": 1.496,
+      "tags": [
+        "商业建筑",
+        "办公建筑",
+        "现代主义",
+        "参数化设计",
+        "金属",
+        "玻璃",
+        "石材",
+        "冷色调",
+        "高对比",
+        "明亮通透",
+        "方案参考",
+        "商业街区",
+        "建筑立面"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "办公建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "金属",
+          "玻璃",
+          "石材"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业街区",
+          "建筑立面"
+        ],
+        "image_description": "该建筑为现代风格商业办公综合体，立面采用参数化金属板构成的菱形几何肌理，与底层玻璃幕墙形成材质与形态对比，阳光下金属表面反射出高对比光影，营造出富有科技感与秩序感的都市建筑形象，适合作为立面设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:28:45"
+      },
+      "ai_description": "该建筑为现代风格商业办公综合体，立面采用参数化金属板构成的菱形几何肌理，与底层玻璃幕墙形成材质与形态对比，阳光下金属表面反射出高对比光影，营造出富有科技感与秩序感的都市建筑形象，适合作为立面设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_120",
+      "filename": "2026102915182513244.jpg",
+      "local_path": "Pinterest图片下载/2026102915182513244.jpg",
+      "exists_locally": true,
+      "title": "Understanding Parametric Design in Architecture",
+      "raw_title": "Understanding Parametric Design in Architecture",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nParametric design is reshaping the future of architecture, and at SOGA Design Studio—India’s leading parametric and computational design firm—we’ve distilled the most common questions we receive into a clear, accessible guide that demystifies this powerful approach. At its core, parametric design replaces static drawings with intelligent, rule-based systems where every design element is mathematically interconnected, allowing buildings to adapt dynamically when parameters change. Unlike tradi...\nSee more",
+      "raw_content": "Description\nParametric design is reshaping the future of architecture, and at SOGA Design Studio—India’s leading parametric and computational design firm—we’ve distilled the most common questions we receive into a clear, accessible guide that demystifies this powerful approach. At its core, parametric design replaces static drawings with intelligent, rule-based systems where every design element is mathematically interconnected, allowing buildings to adapt dynamically when parameters change. Unlike tradi...\nSee more",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/963981495286474526/",
+      "image_url": "https://i.pinimg.com/736x/4b/ab/a0/4baba0bc21c180feaf999751c6e383e5.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-10-29 15:18:25",
+      "width": 585,
+      "height": 1024,
+      "aspect_ratio": 1.75,
+      "tags": [
+        "办公建筑",
+        "现代主义",
+        "极简主义",
+        "金属",
+        "玻璃",
+        "石材",
+        "冷色调",
+        "高对比",
+        "明亮通透",
+        "方案参考",
+        "办公空间",
+        "建筑立面"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "办公建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义"
+        ],
+        "materials": [
+          "金属",
+          "玻璃",
+          "石材"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "办公空间",
+          "建筑立面"
+        ],
+        "image_description": "现代风格办公建筑立面，上部采用垂直金属格栅构成强烈节奏感的肌理，下部石材基座与玻璃入口形成材质对比，整体造型简洁利落，光影效果突出，适合作为办公建筑立面设计的参考案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:28:40"
+      },
+      "ai_description": "现代风格办公建筑立面，上部采用垂直金属格栅构成强烈节奏感的肌理，下部石材基座与玻璃入口形成材质对比，整体造型简洁利落，光影效果突出，适合作为办公建筑立面设计的参考案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_119",
+      "filename": "2026102915174703420.jpg",
+      "local_path": "小红书图片下载/2026102915174703420.jpg",
+      "exists_locally": true,
+      "title": "竹丝岗这栋神秘新楼是什么",
+      "raw_title": "竹丝岗这栋神秘新楼是什么",
+      "author": "要不然",
+      "raw_author": "要不然",
+      "content": "在老街坊里突然窜出来一个清水混凝土建筑",
+      "raw_content": "在老街坊里突然窜出来一个清水混凝土建筑",
+      "likes": 216,
+      "collects": 102,
+      "url": "https://www.xiaohongshu.com/explore/6a9bc1da0000000028033fb3?xsec_token=ABK_KVzdXb099HQZaIYNaKTHGV6X8pXLLrwk1sTiXSRu0=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291517/c8728dd82e07778db249bfc87f5d79d4/notes_uhdr/1040g3qo324npl2ce7u0048m56evrd7a9pk5u68o!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:17:47",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "住宅建筑",
+        "建筑模型",
+        "现代主义",
+        "极简主义",
+        "地域性建筑",
+        "混凝土",
+        "玻璃",
+        "金属",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "城市设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "建筑模型"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义",
+          "地域性建筑"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "金属"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "住宅建筑",
+          "城市设计"
+        ],
+        "image_description": "该建筑为现代极简风格的住宅，外立面以清水混凝土为主材，搭配玻璃与金属构件形成水平与垂直的几何切割，营造出沉稳而富有层次的视觉效果，适合用作住宅立面设计与城市肌理参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:32:14"
+      },
+      "ai_description": "该建筑为现代极简风格的住宅，外立面以清水混凝土为主材，搭配玻璃与金属构件形成水平与垂直的几何切割，营造出沉稳而富有层次的视觉效果，适合用作住宅立面设计与城市肌理参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_118",
+      "filename": "2026102915173555536.jpg",
+      "local_path": "小红书图片下载/2026102915173555536.jpg",
+      "exists_locally": true,
+      "title": "50年前的混凝土建筑现在依然高级",
+      "raw_title": "50年前的混凝土建筑现在依然高级",
+      "author": "刘畅",
+      "raw_author": "刘畅",
+      "content": "这两天连续看了很多比利时建筑师Juliaan Lampens的作品，教堂、住宅、书店，几乎全部由裸露混凝土构成\n\t\n没有装饰，没有造型语言，没有太多家具，但站在空间里，会感受到强烈的精神力量。他所有的空间都做了极致的减法，直到空间里只剩下结构、光、尺度和人\n\t\n他的作品经常用到几何体块，即使是住宅空间，也会用几何重新结构，站在空间里会感受到极致和浪漫，在我看来像是可以居住的雕塑\n\t\n#建筑 #精神建筑 #空间美学 #空间设计 #建筑艺术 #极简主义 #粗野主义 #清水混凝土 #建筑美学",
+      "raw_content": "这两天连续看了很多比利时建筑师Juliaan Lampens的作品，教堂、住宅、书店，几乎全部由裸露混凝土构成\n\t\n没有装饰，没有造型语言，没有太多家具，但站在空间里，会感受到强烈的精神力量。他所有的空间都做了极致的减法，直到空间里只剩下结构、光、尺度和人\n\t\n他的作品经常用到几何体块，即使是住宅空间，也会用几何重新结构，站在空间里会感受到极致和浪漫，在我看来像是可以居住的雕塑\n\t\n#建筑 #精神建筑 #空间美学 #空间设计 #建筑艺术 #极简主义 #粗野主义 #清水混凝土 #建筑美学",
+      "likes": 228,
+      "collects": 76,
+      "url": "https://www.xiaohongshu.com/explore/6a4bbe3e000000000702f4ff?xsec_token=AB5T0ceLEn94Rr8N_4PkgOHsS0NAjogZ1fMmWJZfyphHU=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291517/8efa7367392e7fc894071d1126ad6ebc/1040g0083229kleeenu004bspuvu260314v4mavo!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:17:35",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "建筑",
+        "精神建筑",
+        "空间美学",
+        "空间设计",
+        "建筑艺术",
+        "极简主义",
+        "粗野主义",
+        "清水混凝土",
+        "建筑美学",
+        "建筑模型",
+        "室内空间",
+        "现代主义",
+        "地域性建筑",
+        "混凝土",
+        "木饰面",
+        "白色墙面",
+        "低饱和",
+        "柔和自然",
+        "灰白色调",
+        "方案参考",
+        "毕业设计",
+        "建筑摄影"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑模型",
+          "室内空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义",
+          "地域性建筑"
+        ],
+        "materials": [
+          "混凝土",
+          "木饰面",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "低饱和",
+          "柔和自然",
+          "灰白色调"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "毕业设计",
+          "建筑摄影"
+        ],
+        "image_description": "该建筑模型呈现极简主义风格，以粗犷的混凝土结构为主体，搭配木饰面与白色墙面形成材质对比。人物置身于深色开口内，强化空间层次感，整体氛围沉静自然，适合作为建筑空间构图与材料表现的参考案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:32:09"
+      },
+      "ai_description": "该建筑模型呈现极简主义风格，以粗犷的混凝土结构为主体，搭配木饰面与白色墙面形成材质对比。人物置身于深色开口内，强化空间层次感，整体氛围沉静自然，适合作为建筑空间构图与材料表现的参考案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_117",
+      "filename": "2026102915172432491.jpg",
+      "local_path": "小红书图片下载/2026102915172432491.jpg",
+      "exists_locally": true,
+      "title": "内藤广把楼梯做成风景",
+      "raw_title": "内藤广把楼梯做成风景",
+      "author": "形在空间摄影HereSpace",
+      "raw_author": "形在空间摄影HereSpace",
+      "content": "Location：Tokyo.Japan/日本.東京\n\t\n纪尾井清堂最喜欢的一点，\n是它和东京街道之间的关系。\n建筑没有完全封闭自己，\n人在楼梯上的移动，\n反而成了立面的一部分。\n阳光、玻璃、混凝土与城市。\n这是东京很典型、\n却又很少见的安静感。\n\t\n#纪尾井清堂 #内藤广 #东京建筑 #日本建筑 #建筑摄影 #空间摄影 #建筑空间摄影 #建筑设计 #空间设计 #清水混凝土 #建筑光影 #建筑美学 #建筑旅行 #东京旅行 #日本旅行 #建筑师 #现代建筑 #设计灵感 #极简建筑 #光与空间 #混凝土建筑\n#TokyoArchitecture\n#JapaneseArchitecture\n#ArchitecturePhotography\n\t\n#形在空间摄影\n#形在摄影贺川\n#形在空间摄影HereSpace\n\t\n设计：Hiroshi Naito 内藤广\n摄影：@贺川 @形在空间摄影HereSpace",
+      "raw_content": "Location：Tokyo.Japan/日本.東京\n\t\n纪尾井清堂最喜欢的一点，\n是它和东京街道之间的关系。\n建筑没有完全封闭自己，\n人在楼梯上的移动，\n反而成了立面的一部分。\n阳光、玻璃、混凝土与城市。\n这是东京很典型、\n却又很少见的安静感。\n\t\n#纪尾井清堂 #内藤广 #东京建筑 #日本建筑 #建筑摄影 #空间摄影 #建筑空间摄影 #建筑设计 #空间设计 #清水混凝土 #建筑光影 #建筑美学 #建筑旅行 #东京旅行 #日本旅行 #建筑师 #现代建筑 #设计灵感 #极简建筑 #光与空间 #混凝土建筑\n#TokyoArchitecture\n#JapaneseArchitecture\n#ArchitecturePhotography\n\t\n#形在空间摄影\n#形在摄影贺川\n#形在空间摄影HereSpace\n\t\n设计：Hiroshi Naito 内藤广\n摄影：@贺川 @形在空间摄影HereSpace",
+      "likes": 260,
+      "collects": 147,
+      "url": "https://www.xiaohongshu.com/explore/6a0f035f0000000006031df5?xsec_token=ABfbNxkYzwp-vkI2TXtLqrz8Fth1wp6QnK_iIIFSUaEGo=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291517/9cff42a93aa35b23b47bcf09513c4b81/1040g2sg320e1hvqg5me04a71hv5shauhh2lce3g!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:17:24",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "纪尾井清堂",
+        "内藤广",
+        "东京建筑",
+        "日本建筑",
+        "建筑摄影",
+        "空间摄影",
+        "建筑空间摄影",
+        "建筑设计",
+        "空间设计",
+        "清水混凝土",
+        "建筑光影",
+        "建筑美学",
+        "建筑旅行",
+        "东京旅行",
+        "日本旅行",
+        "建筑师",
+        "现代建筑",
+        "设计灵感",
+        "极简建筑",
+        "光与空间",
+        "混凝土建筑",
+        "TokyoArchitecture",
+        "JapaneseArchitecture",
+        "形在空间摄影",
+        "形在摄影贺川",
+        "形在空间摄影HereSpace",
+        "商业建筑",
+        "城市综合体",
+        "现代主义",
+        "地域性建筑",
+        "混凝土",
+        "玻璃",
+        "金属",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "城市设计",
+        "方案参考",
+        "文旅场景"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "城市综合体"
+        ],
+        "design_style": [
+          "现代主义",
+          "地域性建筑"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "金属"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "城市设计",
+          "方案参考",
+          "文旅场景"
+        ],
+        "image_description": "该建筑为现代风格的城市商业综合体，外立面以清水混凝土与玻璃幕墙结合，局部外露金属结构，形成富有层次的工业感肌理。建筑中段设有悬挑木质楼梯，连接不同标高，整体氛围沉静克制，适合城市界面与公共空间设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:32:04"
+      },
+      "ai_description": "该建筑为现代风格的城市商业综合体，外立面以清水混凝土与玻璃幕墙结合，局部外露金属结构，形成富有层次的工业感肌理。建筑中段设有悬挑木质楼梯，连接不同标高，整体氛围沉静克制，适合城市界面与公共空间设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_116",
+      "filename": "2026102915171280841.jpg",
+      "local_path": "小红书图片下载/2026102915171280841.jpg",
+      "exists_locally": true,
+      "title": "让设计保持干净不好吗",
+      "raw_title": "让设计保持干净不好吗",
+      "author": "Tony Kong.",
+      "raw_author": "Tony Kong.",
+      "content": "最近关注到了建筑师魏春雨在长沙湘江边的新作 “时间画廊” ，还在建就被甲方魔改了，作为从施工阶段就为魏老师作品进行记录的摄影师感到痛心疾首😭\n\t\n原本是一个超有格调的清水混凝土艺术馆，就在湘江东岸，正对橘子洲头和毛主席雕像，周边是大商圈+地铁站，妥妥的“非标地标”潜力股。\n\t\n结果建筑主体刚完工，定位突然从顶级画廊 → 商业酒廊。酒吧方直接无视原设计，把原本通透的内部空间改得又挤又碎，外立面还硬加了一堆莫名其妙的构件……干净利落的美感全没了。\n\t\n我理解商业要赚钱，改成酒廊也认了，但连最基本的尊重都不给原创设计吗？哪怕功能要变，也该请建筑师一起商量调整吧？强行魔改让人感到遗憾。\n\t\n其实原设计那种清水混凝土+留白的质感，才是中国高级美学的精髓。现在很多人好像忘了“留白”的力量，总想塞得满满当当……美学教育，真的任重道远。\n\t\n而且以这块地的资源和建筑本身的底子，完全可以做成像谢子龙影像馆那样的城市文化名片。搞一个“画蛇添足”的酒吧，价值真的更高吗？\n\t\n希望甲方能看到：\n尊重设计，不是让步，而是共赢。\n哪怕改用途，也请温柔一点🙏\n\t\n现状：图1下、2\n施工过程：图1上、3、4、5、6\n\t\n#长沙建筑 #魏春雨 #时间画廊 #设计被魔改 #留白美学 #商业与艺术 #城市遗憾 #当代好设计 #无用的设计",
+      "raw_content": "最近关注到了建筑师魏春雨在长沙湘江边的新作 “时间画廊” ，还在建就被甲方魔改了，作为从施工阶段就为魏老师作品进行记录的摄影师感到痛心疾首😭\n\t\n原本是一个超有格调的清水混凝土艺术馆，就在湘江东岸，正对橘子洲头和毛主席雕像，周边是大商圈+地铁站，妥妥的“非标地标”潜力股。\n\t\n结果建筑主体刚完工，定位突然从顶级画廊 → 商业酒廊。酒吧方直接无视原设计，把原本通透的内部空间改得又挤又碎，外立面还硬加了一堆莫名其妙的构件……干净利落的美感全没了。\n\t\n我理解商业要赚钱，改成酒廊也认了，但连最基本的尊重都不给原创设计吗？哪怕功能要变，也该请建筑师一起商量调整吧？强行魔改让人感到遗憾。\n\t\n其实原设计那种清水混凝土+留白的质感，才是中国高级美学的精髓。现在很多人好像忘了“留白”的力量，总想塞得满满当当……美学教育，真的任重道远。\n\t\n而且以这块地的资源和建筑本身的底子，完全可以做成像谢子龙影像馆那样的城市文化名片。搞一个“画蛇添足”的酒吧，价值真的更高吗？\n\t\n希望甲方能看到：\n尊重设计，不是让步，而是共赢。\n哪怕改用途，也请温柔一点🙏\n\t\n现状：图1下、2\n施工过程：图1上、3、4、5、6\n\t\n#长沙建筑 #魏春雨 #时间画廊 #设计被魔改 #留白美学 #商业与艺术 #城市遗憾 #当代好设计 #无用的设计",
+      "likes": 244,
+      "collects": 48,
+      "url": "https://www.xiaohongshu.com/explore/6a30b5ce000000000f017e99?xsec_token=ABdK7JpSmE3NZRaAa3lU3hj0SMsc2X4Ib0qjo4CrZGwgQ=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291517/aa9af8c66fa02d0a1f9e31b9326e9219/notes_pre_post/1040g3k0321f8am3j70205o2ftb0085f59h5evfg!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:17:12",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "长沙建筑",
+        "魏春雨",
+        "时间画廊",
+        "设计被魔改",
+        "留白美学",
+        "商业与艺术",
+        "城市遗憾",
+        "当代好设计",
+        "无用的设计",
+        "文化建筑",
+        "建筑模型",
+        "现代主义",
+        "参数化设计",
+        "混凝土",
+        "玻璃",
+        "木饰面",
+        "冷色调",
+        "柔和自然",
+        "方案参考",
+        "城市设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "建筑模型"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "木饰面"
+        ],
+        "color_tone": [
+          "冷色调",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "建筑模型",
+          "城市设计"
+        ],
+        "image_description": "该建筑呈现现代主义风格，以流畅的混凝土曲面与玻璃幕墙构成主要立面，局部采用木饰面作为点缀，整体色调柔和自然，具有参数化设计特征，适合作为文化建筑或城市公共空间的方案参考与模型展示。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:32:00"
+      },
+      "ai_description": "该建筑呈现现代主义风格，以流畅的混凝土曲面与玻璃幕墙构成主要立面，局部采用木饰面作为点缀，整体色调柔和自然，具有参数化设计特征，适合作为文化建筑或城市公共空间的方案参考与模型展示。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_115",
+      "filename": "2026102915170169378.jpg",
+      "local_path": "小红书图片下载/2026102915170169378.jpg",
+      "exists_locally": true,
+      "title": "清水混凝土狭缝住宅｜极简建筑美学",
+      "raw_title": "清水混凝土狭缝住宅｜极简建筑美学",
+      "author": "乡筑匠造-熊工",
+      "raw_author": "乡筑匠造-熊工",
+      "content": "清水混凝土极简主义，几何切割立面\n错落小方窗 + 外置大楼梯，线条利落干净\n狭小地块把限制变成独特建筑语言\n留白质感真的百看不厌，自建房参考范本#自建房设计 #别墅设计 #清水混凝土 #建筑设计美学 #小而美的住宅 #融入自然的建筑设计 #住宅设计 #现代主义建筑大师 #私宅设计 #别墅建筑外观",
+      "raw_content": "清水混凝土极简主义，几何切割立面\n错落小方窗 + 外置大楼梯，线条利落干净\n狭小地块把限制变成独特建筑语言\n留白质感真的百看不厌，自建房参考范本#自建房设计 #别墅设计 #清水混凝土 #建筑设计美学 #小而美的住宅 #融入自然的建筑设计 #住宅设计 #现代主义建筑大师 #私宅设计 #别墅建筑外观",
+      "likes": 280,
+      "collects": 154,
+      "url": "https://www.xiaohongshu.com/explore/6a69e28e0000000001033ae3?xsec_token=ABNZbzhoatvIg2BD-wVCEb-c4M5TFK3IgucxxeoXpD-Xk=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291517/d6de7ffdbb1440d3d9e33f1fc481669d/1040g2sg323735lr56ue05ohe0cgk0o7quq76hpg!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:17:01",
+      "width": 1080,
+      "height": 1620,
+      "aspect_ratio": 1.5,
+      "tags": [
+        "自建房设计",
+        "别墅设计",
+        "清水混凝土",
+        "建筑设计美学",
+        "小而美的住宅",
+        "融入自然的建筑设计",
+        "住宅设计",
+        "现代主义建筑大师",
+        "私宅设计",
+        "别墅建筑外观",
+        "住宅建筑",
+        "城市建筑",
+        "现代主义",
+        "地域性建筑",
+        "混凝土",
+        "玻璃",
+        "金属",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "城市设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "城市建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "地域性建筑"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "金属"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "住宅设计",
+          "城市设计"
+        ],
+        "image_description": "该建筑为现代风格的混凝土住宅，立面呈现粗犷的几何体块与内嵌玻璃窗，外置混凝土楼梯形成独特入口，暖光从室内透出，与冷灰基调形成对比，体现城市肌理中的现代居住形态，具有较高的住宅立面与空间组织参考价值。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:53"
+      },
+      "ai_description": "该建筑为现代风格的混凝土住宅，立面呈现粗犷的几何体块与内嵌玻璃窗，外置混凝土楼梯形成独特入口，暖光从室内透出，与冷灰基调形成对比，体现城市肌理中的现代居住形态，具有较高的住宅立面与空间组织参考价值。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_114",
+      "filename": "2026102915165052148.jpg",
+      "local_path": "小红书图片下载/2026102915165052148.jpg",
+      "exists_locally": true,
+      "title": "神户拍照｜清水混凝土的光影留白，极简即极致",
+      "raw_title": "神户拍照｜清水混凝土的光影留白，极简即极致",
+      "author": "kevin姑",
+      "raw_author": "kevin姑",
+      "content": "偏爱建筑最本真的模样，无关别处，只醉心于纯粹的空间与光影。\n摒弃所有繁杂装饰，以清水混凝土为骨，利落几何线条为形，干净、通透、自带疏离的高级感。\n风声、光影、空寂的建筑空间相融，褪去所有喧嚣，只剩松弛又安静的氛围感。\n始终觉得，最好的建筑从无需修饰。\n一砖一肌理，一光一影，本身就是最治愈的艺术。\n#我的摄影日记 #日系摄影 #工业风建筑 #发现建筑之美#日本拍照 #整点儿摄影节奏 #摄影灵感 #城市摄影 #工业风 #生活美学",
+      "raw_content": "偏爱建筑最本真的模样，无关别处，只醉心于纯粹的空间与光影。\n摒弃所有繁杂装饰，以清水混凝土为骨，利落几何线条为形，干净、通透、自带疏离的高级感。\n风声、光影、空寂的建筑空间相融，褪去所有喧嚣，只剩松弛又安静的氛围感。\n始终觉得，最好的建筑从无需修饰。\n一砖一肌理，一光一影，本身就是最治愈的艺术。\n#我的摄影日记 #日系摄影 #工业风建筑 #发现建筑之美#日本拍照 #整点儿摄影节奏 #摄影灵感 #城市摄影 #工业风 #生活美学",
+      "likes": 284,
+      "collects": 79,
+      "url": "https://www.xiaohongshu.com/explore/6a3b4a9b000000000702fecd?xsec_token=ABHAC5sM0rJXv6H4EatKNdEWzDKAT0EFfD0mr7_KzwfKk=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291516/f46e548970b96410e0e9763956b024ff/notes_pre_post/1040g3k8321pgbnj1no905n767845hlqcf5mspcg!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:16:50",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "我的摄影日记",
+        "日系摄影",
+        "工业风建筑",
+        "发现建筑之美",
+        "日本拍照",
+        "整点儿摄影节奏",
+        "摄影灵感",
+        "城市摄影",
+        "工业风",
+        "生活美学",
+        "文化建筑",
+        "滨水建筑",
+        "室内空间",
+        "现代主义",
+        "极简主义",
+        "地域性建筑",
+        "混凝土",
+        "玻璃",
+        "金属",
+        "石材",
+        "冷色调",
+        "低饱和",
+        "高对比",
+        "柔和自然",
+        "方案参考",
+        "文旅场景",
+        "建筑摄影"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "滨水建筑",
+          "室内空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义",
+          "地域性建筑"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "金属",
+          "石材"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "高对比",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "文旅场景",
+          "建筑摄影"
+        ],
+        "image_description": "该建筑为滨水文化空间，以清水混凝土与玻璃幕墙构成极简现代立面，内部设螺旋式混凝土楼梯，空间层次丰富。整体色调冷峻克制，光影对比强烈，兼具建筑美学与观景功能，适合作为文旅空间或方案设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:47"
+      },
+      "ai_description": "该建筑为滨水文化空间，以清水混凝土与玻璃幕墙构成极简现代立面，内部设螺旋式混凝土楼梯，空间层次丰富。整体色调冷峻克制，光影对比强烈，兼具建筑美学与观景功能，适合作为文旅空间或方案设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_113",
+      "filename": "2026102915163922796.jpg",
+      "local_path": "小红书图片下载/2026102915163922796.jpg",
+      "exists_locally": true,
+      "title": "建筑光影｜一眼沦陷的清水混凝土纯粹建筑",
+      "raw_title": "建筑光影｜一眼沦陷的清水混凝土纯粹建筑",
+      "author": "黑白骑士&一辉",
+      "raw_author": "黑白骑士&一辉",
+      "content": "建筑光影&肖峰艺术馆&黑白摄影\n肖峰艺术馆&当我下车看到这片由木纹清水混凝土构筑的空间，瞬间被一种极致的“克制”所吸引，整座建筑摒弃了多余的修饰，只保留了混凝土最本真的木纹模板肌理、几何切割的硬朗线条，以及天光透过天窗洒下的流动光束，也让我回味起曾经参与过的一个木纹清水混凝土的寺庙设计，忠于热爱，忠于建筑本身的线条与秩序，顺势而为。\n\t\n肖峰艺术馆&清水混凝土，是一次关于“少即是多”的实践，它不追求光滑精致的表面，保留了浇筑时的痕迹与岁月沉淀的斑驳，让材料本身的质感成为建筑的语言，悬挑的悬浮空间、错落的几何体块，打破了传统展厅的沉闷，让建筑本身成了一件装置艺术。\n\t\n肖峰艺术馆&光线透过天窗与方窗，在混凝土墙面上切割出流动的光影，随着时间推移，在空间里缓缓游走，行走其间，光影的变化让静止的建筑仿佛有了呼吸，每一道光束、每一处阴影，都成了建筑的情绪表达，光影流动是建筑的呼吸，也是我的情绪，黑白建筑光影滤去了色彩的干扰，让建筑的骨相、粗粝的质感、冷峻的块面、以及明暗交替的光影，都成了无声的叙事。\n\t\n肖峰艺术馆&艺术与建筑本也一场双向的奔赴，馆内的艺术作品被安置在清水混凝土的空间里，冷峻的建筑底色，恰好衬托出艺术作品的温度与力量，建筑为艺术提供了舞台，艺术也让冰冷的混凝土有了灵魂，彼此成就、相互共生。\n\t\n穿行建筑山河，收藏每一座城市的故事与温度。\n\t\n我是一辉，用手机记录建筑与生活的黑白骑士，\n欢迎❤️⭐️一起用黑白读懂建筑里的诗与远方，\n欢迎留言·分享·推荐·好看的建筑。\n\t\n@摄影薯@生活薯 @发发薯 @薯队长\n#肖峰艺术馆 #清水混凝土 #城市摄影#杭州旅行  #小众艺术馆 #手机摄影 #黑白摄影 #摄影灵感 #设计灵感 #建筑艺术",
+      "raw_content": "建筑光影&肖峰艺术馆&黑白摄影\n肖峰艺术馆&当我下车看到这片由木纹清水混凝土构筑的空间，瞬间被一种极致的“克制”所吸引，整座建筑摒弃了多余的修饰，只保留了混凝土最本真的木纹模板肌理、几何切割的硬朗线条，以及天光透过天窗洒下的流动光束，也让我回味起曾经参与过的一个木纹清水混凝土的寺庙设计，忠于热爱，忠于建筑本身的线条与秩序，顺势而为。\n\t\n肖峰艺术馆&清水混凝土，是一次关于“少即是多”的实践，它不追求光滑精致的表面，保留了浇筑时的痕迹与岁月沉淀的斑驳，让材料本身的质感成为建筑的语言，悬挑的悬浮空间、错落的几何体块，打破了传统展厅的沉闷，让建筑本身成了一件装置艺术。\n\t\n肖峰艺术馆&光线透过天窗与方窗，在混凝土墙面上切割出流动的光影，随着时间推移，在空间里缓缓游走，行走其间，光影的变化让静止的建筑仿佛有了呼吸，每一道光束、每一处阴影，都成了建筑的情绪表达，光影流动是建筑的呼吸，也是我的情绪，黑白建筑光影滤去了色彩的干扰，让建筑的骨相、粗粝的质感、冷峻的块面、以及明暗交替的光影，都成了无声的叙事。\n\t\n肖峰艺术馆&艺术与建筑本也一场双向的奔赴，馆内的艺术作品被安置在清水混凝土的空间里，冷峻的建筑底色，恰好衬托出艺术作品的温度与力量，建筑为艺术提供了舞台，艺术也让冰冷的混凝土有了灵魂，彼此成就、相互共生。\n\t\n穿行建筑山河，收藏每一座城市的故事与温度。\n\t\n我是一辉，用手机记录建筑与生活的黑白骑士，\n欢迎❤️⭐️一起用黑白读懂建筑里的诗与远方，\n欢迎留言·分享·推荐·好看的建筑。\n\t\n@摄影薯@生活薯 @发发薯 @薯队长\n#肖峰艺术馆 #清水混凝土 #城市摄影#杭州旅行  #小众艺术馆 #手机摄影 #黑白摄影 #摄影灵感 #设计灵感 #建筑艺术",
+      "likes": 300,
+      "collects": 12,
+      "url": "https://www.xiaohongshu.com/explore/69ffff13000000003700d216?xsec_token=ABjvMxaN1uhZEXU8-s3xY6moWTRF-yEpImSBnHq28JdqI=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291516/33379985b5796c570ccd7319ce7702aa/notes_pre_post/1040g3k031vvls9o2iaa05o9njiqgksk0vik06eg!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:16:39",
+      "width": 1080,
+      "height": 1921,
+      "aspect_ratio": 1.779,
+      "tags": [
+        "肖峰艺术馆",
+        "清水混凝土",
+        "城市摄影",
+        "杭州旅行",
+        "小众艺术馆",
+        "手机摄影",
+        "黑白摄影",
+        "摄影灵感",
+        "设计灵感",
+        "建筑艺术",
+        "室内空间",
+        "建筑模型",
+        "极简主义",
+        "现代主义",
+        "光影艺术",
+        "混凝土",
+        "白色墙面",
+        "玻璃",
+        "黑白灰",
+        "高对比",
+        "低饱和",
+        "方案参考",
+        "概念方案",
+        "AI渲染案例"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "室内空间",
+          "建筑模型"
+        ],
+        "design_style": [
+          "极简主义",
+          "现代主义",
+          "光影艺术"
+        ],
+        "materials": [
+          "混凝土",
+          "白色墙面",
+          "玻璃"
+        ],
+        "color_tone": [
+          "黑白灰",
+          "高对比",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "概念方案",
+          "AI渲染案例"
+        ],
+        "image_description": "该黑白影像呈现极简主义风格的室内空间，以混凝土结构与白色墙面构成纯粹几何体，方形窗洞引入强烈光影对比，营造出静谧、深邃的空间氛围，极具建筑概念方案与光影表现参考价值。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:41"
+      },
+      "ai_description": "该黑白影像呈现极简主义风格的室内空间，以混凝土结构与白色墙面构成纯粹几何体，方形窗洞引入强烈光影对比，营造出静谧、深邃的空间氛围，极具建筑概念方案与光影表现参考价值。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_112",
+      "filename": "2026102915162780384.jpg",
+      "local_path": "小红书图片下载/2026102915162780384.jpg",
+      "exists_locally": true,
+      "title": "穿行城市光影间",
+      "raw_title": "穿行城市光影间",
+      "author": "叶过之",
+      "raw_author": "叶过之",
+      "content": "-\n在海湾边的文化空间，建筑以“原石”为意象，花岗岩曲面与清水混凝土交错，光影流动，安静而有层次。硬朗城市结构与自然质感彼此映衬，也恰好为norda的品牌美学留下恰好的背景。\n\t\n脚下的norda 001A完美展现出这种气质。\n生物基Dyneema® 鞋面线条干练，与石材建筑干净呼应，石蜜沙的低饱和大地色系低调内敛，自然融入场域。走在展馆隧道与中庭之间，鞋底触地的一瞬，回馈沉稳而清晰。\n\t\n延续到城市与山径之间，步伐自有一种连贯。轻盈前行，也笃定落步。@norda\n\t\n#探索无境之界 #norda #nordarun #norda001A #越野跑鞋 #norda静户外 #运动鞋 #城市漫游 #城市里的几何美学",
+      "raw_content": "-\n在海湾边的文化空间，建筑以“原石”为意象，花岗岩曲面与清水混凝土交错，光影流动，安静而有层次。硬朗城市结构与自然质感彼此映衬，也恰好为norda的品牌美学留下恰好的背景。\n\t\n脚下的norda 001A完美展现出这种气质。\n生物基Dyneema® 鞋面线条干练，与石材建筑干净呼应，石蜜沙的低饱和大地色系低调内敛，自然融入场域。走在展馆隧道与中庭之间，鞋底触地的一瞬，回馈沉稳而清晰。\n\t\n延续到城市与山径之间，步伐自有一种连贯。轻盈前行，也笃定落步。@norda\n\t\n#探索无境之界 #norda #nordarun #norda001A #越野跑鞋 #norda静户外 #运动鞋 #城市漫游 #城市里的几何美学",
+      "likes": 299,
+      "collects": 72,
+      "url": "https://www.xiaohongshu.com/explore/6acc9130000000001303eff8?xsec_token=ABy0-9u1exCI21S-O2v8T2H3rgm8sriQIh487bTMWcIuM=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291516/f71b4733aa50026943ff8cffb7293b6a/1040g2sg3268nqlo8l6e05o08su9g9ae3mmr01l0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:16:27",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "探索无境之界",
+        "norda",
+        "nordarun",
+        "norda001A",
+        "越野跑鞋",
+        "norda静户外",
+        "运动鞋",
+        "城市漫游",
+        "城市里的几何美学",
+        "室内空间",
+        "极简主义",
+        "未来主义",
+        "混凝土",
+        "金属",
+        "灯光装置",
+        "冷色调",
+        "低饱和",
+        "高对比",
+        "概念方案",
+        "AI渲染案例",
+        "毕业设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "室内空间"
+        ],
+        "design_style": [
+          "极简主义",
+          "未来主义"
+        ],
+        "materials": [
+          "混凝土",
+          "金属",
+          "灯光装置"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "高对比"
+        ],
+        "scene_usage": [
+          "概念方案",
+          "AI渲染案例",
+          "毕业设计"
+        ],
+        "image_description": "该室内空间呈现极简未来主义风格，以深灰混凝土与金属质感的几何体块构成，顶部嵌入环形灯光装置，营造出冷峻、高对比的视觉氛围，适合作为概念方案或AI渲染案例的参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:36"
+      },
+      "ai_description": "该室内空间呈现极简未来主义风格，以深灰混凝土与金属质感的几何体块构成，顶部嵌入环形灯光装置，营造出冷峻、高对比的视觉氛围，适合作为概念方案或AI渲染案例的参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_111",
+      "filename": "2026102915161667370.jpg",
+      "local_path": "小红书图片下载/2026102915161667370.jpg",
+      "exists_locally": true,
+      "title": "咸宁梓美术馆文化建筑群",
+      "raw_title": "咸宁梓美术馆文化建筑群",
+      "author": "一窥世界",
+      "raw_author": "一窥世界",
+      "content": "项目地点：湖北，咸宁\n建筑面积：梓美术馆-2884㎡；艺术工坊-839㎡；NoArt书店-197㎡；冥想塔 (构筑物）\n业主单位：湖北联投集团\n建筑及室内设计单位：BUZZ建筑设计事务所\n项目主创：庄子玉、李娜、戚征东、杨晔\n设计团队：刘健、李楚然、吴梦笛、刘月、陈阵东、刘晨、梁晨、蔡薇、丁竹靓、张皓轩、高峥、潘培成、徐嘉文、高艺乘、文雅、彭川倪\n建筑施工图：湖北省建筑设计院\n施工单位：湖北工建基础设施建设有限公司\n室内设计单位：BUZZ建筑设计事务所\n精装施工单位：苏州金螳螂建筑装饰股份有限公司景观设计单位：环球地景设计\n照明顾问：北京远瞻照明设计有限公司\n主要建筑材料及供应商：清水混凝土-泉州清水砼\n建筑工程有限公司；安耐板；拉伸金属网\n建筑摄影：苏圣亮、DONG\n建筑影像视频拍摄：Coppastudio\n出品图制作：星梦昭、任中琦、徐雅涵、于涵、何佳欣\n#人文景观 #设计案例分享 #景观设计 #展览类建筑 #建筑与自然",
+      "raw_content": "项目地点：湖北，咸宁\n建筑面积：梓美术馆-2884㎡；艺术工坊-839㎡；NoArt书店-197㎡；冥想塔 (构筑物）\n业主单位：湖北联投集团\n建筑及室内设计单位：BUZZ建筑设计事务所\n项目主创：庄子玉、李娜、戚征东、杨晔\n设计团队：刘健、李楚然、吴梦笛、刘月、陈阵东、刘晨、梁晨、蔡薇、丁竹靓、张皓轩、高峥、潘培成、徐嘉文、高艺乘、文雅、彭川倪\n建筑施工图：湖北省建筑设计院\n施工单位：湖北工建基础设施建设有限公司\n室内设计单位：BUZZ建筑设计事务所\n精装施工单位：苏州金螳螂建筑装饰股份有限公司景观设计单位：环球地景设计\n照明顾问：北京远瞻照明设计有限公司\n主要建筑材料及供应商：清水混凝土-泉州清水砼\n建筑工程有限公司；安耐板；拉伸金属网\n建筑摄影：苏圣亮、DONG\n建筑影像视频拍摄：Coppastudio\n出品图制作：星梦昭、任中琦、徐雅涵、于涵、何佳欣\n#人文景观 #设计案例分享 #景观设计 #展览类建筑 #建筑与自然",
+      "likes": 328,
+      "collects": 216,
+      "url": "https://www.xiaohongshu.com/explore/6ad55fc40000000029008ef8?xsec_token=AB75cPINWJvwxCuDP_BbOkNHXAU6Pfu4uWW9-uGHbbwTQ=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291516/4f922047cdb33750fe0041f23bd982ec/notes_pre_post/1040g3k0326g25rbt4q005n7ae9mlh3u3br4gvp0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:16:16",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "人文景观",
+        "设计案例分享",
+        "景观设计",
+        "展览类建筑",
+        "建筑与自然",
+        "文化建筑",
+        "景观空间",
+        "现代主义",
+        "自然主义",
+        "混凝土",
+        "石材",
+        "水体",
+        "绿植",
+        "暖色系",
+        "柔和自然",
+        "低饱和",
+        "文旅场景",
+        "规划汇报",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "景观空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "石材",
+          "水体",
+          "绿植"
+        ],
+        "color_tone": [
+          "暖色系",
+          "柔和自然",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "文旅场景",
+          "规划汇报",
+          "方案参考"
+        ],
+        "image_description": "航拍视角下的文化建筑群，主体为白色混凝土结构，形态有机融入起伏的绿色景观与水岸，辅以石材铺装与自然植被，整体氛围宁静柔和，是文旅项目与景观融合设计的优秀案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:30"
+      },
+      "ai_description": "航拍视角下的文化建筑群，主体为白色混凝土结构，形态有机融入起伏的绿色景观与水岸，辅以石材铺装与自然植被，整体氛围宁静柔和，是文旅项目与景观融合设计的优秀案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_110",
+      "filename": "2026102915160543179.jpg",
+      "local_path": "小红书图片下载/2026102915160543179.jpg",
+      "exists_locally": true,
+      "title": "竹丝岗的“神秘”清水混凝土建筑",
+      "raw_title": "竹丝岗的“神秘”清水混凝土建筑",
+      "author": "植观的TT",
+      "raw_author": "植观的TT",
+      "content": ".\n竹丝岗的广东话剧院对面，有一栋很低调的“潮楼”。\n.\n积木一样的造型、素净的外墙、窗户小且少，风格非常简洁，浓浓日式清水混凝土风。\n.\n楼顶还有一座鹰的塑像，俯瞰马路。\n.\n说它神秘，是因为不知道这栋楼是干啥的。地图上标注为“国鸿办公大楼”。查了一下，是一家房地产公司。\n.\n图4是小红书博主@已有一名 发的高处俯瞰图。挑空层栽有绿植，还是蛮有品位的。\n.\n图5是东京的经典清水混凝土建筑：Block House（Chuo Archi 中央アーキ）。粗野主义清水混凝土，多个大小不一的混凝土方块互相错开、悬挑叠加，外部外露楼梯、平台、栏杆，没有封闭外立面，层次感极强，是表参道网红地标。里面有画廊、茶室、买手店等商业设施。\n.\n竹丝岗这座建筑，则没有对外开放。网上有人说去过里面开会，貌似是个公司总部。\n.\n当然，它旁边就是医院的设施。作为不迷信的我们，是不会做出其他联想的。\n.\n不管咋样，业主蛮有品位的。如果哪天可以开放就好了。\n.\n#清水混凝土 #建筑外观改造 #竹丝岗 #近现代建筑 #工业风建筑 #奇特的建筑 #奇奇怪怪的建筑 #旧建筑改造及活化 #建筑美学 #广州",
+      "raw_content": ".\n竹丝岗的广东话剧院对面，有一栋很低调的“潮楼”。\n.\n积木一样的造型、素净的外墙、窗户小且少，风格非常简洁，浓浓日式清水混凝土风。\n.\n楼顶还有一座鹰的塑像，俯瞰马路。\n.\n说它神秘，是因为不知道这栋楼是干啥的。地图上标注为“国鸿办公大楼”。查了一下，是一家房地产公司。\n.\n图4是小红书博主@已有一名 发的高处俯瞰图。挑空层栽有绿植，还是蛮有品位的。\n.\n图5是东京的经典清水混凝土建筑：Block House（Chuo Archi 中央アーキ）。粗野主义清水混凝土，多个大小不一的混凝土方块互相错开、悬挑叠加，外部外露楼梯、平台、栏杆，没有封闭外立面，层次感极强，是表参道网红地标。里面有画廊、茶室、买手店等商业设施。\n.\n竹丝岗这座建筑，则没有对外开放。网上有人说去过里面开会，貌似是个公司总部。\n.\n当然，它旁边就是医院的设施。作为不迷信的我们，是不会做出其他联想的。\n.\n不管咋样，业主蛮有品位的。如果哪天可以开放就好了。\n.\n#清水混凝土 #建筑外观改造 #竹丝岗 #近现代建筑 #工业风建筑 #奇特的建筑 #奇奇怪怪的建筑 #旧建筑改造及活化 #建筑美学 #广州",
+      "likes": 335,
+      "collects": 132,
+      "url": "https://www.xiaohongshu.com/explore/6acdc8e800000000140003ea?xsec_token=ABVSRrI5zzbpcnwfz2Jrv1FSKIoqGEbJPOyqnVf3u47Co=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291516/c11977c32ad04d7d1c44d997963aba4f/1040g0083268kju88l050408t9uieujnnni9mkso!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:16:05",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "清水混凝土",
+        "建筑外观改造",
+        "竹丝岗",
+        "近现代建筑",
+        "工业风建筑",
+        "奇特的建筑",
+        "奇奇怪怪的建筑",
+        "旧建筑改造及活化",
+        "建筑美学",
+        "广州",
+        "住宅建筑",
+        "城市建筑",
+        "现代主义",
+        "极简主义",
+        "混凝土",
+        "玻璃",
+        "金属",
+        "冷色调",
+        "低饱和",
+        "灰白色调",
+        "方案参考",
+        "城市设计",
+        "建筑摄影"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "城市建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "金属"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "灰白色调"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "建筑摄影"
+        ],
+        "image_description": "一栋现代风格的混凝土住宅建筑，立面采用粗犷的混凝土本色与嵌入式玻璃窗结合，形成强烈的几何体块感。建筑体量错落有致，底层设有绿化平台，整体氛围沉静克制，具有城市更新与住宅立面设计的参考价值。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:26"
+      },
+      "ai_description": "一栋现代风格的混凝土住宅建筑，立面采用粗犷的混凝土本色与嵌入式玻璃窗结合，形成强烈的几何体块感。建筑体量错落有致，底层设有绿化平台，整体氛围沉静克制，具有城市更新与住宅立面设计的参考价值。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_109",
+      "filename": "2026102915155437619.jpg",
+      "local_path": "小红书图片下载/2026102915155437619.jpg",
+      "exists_locally": true,
+      "title": "突然被这棵穿墙的古树给治愈了！",
+      "raw_title": "突然被这棵穿墙的古树给治愈了！",
+      "author": "乡居研究社",
+      "raw_author": "乡居研究社",
+      "content": "这是最温柔的建筑退让，房子给千年古树让路。\n为了保留场地这棵八百年古香樟，设计师直接把建筑切开。\n不挪树、不砍树，让树干直接从楼房中间穿出来。\n整个建筑用极简的清水混凝土，方盒子层层错叠，顺应山地高差。\n不用仿古屋顶，不靠中式雕花，只用现代空间手法，还原江南院落的移步换景。\n所谓最好的城市更新，不是推倒重来，而是让新建筑尊重老土地，让岁月自然共生。",
+      "raw_content": "这是最温柔的建筑退让，房子给千年古树让路。\n为了保留场地这棵八百年古香樟，设计师直接把建筑切开。\n不挪树、不砍树，让树干直接从楼房中间穿出来。\n整个建筑用极简的清水混凝土，方盒子层层错叠，顺应山地高差。\n不用仿古屋顶，不靠中式雕花，只用现代空间手法，还原江南院落的移步换景。\n所谓最好的城市更新，不是推倒重来，而是让新建筑尊重老土地，让岁月自然共生。",
+      "likes": 366,
+      "collects": 197,
+      "url": "https://www.xiaohongshu.com/explore/6ab4ffb40000000018039186?xsec_token=ABjqqTl5fbQZsKRIBk-9vZsg9pu8JgYJnyBYCaL1xWsgc=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291515/cf305e349a353b4443d7eb27e8f77c18/notes_pre_post/1040g3k0325geam7aka6g5n1qir11ka4ci628g9g!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:15:54",
+      "width": 1080,
+      "height": 1454,
+      "aspect_ratio": 1.346,
+      "tags": [
+        "景观空间",
+        "建筑模型",
+        "现代主义",
+        "自然主义",
+        "混凝土",
+        "石材",
+        "绿植",
+        "金属栏杆",
+        "低饱和",
+        "柔和自然",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "景观空间",
+          "建筑模型"
+        ],
+        "design_style": [
+          "现代主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "石材",
+          "绿植",
+          "金属栏杆"
+        ],
+        "color_tone": [
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "景观空间",
+          "建筑模型"
+        ],
+        "image_description": "该建筑模型展示了一个现代主义风格的庭院空间，混凝土墙体与阶梯与一棵粗壮的树木形成有机互动，地面铺装与树池采用自然材质，整体氛围宁静质朴，强调建筑与自然的融合，适合作为景观设计与建筑模型参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:19"
+      },
+      "ai_description": "该建筑模型展示了一个现代主义风格的庭院空间，混凝土墙体与阶梯与一棵粗壮的树木形成有机互动，地面铺装与树池采用自然材质，整体氛围宁静质朴，强调建筑与自然的融合，适合作为景观设计与建筑模型参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_108",
+      "filename": "2026102915154309939.jpg",
+      "local_path": "小红书图片下载/2026102915154309939.jpg",
+      "exists_locally": true,
+      "title": "Less is brewed. ☕",
+      "raw_title": "Less is brewed. ☕",
+      "author": "Sonny",
+      "raw_author": "Sonny",
+      "content": "一杯咖啡的时间，读懂一座小建筑 ☕\n木框架 × 水泥板 × 清水混凝土\n留白、光影、呼吸感\n极简，才是最耐看的设计\n你最想坐进哪一个？👇\n\t\n#极简咖啡店 #咖啡店设计 #建筑设计 #设计灵感 #概念设计 #木结构 #清水混凝土 #AI建筑 #建筑师日常 #airilab",
+      "raw_content": "一杯咖啡的时间，读懂一座小建筑 ☕\n木框架 × 水泥板 × 清水混凝土\n留白、光影、呼吸感\n极简，才是最耐看的设计\n你最想坐进哪一个？👇\n\t\n#极简咖啡店 #咖啡店设计 #建筑设计 #设计灵感 #概念设计 #木结构 #清水混凝土 #AI建筑 #建筑师日常 #airilab",
+      "likes": 372,
+      "collects": 337,
+      "url": "https://www.xiaohongshu.com/explore/6ad9de07000000002c02554d?xsec_token=ABUumGUi6zL3knXOXKl4NPjfTaubASyFLGOxE5kXqr73c=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291515/fb6343f5c96c9682954e881cf64fcf9c/notes_pre_post/1040g3k8326kei79d50005pjrqadn063fcadn928!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:15:43",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "极简咖啡店",
+        "咖啡店设计",
+        "建筑设计",
+        "设计灵感",
+        "概念设计",
+        "木结构",
+        "清水混凝土",
+        "AI建筑",
+        "建筑师日常",
+        "airilab",
+        "住宅建筑",
+        "建筑模型",
+        "现代主义",
+        "极简主义",
+        "自然主义",
+        "混凝土",
+        "木饰面",
+        "金属",
+        "玻璃",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "住宅空间",
+        "概念方案"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "建筑模型"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "木饰面",
+          "金属",
+          "玻璃"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "住宅空间",
+          "概念方案"
+        ],
+        "image_description": "该建筑模型为现代极简风格的住宅空间，以混凝土墙体与木结构框架构成，搭配玻璃围合的内庭，营造出质朴自然的居住氛围。设计通过倾斜屋顶与遮阳系统实现光影控制，具有良好的住宅空间与概念方案参考价值。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:15"
+      },
+      "ai_description": "该建筑模型为现代极简风格的住宅空间，以混凝土墙体与木结构框架构成，搭配玻璃围合的内庭，营造出质朴自然的居住氛围。设计通过倾斜屋顶与遮阳系统实现光影控制，具有良好的住宅空间与概念方案参考价值。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_107",
+      "filename": "2026102915153197025.jpg",
+      "local_path": "小红书图片下载/2026102915153197025.jpg",
+      "exists_locally": true,
+      "title": "粗犷与温润｜清水混凝土原木风的简单与精致",
+      "raw_title": "粗犷与温润｜清水混凝土原木风的简单与精致",
+      "author": "乡建设计咨询工作室",
+      "raw_author": "乡建设计咨询工作室",
+      "content": "这栋单层自宅，把清水混凝土的冷峻与原木的温润平衡得刚刚好。\n推开门，迎接你的不是传统玄关，而是一个种着树的露天小院。\n用错落的屋顶把空间分开，中间留出庭院。拉开木质推拉门，室内温润的木地板与室外的粗犷水泥无缝衔接。\n没有全开放的暴露，也没有完全封闭的压抑。坐在家里就能感受微风，简单，却处处透着精致与治愈。\n#自建房设计 #乡村别墅 #清水混凝土 #原木风 #乡村小院儿 #自建房采风图鉴 #民宿设计",
+      "raw_content": "这栋单层自宅，把清水混凝土的冷峻与原木的温润平衡得刚刚好。\n推开门，迎接你的不是传统玄关，而是一个种着树的露天小院。\n用错落的屋顶把空间分开，中间留出庭院。拉开木质推拉门，室内温润的木地板与室外的粗犷水泥无缝衔接。\n没有全开放的暴露，也没有完全封闭的压抑。坐在家里就能感受微风，简单，却处处透着精致与治愈。\n#自建房设计 #乡村别墅 #清水混凝土 #原木风 #乡村小院儿 #自建房采风图鉴 #民宿设计",
+      "likes": 395,
+      "collects": 342,
+      "url": "https://www.xiaohongshu.com/explore/6ad43a180000000028027054?xsec_token=ABq7hVKOly16vUy9SJmWm3zgEj4vEUHkMcBJeLsFDjzFA=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291515/3c046eb468e05a2e4b30a7d60d6dbfd0/1040g2sg326euaiha4ce05psgjb9h5hl1oktqh8g!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:15:31",
+      "width": 1080,
+      "height": 1441,
+      "aspect_ratio": 1.334,
+      "tags": [
+        "自建房设计",
+        "乡村别墅",
+        "清水混凝土",
+        "原木风",
+        "乡村小院儿",
+        "自建房采风图鉴",
+        "民宿设计",
+        "住宅建筑",
+        "室内空间",
+        "景观空间",
+        "现代主义",
+        "自然主义",
+        "极简主义",
+        "混凝土",
+        "木饰面",
+        "玻璃",
+        "砾石",
+        "绿植",
+        "柔和自然",
+        "低饱和",
+        "中性灰调",
+        "住宅方案",
+        "庭院设计",
+        "室内景观",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "室内空间",
+          "景观空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "自然主义",
+          "极简主义"
+        ],
+        "materials": [
+          "混凝土",
+          "木饰面",
+          "玻璃",
+          "砾石",
+          "绿植"
+        ],
+        "color_tone": [
+          "柔和自然",
+          "低饱和",
+          "中性灰调"
+        ],
+        "scene_usage": [
+          "住宅方案",
+          "庭院设计",
+          "室内景观",
+          "方案参考"
+        ],
+        "image_description": "该住宅庭院空间以清水混凝土结构为基底，搭配木框玻璃门与自然植栽，营造出宁静质朴的现代生活氛围。庭院内设砾石与孤植树，强化自然元素，是极简风格住宅庭院设计的优秀参考案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:10"
+      },
+      "ai_description": "该住宅庭院空间以清水混凝土结构为基底，搭配木框玻璃门与自然植栽，营造出宁静质朴的现代生活氛围。庭院内设砾石与孤植树，强化自然元素，是极简风格住宅庭院设计的优秀参考案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_106",
+      "filename": "2026102915152051207.jpg",
+      "local_path": "小红书图片下载/2026102915152051207.jpg",
+      "exists_locally": true,
+      "title": "清水混凝土｜把安静的力量，藏进家里",
+      "raw_title": "清水混凝土｜把安静的力量，藏进家里",
+      "author": "设计师阿远",
+      "raw_author": "设计师阿远",
+      "content": "不追逐繁复装饰\n只用水泥的原生肌理，搭配温润原木\n让空间回归材质本身\n光影穿过天窗、斜窗\n在墙面与地面缓缓流动\n粗糙与柔和在此平衡\n没有多余的色彩，只有质朴的质感\n好的住宅，是让人慢慢静下来\n不必刻意讨好，自在松弛。\n#室内设计 #清水混凝土 #侘寂风 #极简住宅 #水泥风家居 #原木极简",
+      "raw_content": "不追逐繁复装饰\n只用水泥的原生肌理，搭配温润原木\n让空间回归材质本身\n光影穿过天窗、斜窗\n在墙面与地面缓缓流动\n粗糙与柔和在此平衡\n没有多余的色彩，只有质朴的质感\n好的住宅，是让人慢慢静下来\n不必刻意讨好，自在松弛。\n#室内设计 #清水混凝土 #侘寂风 #极简住宅 #水泥风家居 #原木极简",
+      "likes": 562,
+      "collects": 569,
+      "url": "https://www.xiaohongshu.com/explore/6abd108a000000001800452b?xsec_token=ABr8xvXCXN5yYE0sCHQl4Nh9dorydlG43Ga3Nm42mFpEI=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291515/a7beabe2e67668171382a4ed2568aa89/notes_pre_post/1040g3k0325oab9du563g5n4b55g4395iehicbd0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:15:20",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "室内设计",
+        "清水混凝土",
+        "侘寂风",
+        "极简住宅",
+        "水泥风家居",
+        "原木极简",
+        "室内空间",
+        "阅读空间",
+        "极简主义",
+        "自然主义",
+        "混凝土",
+        "木饰面",
+        "玻璃",
+        "暖色系",
+        "低饱和",
+        "柔和自然",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "室内空间",
+          "阅读空间"
+        ],
+        "design_style": [
+          "极简主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "木饰面",
+          "玻璃"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "阅读空间",
+          "室内设计"
+        ],
+        "image_description": "该室内空间为极简风格的阅读区，以原色混凝土墙面与地面奠定沉静基调，搭配温润木饰面书桌与书架，大窗引入自然光，营造出宁静、温暖且富有质感的沉浸式阅读氛围，适合作为室内设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:31:04"
+      },
+      "ai_description": "该室内空间为极简风格的阅读区，以原色混凝土墙面与地面奠定沉静基调，搭配温润木饰面书桌与书架，大窗引入自然光，营造出宁静、温暖且富有质感的沉浸式阅读氛围，适合作为室内设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_105",
+      "filename": "2026102915150931994.jpg",
+      "local_path": "小红书图片下载/2026102915150931994.jpg",
+      "exists_locally": true,
+      "title": "清华这栋清水混凝土楼真的好美",
+      "raw_title": "清华这栋清水混凝土楼真的好美",
+      "author": "Timeline终",
+      "raw_author": "Timeline终",
+      "content": "#发现建筑之美 #清水混凝土 #建筑学",
+      "raw_content": "#发现建筑之美 #清水混凝土 #建筑学",
+      "likes": 624,
+      "collects": 105,
+      "url": "https://www.xiaohongshu.com/explore/6abc9dec0000000015013e81?xsec_token=AB0IWdQWo321murmNpgF9btGzMSWq9bMca6usiXvFQzl4=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291515/7dad16811b55aa592169448742a529cf/note_pre_post_uhdr/1040g3r0325nsfij3lg005oqfmhembji1q92f5og!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:15:09",
+      "width": 1080,
+      "height": 1222,
+      "aspect_ratio": 1.131,
+      "tags": [
+        "发现建筑之美",
+        "清水混凝土",
+        "建筑学",
+        "文化建筑",
+        "办公建筑",
+        "现代主义",
+        "参数化设计",
+        "混凝土",
+        "玻璃",
+        "金属格栅",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "城市设计",
+        "建筑模型"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "办公建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "金属格栅"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计",
+          "建筑模型"
+        ],
+        "image_description": "该建筑为现代风格的文化办公综合体，外立面以裸露混凝土基底搭配垂直金属格栅与玻璃幕墙，形成富有节奏感的模块化堆叠形态。黄昏光线下整体呈现冷调灰质感，具有鲜明的参数化设计特征，适合作为城市公共建筑方案参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:58"
+      },
+      "ai_description": "该建筑为现代风格的文化办公综合体，外立面以裸露混凝土基底搭配垂直金属格栅与玻璃幕墙，形成富有节奏感的模块化堆叠形态。黄昏光线下整体呈现冷调灰质感，具有鲜明的参数化设计特征，适合作为城市公共建筑方案参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_104",
+      "filename": "2026102915145788541.jpg",
+      "local_path": "小红书图片下载/2026102915145788541.jpg",
+      "exists_locally": true,
+      "title": "于城市留白处",
+      "raw_title": "于城市留白处",
+      "author": "澎湃动力",
+      "raw_author": "澎湃动力",
+      "content": "城南堂是长沙闹市里一处意外的留白，藏身于车水马龙之间，隔绝了浮躁，独守着一份静谧。\n长沙的阴天，总带着一种湿润的诗意。当厚重的云层吞没阳光，城南堂便褪去了所有光影的棱角，显露出它本真的质地。清水混凝土的墙面，在漫射光的轻抚下，不再冰冷，反而生出细腻而柔和的肌理。那些细微的颗粒、自然的纹路，都被柔光细细描摹。建筑的每一道缝隙、每一处转折、每一根线条，清晰却不锐利，仿佛被岁月反复打磨，只剩下柔和。整个空间弥漫着一种疏离而沉静的电影感，微光勾勒出层次，留白蕴藏着意蕴，时光也在此悄然放缓。\n明暗交错间，信仰的庄严、空间的静谧，与心底的情绪自然而然地交融共生。站在这方天地里，与建筑共鸣，与光影同频，与自己对话，所有喧嚣，都在这片留白中慢慢沉淀、消融。\n#摄影日常 #摄影构图 #周末去哪玩 #长沙拍照地 #长沙城南堂 #拍妻党 #人生就是一场体验 #放大生活的每一种小美 #生活美学 #旅途中的美景 #环境人像摄影 #小众旅行地 #生活影像诗",
+      "raw_content": "城南堂是长沙闹市里一处意外的留白，藏身于车水马龙之间，隔绝了浮躁，独守着一份静谧。\n长沙的阴天，总带着一种湿润的诗意。当厚重的云层吞没阳光，城南堂便褪去了所有光影的棱角，显露出它本真的质地。清水混凝土的墙面，在漫射光的轻抚下，不再冰冷，反而生出细腻而柔和的肌理。那些细微的颗粒、自然的纹路，都被柔光细细描摹。建筑的每一道缝隙、每一处转折、每一根线条，清晰却不锐利，仿佛被岁月反复打磨，只剩下柔和。整个空间弥漫着一种疏离而沉静的电影感，微光勾勒出层次，留白蕴藏着意蕴，时光也在此悄然放缓。\n明暗交错间，信仰的庄严、空间的静谧，与心底的情绪自然而然地交融共生。站在这方天地里，与建筑共鸣，与光影同频，与自己对话，所有喧嚣，都在这片留白中慢慢沉淀、消融。\n#摄影日常 #摄影构图 #周末去哪玩 #长沙拍照地 #长沙城南堂 #拍妻党 #人生就是一场体验 #放大生活的每一种小美 #生活美学 #旅途中的美景 #环境人像摄影 #小众旅行地 #生活影像诗",
+      "likes": 999,
+      "collects": 46,
+      "url": "https://www.xiaohongshu.com/explore/6a0cee9f000000003502fffd?xsec_token=AB91kao7CMajzze5JjkRYBuIQaGPX6MmKdElqy7ySXM_I=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291514/250402bb86a92c8a7d2d0596507cd0fc/1040g2sg320cabrqi5ie05ne16nt082a30pop800!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:14:57",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "摄影日常",
+        "摄影构图",
+        "周末去哪玩",
+        "长沙拍照地",
+        "长沙城南堂",
+        "拍妻党",
+        "人生就是一场体验",
+        "放大生活的每一种小美",
+        "生活美学",
+        "旅途中的美景",
+        "环境人像摄影",
+        "小众旅行地",
+        "生活影像诗",
+        "文化建筑",
+        "宗教建筑",
+        "现代主义",
+        "极简主义",
+        "混凝土",
+        "金属",
+        "地面铺装",
+        "冷色调",
+        "低饱和",
+        "灰白色调",
+        "方案参考",
+        "宗教空间",
+        "建筑摄影"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "宗教建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义"
+        ],
+        "materials": [
+          "混凝土",
+          "金属",
+          "地面铺装"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "灰白色调"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "宗教空间",
+          "建筑摄影"
+        ],
+        "image_description": "一座现代极简风格的宗教建筑，立面为素净的混凝土墙，中央嵌入一个简洁的金属十字架，形成强烈的视觉焦点。整体空间氛围肃穆宁静，具有极高的宗教建筑立面与空间氛围设计参考价值。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:53"
+      },
+      "ai_description": "一座现代极简风格的宗教建筑，立面为素净的混凝土墙，中央嵌入一个简洁的金属十字架，形成强烈的视觉焦点。整体空间氛围肃穆宁静，具有极高的宗教建筑立面与空间氛围设计参考价值。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_103",
+      "filename": "2026102915144640791.jpg",
+      "local_path": "小红书图片下载/2026102915144640791.jpg",
+      "exists_locally": true,
+      "title": "阿路的新屋 ·室内篇",
+      "raw_title": "阿路的新屋 ·室内篇",
+      "author": "纟只",
+      "raw_author": "纟只",
+      "content": "今天早晨我一大早就出门\n醒得太早什么都不想做……\n\t\n我不知道要走哪条路\n风太猛，我走风在背后推着我的那条路。\n\t\n我的生活一直这样，\n我希望始终这样\n——走在风在背后推着我的路上\n不让自己胡思乱想。\n\t\n1930.6.13\n\t\n#小红书自建房大赏\n#自建房乡野美学\n#私宅设计\n#室内设计\n#精神空间\n#泉州自建房\n#山地自建房\n#别墅设计\n#清水混凝土建筑\n#家的精神自由提案",
+      "raw_content": "今天早晨我一大早就出门\n醒得太早什么都不想做……\n\t\n我不知道要走哪条路\n风太猛，我走风在背后推着我的那条路。\n\t\n我的生活一直这样，\n我希望始终这样\n——走在风在背后推着我的路上\n不让自己胡思乱想。\n\t\n1930.6.13\n\t\n#小红书自建房大赏\n#自建房乡野美学\n#私宅设计\n#室内设计\n#精神空间\n#泉州自建房\n#山地自建房\n#别墅设计\n#清水混凝土建筑\n#家的精神自由提案",
+      "likes": 1378,
+      "collects": 774,
+      "url": "https://www.xiaohongshu.com/explore/6a2f78d10000000016025784?xsec_token=AB66MSEc2yA5731Wu4A_ENy7jxXvBsq3GVoGn8s0DesMU=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291514/d208b155cb5adc34c09549cecfcb60b2/spectrum/1040g34o321e18t5jn4005notc60gbqehtvnq0tg!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:14:46",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "小红书自建房大赏",
+        "自建房乡野美学",
+        "私宅设计",
+        "室内设计",
+        "精神空间",
+        "泉州自建房",
+        "山地自建房",
+        "别墅设计",
+        "清水混凝土建筑",
+        "家的精神自由提案",
+        "住宅建筑",
+        "室内空间",
+        "现代主义",
+        "极简主义",
+        "自然主义",
+        "混凝土",
+        "木材",
+        "玻璃",
+        "织物",
+        "金属",
+        "暖色系",
+        "低饱和",
+        "柔和自然",
+        "高对比",
+        "住宅方案",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "室内空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "木材",
+          "玻璃",
+          "织物",
+          "金属"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "柔和自然",
+          "高对比"
+        ],
+        "scene_usage": [
+          "住宅方案",
+          "室内设计",
+          "方案参考"
+        ],
+        "image_description": "该图为现代极简风格的住宅室内空间，以粗犷混凝土墙面与天花板为主基调，搭配温暖木纹地板与玻璃隔断，自然光透过高窗洒入，营造出宁静质朴的居住氛围，具有鲜明的自然主义设计特征。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:45"
+      },
+      "ai_description": "该图为现代极简风格的住宅室内空间，以粗犷混凝土墙面与天花板为主基调，搭配温暖木纹地板与玻璃隔断，自然光透过高窗洒入，营造出宁静质朴的居住氛围，具有鲜明的自然主义设计特征。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_102",
+      "filename": "2026102915143497983.jpg",
+      "local_path": "小红书图片下载/2026102915143497983.jpg",
+      "exists_locally": true,
+      "title": "令人着迷的建筑🤍",
+      "raw_title": "令人着迷的建筑🤍",
+      "author": "Boundary Space",
+      "raw_author": "Boundary Space",
+      "content": "#清水混凝土 #建筑与自然 #叙事性建筑 #艺术构筑物 #建筑与结构美学 #发现建筑之美",
+      "raw_content": "#清水混凝土 #建筑与自然 #叙事性建筑 #艺术构筑物 #建筑与结构美学 #发现建筑之美",
+      "likes": 1920,
+      "collects": 592,
+      "url": "https://www.xiaohongshu.com/explore/6a67880a000000000101cc2f?xsec_token=ABj_gTpGi8uTHJnSd7d7EaG0D9K-PLw8Ec6Io7KZ4Qh2s=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291514/2fb284857048b165ccc4201c9d2c3ec8/notes_pre_post/1040g3k83233lmuva7a7g5pgpcae0ueb0gbakbao!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:14:34",
+      "width": 900,
+      "height": 1200,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "清水混凝土",
+        "建筑与自然",
+        "叙事性建筑",
+        "艺术构筑物",
+        "建筑与结构美学",
+        "发现建筑之美",
+        "文化建筑",
+        "建筑模型",
+        "现代主义",
+        "地域性建筑",
+        "粗野主义",
+        "混凝土",
+        "金属栏杆",
+        "砖墙",
+        "低饱和",
+        "暖色系",
+        "暮色氛围",
+        "方案参考",
+        "毕业设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "建筑模型"
+        ],
+        "design_style": [
+          "现代主义",
+          "地域性建筑",
+          "粗野主义"
+        ],
+        "materials": [
+          "混凝土",
+          "金属栏杆",
+          "砖墙"
+        ],
+        "color_tone": [
+          "低饱和",
+          "暖色系",
+          "暮色氛围"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "文化建筑",
+          "毕业设计"
+        ],
+        "image_description": "该建筑为粗野主义风格的文化建筑，以裸露混凝土构成复杂几何体量，通过阶梯与平台形成多层空间序列，黄昏暖光勾勒出建筑轮廓，强调材料质感与结构表达，适合作为文化建筑立面与空间组织的参考案例。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:41"
+      },
+      "ai_description": "该建筑为粗野主义风格的文化建筑，以裸露混凝土构成复杂几何体量，通过阶梯与平台形成多层空间序列，黄昏暖光勾勒出建筑轮廓，强调材料质感与结构表达，适合作为文化建筑立面与空间组织的参考案例。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_101",
+      "filename": "2026102915142347943.jpg",
+      "local_path": "小红书图片下载/2026102915142347943.jpg",
+      "exists_locally": true,
+      "title": "照片被搬运到ins后1.8万赞，后续来了",
+      "raw_title": "照片被搬运到ins后1.8万赞，后续来了",
+      "author": "ARCHMORE-孔锦权",
+      "raw_author": "ARCHMORE-孔锦权",
+      "content": "这几天发生了一件有点魔幻的事——去年拍的诗之礼堂，被一位安藤粉丝搬到了 ins，收获了 1.8w 赞。而我自己发的时候，只有几十个赞\n\t\n第一反应是震惊。\n第二反应是：好像也合理，毕竟是安藤忠雄老师的作品，国际影响力摆在那里。\n第三反应是偷偷开心：原来我拍的照片，放到更大的安藤受众面前，是会被喜欢的。\n\t\n但唯一有点小失望的是：\n搬运没有标注摄影版权，也没有 @我。\n喜欢可以，但创作者的名字也值得被看见。\n\t\n所以我来小红书认领一下：\n诗之礼堂这组照片，是我去年拍的。如果你是从 ins 或其他渠道认识它，欢迎来我这里看原片和交流。\n\t\n也谢谢各位安藤粉丝的喜欢，如果可以，希望搬运时附上原作者信息。原创不易，但被看见也是开心的[回招呼][回招呼][回招呼]\n\t\n———————————————\n\t\n后续：\n昨天下午私信对方后，24小时内没有收到任何回复，我便通过平台提交了版权举报。平台处理得很快，目前相关帖子已被删除，这件事暂告一段落。\n其实比起直接举报，我更希望是另一种结果：对方愿意沟通，补上摄影署名，这样既尊重原创，也能让作品被更多人看到。但一直没有回应，我只能按规则维护自己的权益。\n谢谢大家这几天的关注和支持，也谢谢每一位尊重原创的人。 诗之礼堂 更多的照片，我会整理后发出来，喜欢建筑摄影的朋友可以继续蹲\n\t\n#安藤忠雄 #诗之礼堂 #建筑摄影 #摄影版权 #原创摄影 #清水混凝土  #摄影日记  #安藤粉打卡 #ARCHMORE",
+      "raw_content": "这几天发生了一件有点魔幻的事——去年拍的诗之礼堂，被一位安藤粉丝搬到了 ins，收获了 1.8w 赞。而我自己发的时候，只有几十个赞\n\t\n第一反应是震惊。\n第二反应是：好像也合理，毕竟是安藤忠雄老师的作品，国际影响力摆在那里。\n第三反应是偷偷开心：原来我拍的照片，放到更大的安藤受众面前，是会被喜欢的。\n\t\n但唯一有点小失望的是：\n搬运没有标注摄影版权，也没有 @我。\n喜欢可以，但创作者的名字也值得被看见。\n\t\n所以我来小红书认领一下：\n诗之礼堂这组照片，是我去年拍的。如果你是从 ins 或其他渠道认识它，欢迎来我这里看原片和交流。\n\t\n也谢谢各位安藤粉丝的喜欢，如果可以，希望搬运时附上原作者信息。原创不易，但被看见也是开心的[回招呼][回招呼][回招呼]\n\t\n———————————————\n\t\n后续：\n昨天下午私信对方后，24小时内没有收到任何回复，我便通过平台提交了版权举报。平台处理得很快，目前相关帖子已被删除，这件事暂告一段落。\n其实比起直接举报，我更希望是另一种结果：对方愿意沟通，补上摄影署名，这样既尊重原创，也能让作品被更多人看到。但一直没有回应，我只能按规则维护自己的权益。\n谢谢大家这几天的关注和支持，也谢谢每一位尊重原创的人。 诗之礼堂 更多的照片，我会整理后发出来，喜欢建筑摄影的朋友可以继续蹲\n\t\n#安藤忠雄 #诗之礼堂 #建筑摄影 #摄影版权 #原创摄影 #清水混凝土  #摄影日记  #安藤粉打卡 #ARCHMORE",
+      "likes": 2071,
+      "collects": 101,
+      "url": "https://www.xiaohongshu.com/explore/6ac345a0000000001b02d1c4?xsec_token=ABIFQQcj6vyI8VN6ZDInGnSjqDMm5ZZ_WevXYW-Tb35iM=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291514/b78322d7c92b80b9c33d9b9c7026de6f/1040g2sg325ubcp4h44eg5ogoft0412tjtegijuo!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:14:23",
+      "width": 1080,
+      "height": 1438,
+      "aspect_ratio": 1.331,
+      "tags": [
+        "安藤忠雄",
+        "诗之礼堂",
+        "建筑摄影",
+        "摄影版权",
+        "原创摄影",
+        "清水混凝土",
+        "摄影日记",
+        "安藤粉打卡",
+        "ARCHMORE",
+        "文化建筑",
+        "景观空间",
+        "现代主义",
+        "极简主义",
+        "自然主义",
+        "混凝土",
+        "水体",
+        "石材",
+        "玻璃",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "文旅场景"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "景观空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "水体",
+          "石材",
+          "玻璃"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "文旅场景",
+          "建筑摄影"
+        ],
+        "image_description": "该建筑为现代极简风格的文化空间，以巨大混凝土体量与镜面水池构成核心视觉，建筑边缘形成深邃的阴影与倒影，营造静谧沉思的氛围，是自然与建筑融合的典范，具有极高的景观与空间设计参考价值。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:36"
+      },
+      "ai_description": "该建筑为现代极简风格的文化空间，以巨大混凝土体量与镜面水池构成核心视觉，建筑边缘形成深邃的阴影与倒影，营造静谧沉思的氛围，是自然与建筑融合的典范，具有极高的景观与空间设计参考价值。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_100",
+      "filename": "2026102915141091675.jpg",
+      "local_path": "小红书图片下载/2026102915141091675.jpg",
+      "exists_locally": true,
+      "title": "一面闭合一面开放：一路折向屋顶的教堂",
+      "raw_title": "一面闭合一面开放：一路折向屋顶的教堂",
+      "author": "微筑设计",
+      "raw_author": "微筑设计",
+      "content": "这座教堂把沉重的清水混凝土、开放的玻璃界面和连续上升的楼梯，组织成一座可以被行走的城市地标。它面对的是新城里整齐却尚显疏离的街区，于是设计抓住转角地块的双重关系。一侧以厚实、切分的墙体回应近处住宅，收住视线与仪式感；另一侧用高大的玻璃开口面向公园，让室内活动与城市景观彼此可见。封闭与开放没有被平均调和，而是在同一座建筑上保持清晰张力。\n\t\n真正让庞大体量活起来的，是从地面一路折向屋顶的外部楼梯。它贴着墙体穿过悬挑、凹口和架空层，时而被混凝土包裹，时而暴露在天空下。人在其中移动，会不断遇到高低变化、转折平台和新的城市视角。楼梯因此不只是通行设施，也成为立面最有表情的一笔。夜晚的踏步灯与室内暖光把这条路径勾亮，冰冷灰墙便有了可接近的尺度。\n\t\n空间内部延续了同一种立体思路。礼堂被处理成阶梯看台，让座席与地面高差合为一个整体，在紧凑场地里争取更多容量；倾斜看台的背后和上方继续容纳小房间，把通常容易浪费的剖面空间转化为可使用面积。大跨度玻璃沿礼堂一侧展开，城市天光进入纵深，木地板和浅色内衬则把光线变得柔和。外部的粗粝混凝土与内部的温暖木色互相衬托，宗教空间的庄重感由尺度、光和安静的材料关系共同完成。\n\t\n几个细节让这种宏大的构图没有压倒使用者。窄窗像缝隙一样嵌入厚墙，控制外界干扰，也让光线更集中；十字形开口同时出现在外墙与室内端景，白天借自然光显影，傍晚转为城市中的微光标记；屋顶平台又把垂直动线的终点变成可停留、可共享的室外场所，让建筑的公共性从首层延伸到屋顶。\n\t\n这种处理对日常空间也很有启发。面对有限面积，与其只在平面里切房间，不如利用台阶下方、夹层和高差，把交通、收纳或辅助功能叠合起来，解决空间不足。需要兼顾采光与私密时，也不必让所有界面采用同一种开窗方式，可以把大窗留给景观与公共活动，把窄窗留给安静区域。这个项目最有力量的地方，正是让边界负责保护，让路径创造相遇，再用光把两者连接起来。\n\t\n这座教堂位于 韩国首尔 ，具体在 金浦市云阳洞（우양동） 的转角地块。\n由韩国建筑师  Heesoo Kwak  和他的事务所 IDMM Architects 设计，建于2014年。\n\t\n出处\n\t\nInstagram @archfeed_\n#打造独特空间 #自建房 #奇奇怪怪的建筑 #近现代建筑 #地域性建筑 #混凝土",
+      "raw_content": "这座教堂把沉重的清水混凝土、开放的玻璃界面和连续上升的楼梯，组织成一座可以被行走的城市地标。它面对的是新城里整齐却尚显疏离的街区，于是设计抓住转角地块的双重关系。一侧以厚实、切分的墙体回应近处住宅，收住视线与仪式感；另一侧用高大的玻璃开口面向公园，让室内活动与城市景观彼此可见。封闭与开放没有被平均调和，而是在同一座建筑上保持清晰张力。\n\t\n真正让庞大体量活起来的，是从地面一路折向屋顶的外部楼梯。它贴着墙体穿过悬挑、凹口和架空层，时而被混凝土包裹，时而暴露在天空下。人在其中移动，会不断遇到高低变化、转折平台和新的城市视角。楼梯因此不只是通行设施，也成为立面最有表情的一笔。夜晚的踏步灯与室内暖光把这条路径勾亮，冰冷灰墙便有了可接近的尺度。\n\t\n空间内部延续了同一种立体思路。礼堂被处理成阶梯看台，让座席与地面高差合为一个整体，在紧凑场地里争取更多容量；倾斜看台的背后和上方继续容纳小房间，把通常容易浪费的剖面空间转化为可使用面积。大跨度玻璃沿礼堂一侧展开，城市天光进入纵深，木地板和浅色内衬则把光线变得柔和。外部的粗粝混凝土与内部的温暖木色互相衬托，宗教空间的庄重感由尺度、光和安静的材料关系共同完成。\n\t\n几个细节让这种宏大的构图没有压倒使用者。窄窗像缝隙一样嵌入厚墙，控制外界干扰，也让光线更集中；十字形开口同时出现在外墙与室内端景，白天借自然光显影，傍晚转为城市中的微光标记；屋顶平台又把垂直动线的终点变成可停留、可共享的室外场所，让建筑的公共性从首层延伸到屋顶。\n\t\n这种处理对日常空间也很有启发。面对有限面积，与其只在平面里切房间，不如利用台阶下方、夹层和高差，把交通、收纳或辅助功能叠合起来，解决空间不足。需要兼顾采光与私密时，也不必让所有界面采用同一种开窗方式，可以把大窗留给景观与公共活动，把窄窗留给安静区域。这个项目最有力量的地方，正是让边界负责保护，让路径创造相遇，再用光把两者连接起来。\n\t\n这座教堂位于 韩国首尔 ，具体在 金浦市云阳洞（우양동） 的转角地块。\n由韩国建筑师  Heesoo Kwak  和他的事务所 IDMM Architects 设计，建于2014年。\n\t\n出处\n\t\nInstagram @archfeed_\n#打造独特空间 #自建房 #奇奇怪怪的建筑 #近现代建筑 #地域性建筑 #混凝土",
+      "likes": 2690,
+      "collects": 1049,
+      "url": "https://www.xiaohongshu.com/explore/6ab60e8c000000000a0251c8?xsec_token=AB6yhaQcNOZdey7CXb1ZZEDW0ZcLxYlJ1JLqE-JOjKmlc=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202610291514/731b7f5f9fd72d9e12213ec545780aa0/spectrum/1040g0k0325hff2rik4005ntqeeq0bq9jc170mbg!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-10-29 15:14:10",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "打造独特空间",
+        "自建房",
+        "奇奇怪怪的建筑",
+        "近现代建筑",
+        "地域性建筑",
+        "混凝土",
+        "文化建筑",
+        "宗教建筑",
+        "现代主义",
+        "参数化设计",
+        "玻璃",
+        "金属",
+        "冷色调",
+        "低饱和",
+        "明亮通透",
+        "方案参考",
+        "城市设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "宗教建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "金属"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "宗教建筑",
+          "城市设计"
+        ],
+        "image_description": "该建筑为现代风格宗教文化建筑，主体采用裸露混凝土打造的多层堆叠体块，立面嵌入玻璃窗与金属楼梯，夜景中发光十字架成为视觉焦点，整体造型富有雕塑感，适合用作宗教建筑或城市公共空间的设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-10-29 15:30:30"
+      },
+      "ai_description": "该建筑为现代风格宗教文化建筑，主体采用裸露混凝土打造的多层堆叠体块，立面嵌入玻璃窗与金属楼梯，夜景中发光十字架成为视觉焦点，整体造型富有雕塑感，适合用作宗教建筑或城市公共空间的设计参考。",
+      "has_ai_tags": true
+    },
     {
       "id": "pinterest_119",
       "filename": "2026102902060885744.jpg",
