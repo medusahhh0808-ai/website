@@ -184,7 +184,7 @@
    ========================================================================== */
 .atrium-hero-left {
   position: absolute;
-  left: 96px;
+  left: clamp(64px, calc(64px + (100vw - 1400px) * 0.12), 110px);
   top: 175px;
   width: 660px;
   max-width: calc(100vw - 780px);
@@ -283,10 +283,11 @@
 
 /* ==========================================================================
    HERO 右侧连续滚动马赛克 (.atrium-grid)
+   通过 clamp 平滑控制靠右距离，由原先硬编码 60px 适当向中轴收拢至 130px~170px
    ========================================================================== */
 .atrium-grid {
   position: absolute;
-  right: 60px;
+  right: clamp(60px, calc(60px + (100vw - 1380px) * 0.22), 170px);
   top: 0;
   bottom: 0;
   width: calc(3 * var(--col) + 2 * var(--gap));

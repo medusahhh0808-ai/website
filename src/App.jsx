@@ -160,21 +160,43 @@ export default function App() {
     return Object.values(selectedFilters).filter(Boolean).length;
   }, [selectedFilters]);
 
+  // 平滑跳转并精确定位到指定区域 (精准消除顶部 72px 吸顶导航遮挡)
+  const scrollToTarget = useCallback((targetId = 'gallery-section') => {
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        const el = document.getElementById(targetId) || document.getElementById('gallery-section');
+        if (el) {
+          const navOffset = 82; // 导航栏 72px + 10px 间距
+          const elementPosition = el.getBoundingClientRect().top + window.pageYOffset;
+          const offsetPosition = Math.max(0, elementPosition - navOffset);
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      }, 50);
+    });
+  }, []);
+
+  // 平台切换处理：切换过滤条件并自动平滑跳转至画廊
+  const handleSelectPlatform = useCallback((platform) => {
+    setActivePlatform(platform);
+    scrollToTarget('gallery-section');
+  }, [scrollToTarget]);
+
   // 展开 / 收起五维筛选面板
-  const handleToggleFilter = () => {
+  const handleToggleFilter = useCallback(() => {
     setIsFilterOpen((prev) => {
       const next = !prev;
+      // 无论展开还是收起，都平滑跳转至对应画廊/筛选位置
       if (next) {
-        setTimeout(() => {
-          const el = document.getElementById('filter-section') || document.getElementById('gallery-section');
-          if (el) {
-            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
-        }, 100);
+        scrollToTarget('filter-section');
+      } else {
+        scrollToTarget('gallery-section');
       }
       return next;
     });
-  };
+  }, [scrollToTarget]);
 
   // 重置五维筛选
   const handleResetFilters = () => {
@@ -198,12 +220,14 @@ export default function App() {
   };
 
   // 点击探索平滑滚动到画廊
-  const handleExploreClick = () => {
-    const el = document.getElementById('gallery-section');
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  const handleExploreClick = useCallback(() => {
+    scrollToTarget('gallery-section');
+  }, [scrollToTarget]);
+
+  // 搜索框回车快速直达画廊
+  const handleSearchSubmit = useCallback(() => {
+    scrollToTarget('gallery-section');
+  }, [scrollToTarget]);
 
   // 模态框导航翻页
   const handleNavigateModal = (direction) => {
@@ -239,9 +263,10 @@ export default function App() {
       <Navbar
         counts={counts}
         activePlatform={activePlatform}
-        onSelectPlatform={setActivePlatform}
+        onSelectPlatform={handleSelectPlatform}
         searchQuery={searchQuery}
         onSearchChange={setSearchQuery}
+        onSearchSubmit={handleSearchSubmit}
         onReset={handleResetAll}
         isFilterOpen={isFilterOpen}
         onToggleFilter={handleToggleFilter}

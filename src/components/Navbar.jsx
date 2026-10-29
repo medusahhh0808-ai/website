@@ -8,6 +8,7 @@ export function Navbar({
   onSelectPlatform,
   searchQuery,
   onSearchChange,
+  onSearchSubmit,
   onReset,
   isFilterOpen,
   onToggleFilter,
@@ -163,6 +164,11 @@ export function Navbar({
                 placeholder="搜索建筑、风格、材料..."
                 value={searchQuery}
                 onChange={(e) => onSearchChange(e.target.value)}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter') {
+                    onSearchSubmit && onSearchSubmit();
+                  }
+                }}
               />
               {searchQuery && (
                 <button

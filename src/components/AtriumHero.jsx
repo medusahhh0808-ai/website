@@ -61,12 +61,19 @@ export function AtriumHero({ items = [], onExploreClick, onOpenDetail }) {
   }, [chosenItems]);
 
   // 导航跳转辅助函数
-  const scrollToSection = (id) => {
+  const scrollToSection = (id = 'gallery-section') => {
+    if (onExploreClick) {
+      onExploreClick();
+      return;
+    }
     const el = document.getElementById(id);
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth' });
-    } else if (onExploreClick) {
-      onExploreClick();
+      const navOffset = 82;
+      const elementPosition = el.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({
+        top: Math.max(0, elementPosition - navOffset),
+        behavior: 'smooth'
+      });
     }
   };
 
