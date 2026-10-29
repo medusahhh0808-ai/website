@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en" class="desk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ATRIUM MTL — An archive of light cast in stone</title>
+
+  <!-- Google Fonts for Archivo and Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================================
+       DESIGN TOKENS & SYSTEM PROPERTIES
+       ========================================================================== */
+    :root {
+      /* Remote Media Assets */
+      --img-sculpt: url("https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/fc524fc3-03c3-40a1-9954-22eab1322592.webp");
+      --img-man: url("https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/1d56967e-0ed5-40f8-812d-9360e5ec1780.webp");
+      --img-visit: url("https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/5f3f6135-26b9-4c48-92ad-105161327cbc.webp");
+      --img-sil: url("https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/e7b68ae9-9240-4f52-a0a2-89082df4b8d0.webp");
+      --grain: url("https://d2ol7oe51mr4n9.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/40b7fef3-410d-4ef3-bd67-0a2fc7ee5a1d.svg");
+
+      /* Fonts */
+      --display: "Archivo", "Arial Black", Impact, system-ui, sans-serif;
+      --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+
+      /* Colors */
+      --paper: #f5f4ef;
+      --ink: #0f0f0e;
+      --card-dark: #151515;
+      --card-cream: #f9f6f1;
+      --red: #ef5d44;
+      --yellow: #fcdd71;
+      --blue: #9fd5f7;
+
+      /* Header Theme */
+      --nav-bg: #ffffff;
+      --nav-bar: #ffffff;
+      --nav-fg: var(--ink);
+      --nav-muted: #62615d;
+      --nav-line: rgba(15, 15, 14, 0.08);
+      --nav-rule: rgba(15, 15, 14, 0.16);
+      --nav-search: #e8e7e2;
+      --nav-cta: var(--ink);
+      --nav-cta-fg: #ffffff;
+
+      /* Desktop Grid Tokens */
+      --col: 205.33px;
+      --gap: 13px;
+      --pitch: 282.5px;
+      --r: 22px;
+
+      /* Stage Scaling Variables (set by JS fit()) */
+      --s: 1;
+      --W: 1280;
+      --H: 800;
+
+      /* Mode token */
+      --mode: desk;
+    }
+
+    /* Responsive Mode Detection via CSS Token */
+    @media (max-width: 559px) { :root { --mode: mob; } }
+    @media (min-width: 560px) and (max-width: 1096px) and (min-aspect-ratio: 1/1) { :root { --mode: mob-l; } }
+    @media (min-width: 600px) and (min-height: 820px) and (max-aspect-ratio: 21/20) { :root { --mode: tab-p; } }
+    @media (min-width: 900px) and (min-height: 540px) and (min-aspect-ratio: 21/20) and (max-width: 1096px) { :root { --mode: tab-l; } }
+    @media (min-width: 1097px) and (min-aspect-ratio: 27/25) { :root { --mode: desk; } }
+
+    /* ==========================================================================
+       RESET & BASE
+       ========================================================================== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: var(--paper);
+      color: var(--ink);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: geometricPrecision;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      background: none;
+      border: none;
+      font-family: inherit;
+      color: inherit;
+      cursor: pointer;
+    }
+
+    :focus-visible {
+      outline: 2px solid #3b82f6;
+      outline-offset: 3px;
+    }
+
+    /* ==========================================================================
+       STAGE CONTAINER (DESKTOP RESOLUTION-INDEPENDENT FIT)
+       ========================================================================== */
+    .stage {
+      position: fixed;
+      left: 0;
+      top: 0;
+      transform-origin: 0 0;
+      transform: scale(var(--s));
+      width: calc(var(--W) * 1px);
+      height: calc(var(--H) * 1px);
+      overflow: hidden;
+      background-color: var(--paper);
+    }
+
+    /* ==========================================================================
+       FLOATING WHITE HEADER (.hdr)
+       ========================================================================== */
+    .hdr {
+      position: absolute;
+      left: 40px;
+      right: 40px;
+      top: 0;
+      height: 142px;
+      z-index: 100;
+      border-radius: 0 0 22px 22px;
+      background-color: var(--nav-bg);
+      box-shadow: 0 0 0 1px var(--nav-line), 0 16px 36px -24px rgba(15, 15, 14, 0.30);
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Utility Strip (.util) */
+    .util {
+      height: 40px;
+      border-bottom: 1px solid var(--nav-line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 26px;
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--ink);
+    }
+
+    .util-left {
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    .phone-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      line-height: 1.15;
+      font-size: 12px;
+      color: var(--ink);
+      transition: opacity 0.2s;
+    }
+    .phone-link:hover {
+      opacity: 0.7;
+    }
+    .phone-link svg {
+      width: 15px;
+      height: 15px;
+      stroke: var(--ink);
+      flex-shrink: 0;
+    }
+    .phone-link strong {
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    .util-vrule {
+      width: 1px;
+      height: 18px;
+      background-color: var(--nav-rule);
+      margin: 0 24px;
+    }
+
+    .unav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+    .unav a {
+      font-size: 13.5px;
+      font-weight: 500;
+      color: var(--ink);
+      transition: opacity 0.2s;
+      white-space: nowrap;
+    }
+    .unav a:hover {
+      opacity: 0.7;
+    }
+    .search-btn {
+      width: 39px;
+      height: 39px;
+      background-color: var(--nav-search);
+      border-radius: 6px 0 0 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 8px;
+      transition: background-color 0.2s;
+    }
+    .search-btn:hover {
+      background-color: #dedcd5;
+    }
+    .search-btn svg {
+      width: 14px;
+      height: 14px;
+      stroke: var(--ink);
+    }
+
+    /* Main Row */
+    .main-row {
+      height: 102px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .brand-title {
+      font-family: var(--display);
+      font-weight: 900;
+      font-size: 31px;
+      letter-spacing: -0.02em;
+      transform: scaleY(0.88);
+      transform-origin: left center;
+      line-height: 1;
+      -webkit-text-stroke: 0.35px var(--ink);
+    }
+    .brand-tagline {
+      font-size: 8.6px;
+      font-weight: 600;
+      color: var(--nav-muted);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .main-nav a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: opacity 0.2s;
+    }
+    .main-nav a:hover {
+      opacity: 0.7;
+    }
+    .circle-arrow {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background-color: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .circle-arrow svg {
+      width: 12px;
+      height: 12px;
+      stroke: #ffffff;
+      transform: rotate(45deg);
+    }
+    .nav-sep {
+      color: var(--nav-rule);
+      font-weight: 300;
+    }
+    .menu-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .burger-icon {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      width: 18px;
+    }
+    .burger-icon span {
+      display: block;
+      height: 2px;
+      width: 100%;
+      background-color: var(--ink);
+      border-radius: 1px;
+    }
+
+    .cta-cluster {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .tickets-pill {
+      width: 116px;
+      height: 63px;
+      border-radius: 22px;
+      background-color: var(--nav-cta);
+      color: var(--nav-cta-fg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      transition: transform 0.2s, background-color 0.2s;
+    }
+    .tickets-pill:hover {
+      transform: scale(1.02);
+      background-color: #222;
+    }
+    .tickets-circle {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background-color: var(--nav-cta);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s;
+    }
+    .tickets-circle:hover {
+      transform: scale(1.04);
+    }
+    .tickets-circle svg {
+      width: 28px;
+      height: 28px;
+      fill: #ffffff;
+      transform: rotate(-45deg);
+    }
+
+    /* ==========================================================================
+       HERO LEFT SECTION (.hero)
+       ========================================================================== */
+    .hero {
+      position: absolute;
+      left: 86px;
+      top: calc(200px + (var(--H) - 800) * 0.5px);
+      width: 480px;
+      z-index: 10;
+    }
+
+    .hero-title {
+      font-family: var(--display);
+      font-weight: 900;
+      font-size: 80px;
+      line-height: 75.3px;
+      letter-spacing: -0.06em;
+      text-transform: uppercase;
+      -webkit-text-stroke: 1.1px var(--ink);
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .hero-title .ln-wrap {
+      display: block;
+      overflow: hidden;
+      padding-bottom: 2px;
+    }
+    .hero-title .ln {
+      display: block;
+      transform: translate3d(0, 0, 0);
+      will-change: transform;
+    }
+    .hero-title span.sub {
+      font-size: 0.95em;
+      letter-spacing: -0.05em;
+    }
+
+    .hero-p {
+      position: absolute;
+      top: 344px;
+      left: 0;
+      width: 460px;
+      font-size: 18px;
+      line-height: 26.6px;
+      color: var(--ink);
+      font-weight: 400;
+    }
+    .hero-p strong {
+      font-weight: 700;
+    }
+
+    .hero-acts {
+      position: absolute;
+      top: 460px;
+      left: 0;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .installations-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--ink);
+      transition: opacity 0.2s;
+    }
+    .installations-link:hover {
+      opacity: 0.7;
+    }
+    .installations-link .circle-arrow-lg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background-color: var(--ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .installations-link .circle-arrow-lg svg {
+      width: 16px;
+      height: 16px;
+      stroke: #ffffff;
+      transform: rotate(45deg);
+    }
+
+    /* ==========================================================================
+       RIGHT-HAND MOSAIC GRID (.grid)
+       ========================================================================== */
+    .grid {
+      position: absolute;
+      right: 62px;
+      top: 0;
+      bottom: 0;
+      width: calc(3 * var(--col) + 2 * var(--gap));
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    .col {
+      position: absolute;
+      width: var(--col);
+      display: flex;
+      flex-direction: column;
+      will-change: transform;
+      animation: colDown 14.6s linear infinite;
+    }
+
+    /* Alternating Marquee Directions */
+    .col.c2, .col.x1, .col.x3 {
+      animation-name: colUp;
+    }
+
+    @keyframes colDown {
+      0% { transform: translate3d(0, 0, 0); }
+      100% { transform: translate3d(0, -50%, 0); }
+    }
+
+    @keyframes colUp {
+      0% { transform: translate3d(0, -50%, 0); }
+      100% { transform: translate3d(0, 0, 0); }
+    }
+
+    /* Main Columns Offsets */
+    .col.c1 {
+      left: 0;
+      top: 86px;
+    }
+    .col.c2 {
+      left: calc(var(--col) + var(--gap));
+      top: -11.5px;
+    }
+    .col.c3 {
+      left: calc(2 * (var(--col) + var(--gap)));
+      top: 86.5px;
+    }
+
+    /* Extra Wide-Screen Columns (hidden until html.desk.ex1/ex2/ex3) */
+    .col.x1 {
+      left: calc(-1 * (var(--col) + var(--gap)));
+      top: -11.5px;
+      display: none;
+    }
+    .col.x2 {
+      left: calc(-2 * (var(--col) + var(--gap)));
+      top: 86px;
+      display: none;
+    }
+    .col.x3 {
+      left: calc(-3 * (var(--col) + var(--gap)));
+      top: -11.5px;
+      display: none;
+    }
+
+    html.desk.ex1 .col.x1 { display: flex; }
+    html.desk.ex2 .col.x1, html.desk.ex2 .col.x2 { display: flex; }
+    html.desk.ex3 .col.x1, html.desk.ex3 .col.x2, html.desk.ex3 .col.x3 { display: flex; }
+
+    /* Cells */
+    .cell {
+      width: var(--col);
+      height: var(--pitch);
+      border-radius: var(--r);
+      margin-bottom: var(--gap);
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    /* Photo Cells */
+    .cell.ph::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: var(--pic);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .i-sculpt { --pic: var(--img-sculpt); }
+    .i-man { --pic: var(--img-man); }
+    .i-visit { --pic: var(--img-visit); }
+    .i-sil { --pic: var(--img-sil); }
+
+    /* Solid Color Cells */
+    .cell.red { background-color: var(--red); }
+    .cell.yellow { background-color: var(--yellow); }
+    .cell.blue { background-color: var(--blue); }
+    .cell.cream {
+      background-color: var(--card-cream);
+      box-shadow: inset 0 0 0 1px #e9e6df;
+    }
+    .cell.dark {
+      background-color: var(--card-dark);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+    }
+
+    /* Grain Overlay on Solid Tiles */
+    .cell.red::after,
+    .cell.yellow::after,
+    .cell.blue::after,
+    .cell.cream::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: var(--grain);
+      background-size: 200px 200px;
+      opacity: 0.13;
+      mix-blend-mode: multiply;
+      pointer-events: none;
+    }
+    .cell.dark::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: var(--grain);
+      background-size: 200px 200px;
+      opacity: 0.035;
+      mix-blend-mode: screen;
+      pointer-events: none;
+    }
+
+    /* Numeric Photo Crops on Hero Desktop Tiles */
+    .f-sculpt::before {
+      width: 124.19%;
+      height: 112.57%;
+      left: -16.07%;
+      top: -8.5%;
+      background-size: 100% 100%;
+    }
+    .f-man::before {
+      width: 113.48%;
+      height: 103.36%;
+      left: -5.36%;
+      top: -3.54%;
+      background-size: 100% 100%;
+    }
+    .f-visit {
+      background: linear-gradient(90deg, #c6c5c3, #9b9a98 55%, #7a7977);
+    }
+    .f-visit::before {
+      width: 110.07%;
+      height: 100%;
+      left: -3.9%;
+      top: 8.5%;
+      background-size: 100% 100%;
+    }
+    .f-visit::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.26) 0%, rgba(0, 0, 0, 0) 13%);
+      pointer-events: none;
+    }
+    .f-sil::before {
+      width: 139.29%;
+      height: 126.37%;
+      left: -8.77%;
+      top: -56.64%;
+      background-size: 100% 100%;
+    }
+
+    /* ==========================================================================
+       INTRO ANIMATION STATE (.intro)
+       ========================================================================== */
+    html.intro .hdr {
+      transform: translateY(calc(-100% - 48px));
+      opacity: 0;
+    }
+    html.intro .hero-title .ln {
+      transform: translateY(110%);
+    }
+    html.intro .hero-p,
+    html.intro .hero-acts {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .col { animation: none !important; }
+      html.intro .hdr { transform: none !important; opacity: 1 !important; }
+      html.intro .hero-title .ln { transform: none !important; }
+      html.intro .hero-p, html.intro .hero-acts { transform: none !important; opacity: 1 !important; }
+    }
+
+    /* ==========================================================================
+       RESPONSIVE ARCHITECTURES (TABLET & MOBILE)
+       ========================================================================== */
+    /* Mobile Drawer */
+    .mobile-menu-drawer {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 16px 32px rgba(0,0,0,0.15);
+      padding: 24px;
+      flex-direction: column;
+      gap: 16px;
+      border-top: 1px solid var(--nav-line);
+      z-index: 99;
+    }
+    .hdr[data-open="true"] .mobile-menu-drawer {
+      display: flex;
+    }
+
+    @media (max-width: 1096px) {
+      .stage {
+        transform: none !important;
+        width: 100% !important;
+        height: 100% !important;
+        position: relative;
+        overflow: hidden;
+      }
+      .hdr {
+        left: 16px;
+        right: 16px;
+        height: auto;
+      }
+      .util { display: none; }
+      .main-row { height: 72px; padding: 0 16px; }
+      .main-nav .nav-item, .main-nav .nav-sep { display: none; }
+      .cta-cluster .tickets-circle { display: none; }
+      .hero {
+        position: relative;
+        left: 20px;
+        top: 96px;
+        width: calc(100% - 40px);
+      }
+      .hero-title { font-size: 52px; line-height: 52px; }
+      .hero-p { position: static; margin-top: 20px; width: 100%; font-size: 15px; }
+      .hero-acts { position: static; margin-top: 24px; }
+      .grid {
+        right: 16px;
+        opacity: 0.35;
+        width: calc(2 * var(--col) + var(--gap));
+      }
+      .col.c3 { display: none; }
+      .f-visit::before, .f-sil::before {
+        width: 100%; height: 100%; left: 0; top: 0; background-size: cover;
+      }
+      .f-visit::after { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <!-- FLOATING WHITE HEADER CARD -->
+    <!-- FLOATING WHITE HEADER CARD (单行轻量悬浮卡片) -->
+    <header class="hdr" role="banner" style="height: 80px; border-radius: 0 0 20px 20px; display: flex; align-items: center;">
+      <div class="main-row" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: space-between; padding: 0 32px;">
+        <div style="display: flex; align-items: center; gap: 44px;">
+          <div class="brand">
+            <h1 class="brand-title">ARCHI VAULT</h1>
+            <span class="brand-tagline">AI MULTIMODAL INSPIRATION ARCHIVE · 让建筑灵感被看见</span>
+          </div>
+
+          <nav class="main-nav" aria-label="Main navigation" style="display: flex; align-items: center; gap: 24px; font-size: 15px; font-weight: 600;">
+            <a href="#gallery">灵感画廊</a>
+            <a href="#featured">精选案例</a>
+            <button class="menu-btn" aria-label="筛选">
+              <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+              <span>筛选</span>
+            </button>
+          </nav>
+        </div>
+
+        <div class="cta-cluster">
+          <a href="#gallery" class="tickets-pill" style="height: 46px; padding: 0 24px; border-radius: 9999px; font-size: 15px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center;">立即探索</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- LEFT-HAND HERO CONTENT -->
+    <main class="hero">
+      <h1 class="hero-title" style="font-family: var(--display), 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; font-size: 74px; line-height: 82px; letter-spacing: -0.02em;">
+        <span class="ln-wrap"><span class="ln">让建筑灵感</span></span>
+        <span class="ln-wrap"><span class="ln sub">时刻被看见</span></span>
+      </h1>
+
+      <p class="hero-p" style="font-size: 16px; line-height: 27px; color: rgba(15,15,14,0.85);">
+        基于大模型五维深度打标解构，涵盖<strong>空间类型、设计风格、材质元素、色调氛围与场景用途</strong>，助你在方案构思与概念深化中迅速捕捉空间意图。从材质肌理到立面韵律，让每一个构想在此被看见。
+      </p>
+
+      <div class="hero-acts">
+        <div class="cta-cluster">
+          <a href="#gallery" class="tickets-pill">立即探索</a>
+          <a href="#gallery" class="tickets-circle" aria-label="探索灵感库">
+            <svg viewBox="0 0 24 24">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+          </a>
+        </div>
+
+        <a href="#filters" class="installations-link">
+          <span>五维智能导览</span>
+          <span class="circle-arrow-lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </main>
+
+    <!-- RIGHT-HAND CONTINUOUS MOTION MOSAIC GRID -->
+    <div class="grid" aria-hidden="true">
+      <!-- Wide-screen extra columns -->
+      <div class="col x3">
+        <div class="cell ph i-man"></div>
+        <div class="cell blue"></div>
+        <div class="cell dark"></div>
+        <div class="cell ph i-sculpt"></div>
+        <div class="cell yellow"></div>
+      </div>
+      <div class="col x2">
+        <div class="cell yellow"></div>
+        <div class="cell ph i-sil"></div>
+        <div class="cell cream"></div>
+        <div class="cell red"></div>
+        <div class="cell ph i-visit"></div>
+      </div>
+      <div class="col x1">
+        <div class="cell blue"></div>
+        <div class="cell ph i-man"></div>
+        <div class="cell red"></div>
+        <div class="cell ph i-sculpt"></div>
+        <div class="cell cream"></div>
+      </div>
+
+      <!-- Main 3 columns -->
+      <div class="col c1">
+        <div class="cell red"></div>
+        <div class="cell ph i-sculpt f-sculpt"></div>
+        <div class="cell ph i-man f-man"></div>
+        <div class="cell blue"></div>
+        <div class="cell ph i-visit"></div>
+      </div>
+      <div class="col c2">
+        <div class="cell yellow"></div>
+        <div class="cell ph i-visit f-visit visit"></div>
+        <div class="cell dark"></div>
+        <div class="cell ph i-sil"></div>
+        <div class="cell red"></div>
+      </div>
+      <div class="col c3">
+        <div class="cell blue"></div>
+        <div class="cell cream"></div>
+        <div class="cell ph i-sil f-sil"></div>
+        <div class="cell yellow"></div>
+        <div class="cell ph i-sculpt"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCRIPT -->
+  <script>
+    (function () {
+      const doc = document.documentElement;
+      const isReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      // 1. Entrance animation setup
+      if (!isReduced) {
+        doc.classList.add('intro');
+        setTimeout(() => doc.classList.remove('intro'), 4000);
+      }
+
+      // 2. Clone column children once so 50% translate marquee loops seamlessly
+      const cols = document.querySelectorAll('.grid .col');
+      cols.forEach(col => {
+        const cells = Array.from(col.children);
+        cells.forEach(c => col.appendChild(c.cloneNode(true)));
+      });
+
+      // 3. Desktop Canvas Fit & Extra Columns
+      function fit() {
+        const vw = window.innerWidth;
+        const vh = window.innerHeight;
+        const computedMode = getComputedStyle(doc).getPropertyValue('--mode').trim() || 'desk';
+
+        // Clear mode classes
+        ['desk', 'mob', 'mob-l', 'tab', 'tab-l', 'tab-p'].forEach(m => doc.classList.remove(m));
+        doc.classList.add(computedMode);
+        if (computedMode.startsWith('tab')) doc.classList.add('tab');
+        if (computedMode.startsWith('mob')) doc.classList.add('mob');
+
+        if (computedMode === 'desk') {
+          // Cover viewport scale
+          const s = (vw / vh > 1280 / 800) ? (vh / 800) : (vw / 1280);
+          const W = vw / s;
+          const H = vh / s;
+          doc.style.setProperty('--s', s);
+          doc.style.setProperty('--W', W);
+          doc.style.setProperty('--H', H);
+
+          doc.classList.toggle('tall', H > 845);
+
+          // Extra columns
+          const extra = Math.min(3, Math.max(0, Math.floor((W - 1294) / 218.33)));
+          doc.classList.remove('ex1', 'ex2', 'ex3');
+          if (extra >= 1) doc.classList.add('ex1');
+          if (extra >= 2) doc.classList.add('ex2');
+          if (extra >= 3) doc.classList.add('ex3');
+        } else {
+          doc.style.setProperty('--s', 1);
+          doc.style.setProperty('--W', vw);
+          doc.style.setProperty('--H', vh);
+        }
+      }
+
+      window.addEventListener('resize', fit);
+      window.addEventListener('orientationchange', fit);
+      fit();
+
+      // 4. WAAPI Entrance Timeline
+      if (!isReduced && typeof Element.prototype.animate === 'function') {
+        const EXPO = 'cubic-bezier(0.16, 1, 0.3, 1)';
+        const QUART = 'cubic-bezier(0.25, 1, 0.5, 1)';
+
+        // Header slide down
+        const hdr = document.querySelector('.hdr');
+        if (hdr) {
+          hdr.animate([
+            { transform: 'translateY(calc(-100% - 48px))', opacity: 0 },
+            { transform: 'translateY(0)', opacity: 1 }
+          ], { duration: 950, easing: EXPO, fill: 'forwards' });
+        }
+
+        // Title lines rise
+        const lines = document.querySelectorAll('.hero-title .ln');
+        lines.forEach((ln, idx) => {
+          ln.animate([
+            { transform: 'translateY(110%)' },
+            { transform: 'translateY(0%)' }
+          ], { duration: 1000, delay: 300 + idx * 85, easing: EXPO, fill: 'forwards' });
+        });
+
+        // Hero paragraph & acts
+        const heroP = document.querySelector('.hero-p');
+        if (heroP) {
+          heroP.animate([
+            { opacity: 0, transform: 'translateY(14px)' },
+            { opacity: 1, transform: 'translateY(0)' }
+          ], { duration: 800, delay: 650, easing: QUART, fill: 'forwards' });
+        }
+
+        const acts = document.querySelector('.hero-acts');
+        if (acts) {
+          acts.animate([
+            { opacity: 0, transform: 'translateY(12px)' },
+            { opacity: 1, transform: 'translateY(0)' }
+          ], { duration: 800, delay: 800, easing: QUART, fill: 'forwards' });
+        }
+      }
+
+      // 5. Mobile Drawer Toggle
+      const menuBtn = document.querySelector('.menu-btn');
+      const hdrEl = document.querySelector('.hdr');
+      if (menuBtn && hdrEl) {
+        menuBtn.addEventListener('click', () => {
+          const isOpen = hdrEl.getAttribute('data-open') === 'true';
+          hdrEl.setAttribute('data-open', !isOpen);
+          menuBtn.setAttribute('aria-expanded', !isOpen);
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

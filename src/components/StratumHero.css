@@ -1,0 +1,628 @@
+/* ============================================================
+   Stratum Exact Cinematic Architecture Hero Styles
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap');
+
+.stratum-hero-stage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 680px;
+  overflow: hidden;
+  background: #04070d;
+  color: #fff;
+  font-family: 'Inter', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+
+  /* 核心动态比例单位：1280x800 画布标准 */
+  --u: clamp(0.68px, min(100vw / 1280, 100vh / 800), 1.72px);
+  --t: var(--u);
+  --line: rgba(255, 255, 255, 0.13);
+  --cream: #e8d1cb;
+  --ink: #15131b;
+  --hair: max(1px, calc(1 * var(--u)));
+  --nudge: calc(1 * var(--t));
+  --e-mask: cubic-bezier(0.16, 1, 0.3, 1);
+  --e-line: cubic-bezier(0.65, 0, 0.35, 1);
+  --e-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* 视差与背景视频层 */
+.stratum-bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('/hero/background.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  will-change: transform;
+  transform-origin: 50% 50%;
+  backface-visibility: hidden;
+}
+
+.stratum-bg video {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  display: block;
+  width: max(100vw, 177.78vh);
+  height: max(100vh, 56.25vw);
+  transform: translate(-45.5%, -50%) scale(1.1);
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  object-fit: cover;
+}
+
+.stratum-bg video.on {
+  opacity: 1;
+}
+
+.stratum-overlay-vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 30%, rgba(4, 7, 13, 0.4) 100%),
+              linear-gradient(180deg, rgba(4, 7, 13, 0.25) 0%, transparent 40%, rgba(4, 7, 13, 0.5) 100%);
+  pointer-events: none;
+}
+
+/* 外框：30u 缩进，1px 细线，26u 对角切角 */
+.stratum-frame {
+  position: absolute;
+  left: calc(30 * var(--u));
+  top: calc(30 * var(--u));
+  right: calc(30 * var(--u));
+  bottom: calc(31 * var(--u));
+  pointer-events: auto;
+}
+
+.stratum-ln {
+  position: absolute;
+  background: var(--line);
+}
+.stratum-ln-t {
+  left: calc(26 * var(--u));
+  right: calc(26 * var(--u));
+  top: 0;
+  height: var(--hair);
+}
+.stratum-ln-b {
+  left: calc(26 * var(--u));
+  right: calc(26 * var(--u));
+  bottom: 0;
+  height: var(--hair);
+}
+.stratum-ln-l {
+  top: calc(26 * var(--u));
+  bottom: calc(26 * var(--u));
+  left: 0;
+  width: var(--hair);
+}
+.stratum-ln-r {
+  top: calc(26 * var(--u));
+  bottom: calc(26 * var(--u));
+  right: 0;
+  width: var(--hair);
+}
+
+.stratum-cn {
+  position: absolute;
+  width: calc(26 * var(--u));
+  height: calc(26 * var(--u));
+}
+.stratum-cn-tl {
+  left: 0;
+  top: 0;
+  background: linear-gradient(to bottom right, transparent calc(50% - 0.65px), var(--line) calc(50% - 0.65px), var(--line) calc(50% + 0.65px), transparent calc(50% + 0.65px));
+}
+.stratum-cn-br {
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom right, transparent calc(50% - 0.65px), var(--line) calc(50% - 0.65px), var(--line) calc(50% + 0.65px), transparent calc(50% + 0.65px));
+}
+.stratum-cn-tr {
+  right: 0;
+  top: 0;
+  background: linear-gradient(to bottom left, transparent calc(50% - 0.65px), var(--line) calc(50% - 0.65px), var(--line) calc(50% + 0.65px), transparent calc(50% + 0.65px));
+}
+.stratum-cn-bl {
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom left, transparent calc(50% - 0.65px), var(--line) calc(50% - 0.65px), var(--line) calc(50% + 0.65px), transparent calc(50% + 0.65px));
+}
+
+/* 标签字体 */
+.stratum-lbl {
+  font-family: 'Chakra Petch', 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: calc(10 * var(--t));
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.stratum-hero-stage .t {
+  position: relative;
+  top: var(--nudge);
+  display: inline-block;
+  text-align: left;
+  white-space: pre;
+}
+
+/* Logo */
+.stratum-logo {
+  position: absolute;
+  left: calc(24 * var(--t));
+  top: calc(22 * var(--t));
+  width: calc(163 * var(--t));
+  height: calc(19 * var(--t));
+  display: block;
+}
+.stratum-logo svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: #fff;
+}
+
+/* Masthead */
+.stratum-masthead {
+  position: absolute;
+  right: calc(11 * var(--t));
+  top: calc(12 * var(--t));
+  height: calc(41 * var(--t));
+  display: flex;
+  align-items: center;
+}
+
+.stratum-navset {
+  display: contents;
+}
+
+.stratum-links {
+  display: flex;
+  align-items: center;
+  gap: calc(14.4 * var(--t));
+  margin-right: calc(18 * var(--t));
+}
+
+.stratum-links a {
+  color: #e3e8f2;
+  text-decoration: none;
+  letter-spacing: calc(0.1 * var(--t));
+  padding-left: calc(0.1 * var(--t));
+  opacity: 0.94;
+  transition: opacity 0.25s ease, color 0.25s ease;
+}
+.stratum-links a:hover {
+  opacity: 1;
+  color: #fff;
+}
+
+/* 药丸按钮 */
+.stratum-pill {
+  height: calc(41 * var(--t));
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+.stratum-pill .ico {
+  flex: none;
+  display: block;
+}
+
+.stratum-enter {
+  width: calc(87 * var(--t));
+  padding-left: calc(21 * var(--t));
+  background: rgba(255, 250, 246, 0.05);
+  -webkit-backdrop-filter: blur(calc(12 * var(--t)));
+  backdrop-filter: blur(calc(12 * var(--t)));
+  transition: background 0.3s ease;
+}
+.stratum-enter:hover {
+  background: rgba(255, 250, 246, 0.08);
+}
+.stratum-enter .ico {
+  width: calc(7 * var(--t));
+  height: calc(11 * var(--t));
+  fill: #f4f7ff;
+}
+.stratum-enter span {
+  color: rgba(255, 255, 255, 0.93);
+  margin-left: calc(7 * var(--t));
+  letter-spacing: calc(0.33 * var(--t));
+}
+
+.stratum-menu {
+  width: calc(90 * var(--t));
+  padding-left: calc(21 * var(--t));
+  background: var(--cream);
+  clip-path: polygon(0 0, calc(100% - 15 * var(--t)) 0, 100% calc(15 * var(--t)), 100% 100%, 0 100%);
+  transition: background 0.3s ease;
+}
+.stratum-menu .ico {
+  width: calc(10 * var(--t));
+  height: calc(10 * var(--t));
+  fill: var(--ink);
+}
+.stratum-menu span {
+  color: var(--ink);
+  margin-left: calc(7 * var(--t));
+  letter-spacing: calc(0.02 * var(--t));
+}
+
+/* 左侧 Index Rail */
+.stratum-index {
+  position: absolute;
+  left: calc(10.5 * var(--t));
+  top: 50%;
+  transform: translateY(calc(-50% + 1.5 * var(--t)));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stratum-index li {
+  height: calc(26.6 * var(--t));
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.stratum-index a {
+  font-family: 'Chakra Petch', 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: calc(10 * var(--t));
+  line-height: 1;
+  letter-spacing: calc(1.3 * var(--t));
+  text-decoration: none;
+  white-space: nowrap;
+  color: rgba(232, 238, 250, 0.3);
+  transition: color 0.3s ease;
+}
+
+.stratum-index a:hover,
+.stratum-index .on a {
+  color: #e6eaf5;
+}
+
+.stratum-index .on::before {
+  content: "";
+  position: absolute;
+  left: calc(-13.5 * var(--t));
+  top: 50%;
+  width: calc(6 * var(--t));
+  height: calc(7 * var(--t));
+  transform: translateY(-50%);
+  background: #fff;
+}
+
+/* 视口中央 Hero */
+.stratum-hero {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: max(7.98%, calc(59 * var(--t)));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  pointer-events: auto;
+}
+
+.stratum-headline {
+  margin: 0;
+  font-weight: 700;
+  font-size: calc(34 * var(--t));
+  line-height: calc(38 * var(--t));
+  letter-spacing: calc(1.53 * var(--t));
+  padding-left: calc(1.53 * var(--t));
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.stratum-headline .hrow {
+  display: block;
+  overflow: hidden;
+}
+
+.stratum-headline .hrise {
+  display: block;
+  transition: transform 0.5s var(--e-mask);
+}
+
+.stratum-blurb {
+  margin: calc(16 * var(--t)) 0 0;
+  font-weight: 400;
+  font-size: calc(12.5 * var(--t));
+  line-height: calc(21 * var(--t));
+  color: rgba(224, 232, 245, 0.78);
+  max-width: calc(480 * var(--t));
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* 章节切换动画状态 */
+.stratum-hero.swapping .hrise {
+  transform: translateY(112%);
+}
+.stratum-hero.swapping .stratum-blurb {
+  opacity: 0;
+  transform: translateY(calc(7 * var(--t)));
+}
+
+/* CTA: UNCOVER OUR APPROACH */
+.stratum-cta {
+  margin-top: calc(23 * var(--t));
+  position: relative;
+  width: calc(200 * var(--t));
+  height: calc(41 * var(--t));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.stratum-cta .cta-glass {
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.035);
+  -webkit-backdrop-filter: blur(calc(12 * var(--t)));
+  backdrop-filter: blur(calc(12 * var(--t)));
+  clip-path: polygon(calc(3 * var(--t)) 0, calc(100% - 10 * var(--t)) 0, 100% calc(10 * var(--t)),
+                    100% calc(100% - 3 * var(--t)), calc(100% - 3 * var(--t)) 100%,
+                    calc(10 * var(--t)) 100%, 0 calc(100% - 10 * var(--t)), 0 calc(3 * var(--t)));
+  transition: background 0.3s ease;
+}
+.stratum-cta:hover .cta-glass {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.stratum-cta .cta-edge {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.stratum-cta .cta-edge path {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.12);
+  stroke-width: 1;
+  transition: stroke 0.3s ease;
+}
+.stratum-cta:hover .cta-edge path {
+  stroke: rgba(255, 255, 255, 0.3);
+}
+
+.stratum-cta .cta-in {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.stratum-cta .ico {
+  width: calc(7 * var(--t));
+  height: calc(11 * var(--t));
+  fill: #f2f6ff;
+  flex: none;
+}
+.stratum-cta .t {
+  margin-left: calc(6 * var(--t));
+  color: #e9eef7;
+  letter-spacing: calc(0.55 * var(--t));
+}
+
+/* 底部 Dock */
+.stratum-dock {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: calc(47 * var(--t));
+  --nudge: calc(1.6 * var(--t));
+}
+.stratum-dock .rule {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: var(--hair);
+  background: var(--line);
+}
+.stratum-dock .div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: var(--hair);
+  background: rgba(255, 255, 255, 0.21);
+}
+.stratum-dock .div-l {
+  left: calc(116 * var(--t));
+}
+.stratum-dock .div-r {
+  right: calc(139 * var(--t));
+}
+
+.stratum-dock a,
+.stratum-dock button {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.82);
+  transition: color 0.3s ease;
+}
+.stratum-dock a:hover,
+.stratum-dock button:hover {
+  color: #fff;
+}
+
+.stratum-dock .audio {
+  position: absolute;
+  left: calc(26 * var(--t));
+  top: 0;
+  bottom: 0;
+}
+.stratum-dock .audio .ico {
+  width: calc(14 * var(--t));
+  height: calc(11 * var(--t));
+  flex: none;
+  fill: currentColor;
+  stroke: currentColor;
+}
+.stratum-dock .audio .wave {
+  transition: opacity 0.25s ease;
+}
+.stratum-dock .audio.muted .wave {
+  opacity: 0;
+}
+.stratum-dock .audio .slash {
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+.stratum-dock .audio.muted .slash {
+  opacity: 1;
+}
+.stratum-dock .audio span {
+  margin-left: calc(10 * var(--t));
+  letter-spacing: calc(0.02 * var(--t));
+}
+
+.stratum-dock .scroll {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  bottom: 0;
+}
+.stratum-dock .scroll .ico {
+  width: calc(5 * var(--t));
+  height: calc(7 * var(--t));
+  flex: none;
+  fill: currentColor;
+  position: relative;
+  top: calc(-1 * var(--t));
+}
+.stratum-dock .scroll span {
+  margin-left: calc(10 * var(--t));
+  letter-spacing: calc(-0.23 * var(--t));
+}
+
+.stratum-dock .talk {
+  position: absolute;
+  right: calc(24 * var(--t));
+  top: 0;
+  bottom: 0;
+}
+.stratum-dock .talk span {
+  letter-spacing: calc(0.12 * var(--t));
+}
+.stratum-dock .talk .ico {
+  width: calc(16 * var(--t));
+  height: calc(15 * var(--t));
+  margin-left: calc(11 * var(--t));
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+}
+
+/* ============================================================
+   入场时间轴动画 Keyframes (Exact)
+   ============================================================ */
+@keyframes drawX { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes drawY { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes maskUp { from { transform: translateY(112%); } to { transform: translateY(0); } }
+@keyframes settle { from { opacity: 0; transform: translateY(calc(7 * var(--t))); } to { opacity: 1; transform: none; } }
+@keyframes markIn { from { transform: translateY(-50%) scaleX(0); } to { transform: translateY(-50%) scaleX(1); } }
+@keyframes settleC { from { opacity: 0; transform: translate(-50%, calc(7 * var(--t))); } to { opacity: 1; transform: translateX(-50%); } }
+
+/* DRAW 细线入场 */
+.anim .stratum-ln-t { transform-origin: left center; animation: drawX 0.5s var(--e-line) 0.04s both; }
+.anim .stratum-ln-l { transform-origin: center top; animation: drawY 0.5s var(--e-line) 0.04s both; }
+.anim .stratum-ln-b { transform-origin: right center; animation: drawX 0.5s var(--e-line) 0.2s both; }
+.anim .stratum-ln-r { transform-origin: center bottom; animation: drawY 0.5s var(--e-line) 0.2s both; }
+.anim .stratum-cn { animation: fadeIn 0.3s linear 0.55s both; }
+
+/* MASK Logo 抬升 */
+.anim .stratum-logo { overflow: hidden; }
+.anim .stratum-logo svg { animation: maskUp 0.8s var(--e-mask) 0.16s both; }
+
+/* SETTLE 药丸与导航 */
+.anim .stratum-enter { animation: settle 0.56s var(--e-soft) 0.3s both; }
+.anim .stratum-menu { animation: settle 0.56s var(--e-soft) 0.36s both; }
+.anim .stratum-links { animation: fadeIn 0.4s linear 0.34s both; }
+
+/* 标题 MaskUp */
+.anim .stratum-headline .hrow:first-child .hrise { animation: maskUp 0.9s var(--e-mask) 0.42s both; }
+.anim .stratum-headline .hrow + .hrow .hrise { animation: maskUp 0.9s var(--e-mask) 0.52s both; }
+
+/* 章节轨与指示标 */
+.anim .stratum-index { animation: fadeIn 0.45s linear 0.6s both; }
+.anim .stratum-index .on::before { animation: markIn 0.42s var(--e-soft) 0.64s both; }
+
+.anim .stratum-blurb { animation: settle 0.72s var(--e-soft) 0.7s both; }
+.anim .stratum-cta { animation: settle 0.62s var(--e-soft) 0.86s both; }
+
+/* Dock 展开 */
+.anim .stratum-dock .rule { transform-origin: left center; animation: drawX 0.52s var(--e-line) 0.92s both; }
+.anim .stratum-dock .div { transform-origin: center top; animation: drawY 0.36s var(--e-line) 1.06s both; }
+.anim .stratum-dock .audio { animation: settle 0.52s var(--e-soft) 0.96s both; }
+.anim .stratum-dock .scroll { animation: settleC 0.52s var(--e-soft) 1.02s both; }
+.anim .stratum-dock .talk { animation: settle 0.52s var(--e-soft) 1.08s both; }
+
+/* 响应式调整 */
+@media (max-width: 1152px) {
+  .stratum-hero-stage {
+    --u: clamp(0.8px, min(100vw / 1280, 100vh / 800), 1.1px);
+    --t: max(var(--u), clamp(0.9px, calc(0.9px + (1152px - 100vw) * 0.00042), 1.12px));
+  }
+  .stratum-enter { width: auto; padding: 0 calc(19 * var(--t)) 0 calc(21 * var(--t)); }
+  .stratum-menu { width: auto; padding: 0 calc(24 * var(--t)) 0 calc(21 * var(--t)); }
+  .stratum-cta { width: auto; padding: 0 calc(19 * var(--t)); }
+}
+
+@media (max-width: 830px) {
+  .stratum-navset {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
+    top: calc(52 * var(--t));
+    right: 0;
+    min-width: calc(196 * var(--t));
+    padding: calc(16 * var(--t)) calc(20 * var(--t)) calc(18 * var(--t));
+    gap: calc(4 * var(--t));
+    background: rgba(11, 16, 26, 0.85);
+    -webkit-backdrop-filter: blur(calc(16 * var(--t)));
+    backdrop-filter: blur(calc(16 * var(--t)));
+    clip-path: polygon(0 0, calc(100% - 15 * var(--t)) 0, 100% calc(15 * var(--t)), 100% 100%, calc(15 * var(--t)) 100%, 0 calc(100% - 15 * var(--t)));
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(calc(-6 * var(--t)));
+    transition: opacity 0.34s ease, transform 0.34s var(--e-soft), visibility 0.34s;
+    z-index: 20;
+  }
+  .nav-open .stratum-navset {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+  .stratum-links {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    margin-right: 0;
+  }
+  .stratum-links a {
+    padding: calc(9 * var(--t)) 0;
+  }
+}
