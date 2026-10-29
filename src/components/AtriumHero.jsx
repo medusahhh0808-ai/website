@@ -1,7 +1,45 @@
-import React, { useEffect, useRef, useMemo } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { getAssetUrl } from './PinCard';
 import TechText from './reactbits/TechText';
 import './AtriumHero.css';
+
+function AtriumPhotoCard({ slot, onClick }) {
+  const localUrl = slot?.url || '';
+  const remoteUrl = slot?.item?.image_url || '';
+  const [imgSrc, setImgSrc] = useState(localUrl || remoteUrl);
+  const [hasError, setHasError] = useState(false);
+
+  useEffect(() => {
+    setImgSrc(slot?.url || slot?.item?.image_url || '');
+    setHasError(false);
+  }, [slot?.url, slot?.item?.image_url]);
+
+  const handleImageError = () => {
+    if (!hasError && remoteUrl && imgSrc !== remoteUrl) {
+      setHasError(true);
+      setImgSrc(remoteUrl);
+    }
+  };
+
+  return (
+    <div
+      className="atrium-cell ph atrium-dynamic-ph"
+      onClick={onClick}
+      title="点击查看建筑灵感详情"
+    >
+      {imgSrc ? (
+        <img
+          src={imgSrc}
+          alt={slot?.item?.title || '建筑灵感素材'}
+          className="atrium-cell-img"
+          loading="eager"
+          decoding="async"
+          onError={handleImageError}
+        />
+      ) : null}
+    </div>
+  );
+}
 
 export function AtriumHero({ items = [], onExploreClick, onOpenDetail }) {
   const gridRef = useRef(null);
@@ -121,25 +159,10 @@ export function AtriumHero({ items = [], onExploreClick, onOpenDetail }) {
           {[0, 1].map((iteration) => (
             <React.Fragment key={iteration}>
               <div className="atrium-cell red" />
-              <div
-                className="atrium-cell ph atrium-dynamic-ph"
-                style={getSlot(0).url ? { '--dyn-pic': `url("${getSlot(0).url}")` } : {}}
-                onClick={() => handleCardClick(0)}
-                title="点击查看建筑灵感详情"
-              />
-              <div
-                className="atrium-cell ph atrium-dynamic-ph"
-                style={getSlot(1).url ? { '--dyn-pic': `url("${getSlot(1).url}")` } : {}}
-                onClick={() => handleCardClick(1)}
-                title="点击查看建筑灵感详情"
-              />
+              <AtriumPhotoCard slot={getSlot(0)} onClick={() => handleCardClick(0)} />
+              <AtriumPhotoCard slot={getSlot(1)} onClick={() => handleCardClick(1)} />
               <div className="atrium-cell blue" />
-              <div
-                className="atrium-cell ph atrium-dynamic-ph"
-                style={getSlot(2).url ? { '--dyn-pic': `url("${getSlot(2).url}")` } : {}}
-                onClick={() => handleCardClick(2)}
-                title="点击查看建筑灵感详情"
-              />
+              <AtriumPhotoCard slot={getSlot(2)} onClick={() => handleCardClick(2)} />
             </React.Fragment>
           ))}
         </div>
@@ -149,19 +172,9 @@ export function AtriumHero({ items = [], onExploreClick, onOpenDetail }) {
           {[0, 1].map((iteration) => (
             <React.Fragment key={iteration}>
               <div className="atrium-cell yellow" />
-              <div
-                className="atrium-cell ph atrium-dynamic-ph"
-                style={getSlot(3).url ? { '--dyn-pic': `url("${getSlot(3).url}")` } : {}}
-                onClick={() => handleCardClick(3)}
-                title="点击查看建筑灵感详情"
-              />
+              <AtriumPhotoCard slot={getSlot(3)} onClick={() => handleCardClick(3)} />
               <div className="atrium-cell dark" />
-              <div
-                className="atrium-cell ph atrium-dynamic-ph"
-                style={getSlot(4).url ? { '--dyn-pic': `url("${getSlot(4).url}")` } : {}}
-                onClick={() => handleCardClick(4)}
-                title="点击查看建筑灵感详情"
-              />
+              <AtriumPhotoCard slot={getSlot(4)} onClick={() => handleCardClick(4)} />
               <div className="atrium-cell red" />
             </React.Fragment>
           ))}
@@ -173,19 +186,9 @@ export function AtriumHero({ items = [], onExploreClick, onOpenDetail }) {
             <React.Fragment key={iteration}>
               <div className="atrium-cell blue" />
               <div className="atrium-cell cream" />
-              <div
-                className="atrium-cell ph atrium-dynamic-ph"
-                style={getSlot(5).url ? { '--dyn-pic': `url("${getSlot(5).url}")` } : {}}
-                onClick={() => handleCardClick(5)}
-                title="点击查看建筑灵感详情"
-              />
+              <AtriumPhotoCard slot={getSlot(5)} onClick={() => handleCardClick(5)} />
               <div className="atrium-cell yellow" />
-              <div
-                className="atrium-cell ph atrium-dynamic-ph"
-                style={getSlot(6).url ? { '--dyn-pic': `url("${getSlot(6).url}")` } : {}}
-                onClick={() => handleCardClick(6)}
-                title="点击查看建筑灵感详情"
-              />
+              <AtriumPhotoCard slot={getSlot(6)} onClick={() => handleCardClick(6)} />
             </React.Fragment>
           ))}
         </div>
