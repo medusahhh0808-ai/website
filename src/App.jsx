@@ -244,7 +244,7 @@ export default function App() {
 
   return (
     <div className="app-root">
-      {/* React Bits 动效 3: 全局鼠标移动与元素锁定 Crosshair */}
+      {/* React Bits 动效 3: 元素锁定四角框（已关闭跟随鼠标的十字线） */}
       <Crosshair
         color="#0071E3"
         thickness={1.5}
@@ -253,6 +253,7 @@ export default function App() {
         gap={6}
         fade={0.35}
         showCoordinates={false}
+        showLines={false}
         targetEffect="lock"
         targetSelector="button, a, .pin-card, select, input, .vertex-cta-pill, .inline-dock-item, .capsule-link"
         clickPulse={true}

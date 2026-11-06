@@ -20,6 +20,7 @@ export type CrosshairProps = {
   targetSelector?: string;
   clickPulse?: boolean;
   hideCursor?: boolean;
+  showLines?: boolean;
   blendMode?: 'normal' | 'difference';
   className?: string;
   style?: React.CSSProperties;
@@ -44,6 +45,7 @@ type Settings = {
   targetSelector: string;
   clickPulse: boolean;
   hideCursor: boolean;
+  showLines: boolean;
 };
 
 const LINE_STYLES: CrosshairLineStyle[] = ['solid', 'dashed', 'dotted'];
@@ -79,6 +81,7 @@ const Crosshair = ({
   targetSelector = 'a, button, .pin-card, select, input, .capsule-link, .vertex-cta-pill',
   clickPulse = true,
   hideCursor = false,
+  showLines = true,
   blendMode = 'normal',
   className = '',
   style
@@ -100,7 +103,8 @@ const Crosshair = ({
     targetEffect: EFFECTS.includes(targetEffect) ? targetEffect : 'lock',
     targetSelector,
     clickPulse,
-    hideCursor
+    hideCursor,
+    showLines
   };
   const settingsRef = useRef(settings);
   settingsRef.current = settings;
@@ -237,7 +241,7 @@ const Crosshair = ({
       const s = settingsRef.current;
       ctx.setTransform(size.dpr, 0, 0, size.dpr, 0, 0);
       ctx.clearRect(0, 0, size.w, size.h);
-      if (state.presence > 0.001) {
+      if (s.showLines && state.presence > 0.001) {
         ctx.globalAlpha = state.presence * s.opacity * (1 - 0.6 * state.lock.alpha);
         ctx.lineWidth = s.thickness;
         ctx.lineCap = s.lineStyle === 'dotted' ? 'round' : 'butt';
