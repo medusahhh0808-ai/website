@@ -1,20 +1,3544 @@
 {
   "metadata": {
-    "generated_at": "2026-10-31 13:14:11",
-    "total_count": 240,
-    "ai_tagged_count": 240,
+    "generated_at": "2026-11-06 15:59:45",
+    "total_count": 290,
+    "ai_tagged_count": 290,
     "stats": {
       "Pinterest": {
-        "excel_count": 100,
-        "images_on_disk": 100
+        "excel_count": 123,
+        "images_on_disk": 123
       },
       "小红书": {
-        "excel_count": 140,
-        "images_on_disk": 141
+        "excel_count": 167,
+        "images_on_disk": 168
       }
     }
   },
   "items": [
+    {
+      "id": "pinterest_188",
+      "filename": "2026110615522354091.jpg",
+      "local_path": "Pinterest图片下载/2026110615522354091.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nThe population of The Hague will grow considerably in the next twenty years from 525,000 residents to over 625,000. To meet this challenge, the municipality is encouraging inner-city densification within the Central Innovation District (CID), a triangular area bound by the city’s three train...\nSee more",
+      "raw_content": "Description\nThe population of The Hague will grow considerably in the next twenty years from 525,000 residents to over 625,000. To meet this challenge, the municipality is encouraging inner-city densification within the Central Innovation District (CID), a triangular area bound by the city’s three train...\nSee more",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/652177589776885526/",
+      "image_url": "https://i.pinimg.com/736x/3c/9d/bb/3c9dbb9192953446a6124ba4381bcc5a.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:52:23",
+      "width": 736,
+      "height": 1041,
+      "aspect_ratio": 1.414,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "参数化设计",
+        "玻璃",
+        "混凝土",
+        "绿植",
+        "水体",
+        "冷色调",
+        "明亮通透",
+        "高对比",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代商业建筑立面，玻璃幕墙与混凝土格栅结构结合，穿插绿植与水景，形成通透高对比的视觉效果。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:29"
+      },
+      "ai_description": "现代商业建筑立面，玻璃幕墙与混凝土格栅结构结合，穿插绿植与水景，形成通透高对比的视觉效果。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_187",
+      "filename": "2026110615520145138.jpg",
+      "local_path": "Pinterest图片下载/2026110615520145138.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nFour unique geometries add up to a single urban ensemble. Four architectural volumes seek to change the face of the entire area. In the neighborhood of the parks, four incredible special rhythms begin to sound. Symphony 34 appears.\nSee more",
+      "raw_content": "Description\nFour unique geometries add up to a single urban ensemble. Four architectural volumes seek to change the face of the entire area. In the neighborhood of the parks, four incredible special rhythms begin to sound. Symphony 34 appears.\nSee more",
+      "likes": 7,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/954129871037242429/",
+      "image_url": "https://i.pinimg.com/736x/a5/6d/24/a56d246865a8c8bcd0f7c2ad6ccd56a3.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:52:01",
+      "width": 736,
+      "height": 736,
+      "aspect_ratio": 1.0,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "极简主义",
+        "玻璃",
+        "金属",
+        "绿植",
+        "石材",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "绿植",
+          "石材"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代风格商业建筑立面，大面积玻璃幕墙配深色金属框架，底层设餐厅入口，前景有绿植与石材座椅，整体氛围柔和自然。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:16"
+      },
+      "ai_description": "现代风格商业建筑立面，大面积玻璃幕墙配深色金属框架，底层设餐厅入口，前景有绿植与石材座椅，整体氛围柔和自然。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_186",
+      "filename": "2026110615513769927.jpg",
+      "local_path": "Pinterest图片下载/2026110615513769927.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nArchitecture, Architecture Visualization, CGI, 3ds max, Corona Renderer, Adobe Photoshop",
+      "raw_content": "Description\nArchitecture, Architecture Visualization, CGI, 3ds max, Corona Renderer, Adobe Photoshop",
+      "likes": 15,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/662732901468415313/",
+      "image_url": "https://i.pinimg.com/736x/23/a1/e4/23a1e4e502e252fa239e6aefe6424443.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:51:37",
+      "width": 736,
+      "height": 982,
+      "aspect_ratio": 1.334,
+      "tags": [
+        "办公建筑",
+        "建筑立面",
+        "现代主义",
+        "参数化设计",
+        "玻璃",
+        "混凝土",
+        "白色墙面",
+        "绿植",
+        "冷色调",
+        "高对比",
+        "明亮通透",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "办公建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "白色墙面",
+          "绿植"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代办公建筑立面，红褐色基座配白色参数化格栅，玻璃幕墙与绿植点缀，呈现高对比的明亮通透感。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:03"
+      },
+      "ai_description": "现代办公建筑立面，红褐色基座配白色参数化格栅，玻璃幕墙与绿植点缀，呈现高对比的明亮通透感。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_185",
+      "filename": "2026110615505524220.jpg",
+      "local_path": "Pinterest图片下载/2026110615505524220.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\n505 George Street",
+      "raw_content": "Description\n505 George Street",
+      "likes": 7,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/556194622744033696/",
+      "image_url": "https://i.pinimg.com/736x/fb/8a/50/fb8a505f1e9c7846d0a06ba30cc365a2.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:50:55",
+      "width": 736,
+      "height": 924,
+      "aspect_ratio": 1.255,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "新中式",
+        "玻璃",
+        "木材",
+        "石材",
+        "绿植",
+        "中性色",
+        "明亮通透",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "新中式"
+        ],
+        "materials": [
+          "玻璃",
+          "木材",
+          "石材",
+          "绿植"
+        ],
+        "color_tone": [
+          "中性色",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业建筑立面，木质格栅与玻璃幕墙结合，底层设 ZARA 等店铺，屋顶绿化，广场铺石，氛围明亮通透。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:55:59"
+      },
+      "ai_description": "现代商业建筑立面，木质格栅与玻璃幕墙结合，底层设 ZARA 等店铺，屋顶绿化，广场铺石，氛围明亮通透。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_184",
+      "filename": "2026110615501789375.jpg",
+      "local_path": "Pinterest图片下载/2026110615501789375.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nOLVIA is a mixed-use residential and commercial building that is located in the neighborhood of Bellavista in Quito. The property is situated on the main road …",
+      "raw_content": "Description\nOLVIA is a mixed-use residential and commercial building that is located in the neighborhood of Bellavista in Quito. The property is situated on the main road …",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/295056213107274759/",
+      "image_url": "https://i.pinimg.com/736x/d5/83/d8/d583d8c95e415eb3b1c6dea0bedbba4b.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:50:17",
+      "width": 736,
+      "height": 1104,
+      "aspect_ratio": 1.5,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "粗野主义",
+        "混凝土",
+        "玻璃",
+        "绿植",
+        "水体",
+        "暖色系",
+        "低饱和",
+        "暮色夜景",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "粗野主义"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "暮色夜景"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代主义风格商业建筑，外立面采用裸露混凝土与玻璃组合，阶梯式退台设计，底层设绿植与水体景观，暮色天空下呈现暖色低饱和氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:55:48"
+      },
+      "ai_description": "现代主义风格商业建筑，外立面采用裸露混凝土与玻璃组合，阶梯式退台设计，底层设绿植与水体景观，暮色天空下呈现暖色低饱和氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_183",
+      "filename": "2026110615495504191.jpg",
+      "local_path": "Pinterest图片下载/2026110615495504191.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/4602327052984433280/",
+      "image_url": "https://i.pinimg.com/236x/31/a3/7e/31a37e82c1dfa0381d5aa40efaba1314.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:49:55",
+      "width": 236,
+      "height": 314,
+      "aspect_ratio": 1.331,
+      "tags": [
+        "办公建筑",
+        "建筑立面",
+        "现代主义",
+        "玻璃",
+        "金属",
+        "混凝土",
+        "冷色调",
+        "高对比",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "办公建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "混凝土"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代办公建筑立面，玻璃幕墙与金属框架构成高耸体量，底部混凝土基座，周围绿树环绕，呈现冷峻高对比的都市氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:55:42"
+      },
+      "ai_description": "现代办公建筑立面，玻璃幕墙与金属框架构成高耸体量，底部混凝土基座，周围绿树环绕，呈现冷峻高对比的都市氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_182",
+      "filename": "2026110615490885642.jpg",
+      "local_path": "Pinterest图片下载/2026110615490885642.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/4605634426278693760/",
+      "image_url": "https://i.pinimg.com/236x/84/e8/ba/84e8bab89324fa2b1918145643d3efe2.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:49:08",
+      "width": 236,
+      "height": 358,
+      "aspect_ratio": 1.517,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "新中式",
+        "玻璃",
+        "金属",
+        "白色墙面",
+        "绿植",
+        "冷色调",
+        "明亮通透",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "新中式"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "白色墙面",
+          "绿植"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业建筑立面，玻璃幕墙与金属线条结合，底层设有户外休憩区，搭配绿植与白色墙面，整体呈现明亮通透的冷色调氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:55:31"
+      },
+      "ai_description": "现代商业建筑立面，玻璃幕墙与金属线条结合，底层设有户外休憩区，搭配绿植与白色墙面，整体呈现明亮通透的冷色调氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_181",
+      "filename": "2026110615483827269.jpg",
+      "local_path": "Pinterest图片下载/2026110615483827269.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nImage 9 of 26 from gallery of Newbery Urban Homes / Dieguez Fridman. Photograph by Federico Cairoli",
+      "raw_content": "Description\nImage 9 of 26 from gallery of Newbery Urban Homes / Dieguez Fridman. Photograph by Federico Cairoli",
+      "likes": 2,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/552113235591317228/",
+      "image_url": "https://i.pinimg.com/736x/2c/f8/11/2cf8115a564405fd616958991c6e4f52.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:48:38",
+      "width": 715,
+      "height": 1000,
+      "aspect_ratio": 1.399,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "生态建筑",
+        "玻璃",
+        "混凝土",
+        "绿植",
+        "中性色",
+        "明亮通透",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "生态建筑"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "绿植"
+        ],
+        "color_tone": [
+          "中性色",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代商业建筑立面，混凝土结构搭配玻璃幕墙与垂直绿化，营造通透自然的都市空间氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:55:20"
+      },
+      "ai_description": "现代商业建筑立面，混凝土结构搭配玻璃幕墙与垂直绿化，营造通透自然的都市空间氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_180",
+      "filename": "2026110615481499237.jpg",
+      "local_path": "Pinterest图片下载/2026110615481499237.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nFieldwork sees architecture as a social and civic practice. From our homes to our schools, from our workplaces to our creative and civic spaces, we all engage with architecture on a daily basis.",
+      "raw_content": "Description\nFieldwork sees architecture as a social and civic practice. From our homes to our schools, from our workplaces to our creative and civic spaces, we all engage with architecture on a daily basis.",
+      "likes": 1,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/307933693283345264/",
+      "image_url": "https://i.pinimg.com/736x/4b/c5/a7/4bc5a783018accca8634cbcc09a9e5e4.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:48:14",
+      "width": 735,
+      "height": 489,
+      "aspect_ratio": 0.665,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "生态建筑",
+        "玻璃",
+        "砖",
+        "绿植",
+        "金属",
+        "冷色调",
+        "明亮通透",
+        "低饱和",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "生态建筑"
+        ],
+        "materials": [
+          "玻璃",
+          "砖",
+          "绿植",
+          "金属"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业建筑立面，玻璃幕墙与红砖基座结合，顶部及立面设垂直绿化，呈现生态设计特征，整体色调明亮通透。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:55:16"
+      },
+      "ai_description": "现代商业建筑立面，玻璃幕墙与红砖基座结合，顶部及立面设垂直绿化，呈现生态设计特征，整体色调明亮通透。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_179",
+      "filename": "2026110615475352787.jpg",
+      "local_path": "Pinterest图片下载/2026110615475352787.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nThe World Architecture Community has enabled architects around the globe to share, collaborate and showcase their work since 2006. The renowned WA Awards competition, which showcases the projects of our community members runs three times a year.\nSee more",
+      "raw_content": "Description\nThe World Architecture Community has enabled architects around the globe to share, collaborate and showcase their work since 2006. The renowned WA Awards competition, which showcases the projects of our community members runs three times a year.\nSee more",
+      "likes": 1,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/641411171958563215/",
+      "image_url": "https://i.pinimg.com/736x/5d/8a/6d/5d8a6d21ef844c10c55064a67c7e1ab1.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:47:53",
+      "width": 736,
+      "height": 1051,
+      "aspect_ratio": 1.428,
+      "tags": [
+        "住宅建筑",
+        "建筑立面",
+        "现代主义",
+        "参数化设计",
+        "玻璃",
+        "砖",
+        "绿植",
+        "灯光",
+        "暖色系",
+        "明亮通透",
+        "高饱和",
+        "方案参考",
+        "城市设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "玻璃",
+          "砖",
+          "绿植",
+          "灯光"
+        ],
+        "color_tone": [
+          "暖色系",
+          "明亮通透",
+          "高饱和"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "城市设计"
+        ],
+        "image_description": "高层住宅建筑立面，红砖与玻璃幕墙结合，阳台设绿植，街道有行人与自行车，暖光营造明亮通透氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:55:12"
+      },
+      "ai_description": "高层住宅建筑立面，红砖与玻璃幕墙结合，阳台设绿植，街道有行人与自行车，暖光营造明亮通透氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_178",
+      "filename": "2026110615472991617.jpg",
+      "local_path": "Pinterest图片下载/2026110615472991617.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/4609926902557720128/",
+      "image_url": "https://i.pinimg.com/236x/bd/9d/d8/bd9dd8aeb4df18a82a41ab616b36dcde.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:47:29",
+      "width": 236,
+      "height": 141,
+      "aspect_ratio": 0.597,
+      "tags": [
+        "商业建筑",
+        "城市综合体",
+        "现代主义",
+        "新古典主义",
+        "玻璃",
+        "金属",
+        "混凝土",
+        "灯光",
+        "暖色系",
+        "明亮通透",
+        "高对比",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "城市综合体"
+        ],
+        "design_style": [
+          "现代主义",
+          "新古典主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "混凝土",
+          "灯光"
+        ],
+        "color_tone": [
+          "暖色系",
+          "明亮通透",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业综合体夜景，玻璃幕墙与金属框架结合，暖色灯光营造明亮通透氛围，建筑立面呈现高对比视觉效果。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:54:49"
+      },
+      "ai_description": "现代商业综合体夜景，玻璃幕墙与金属框架结合，暖色灯光营造明亮通透氛围，建筑立面呈现高对比视觉效果。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_177",
+      "filename": "2026110615465907675.jpg",
+      "local_path": "Pinterest图片下载/2026110615465907675.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nArchitecture, 3D Modeling",
+      "raw_content": "Description\nArchitecture, 3D Modeling",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/643944446765618435/",
+      "image_url": "https://i.pinimg.com/736x/92/08/4b/92084b4e8be541a6fe66809602c03a01.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:46:59",
+      "width": 735,
+      "height": 913,
+      "aspect_ratio": 1.242,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "玻璃",
+        "混凝土",
+        "木材",
+        "绿植",
+        "中性色",
+        "明亮通透",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "木材",
+          "绿植"
+        ],
+        "color_tone": [
+          "中性色",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业建筑立面，混凝土结构搭配玻璃幕墙与木质内装，底层设有咖啡店与精品店，门前有绿植点缀，整体明亮通透。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:54:46"
+      },
+      "ai_description": "现代商业建筑立面，混凝土结构搭配玻璃幕墙与木质内装，底层设有咖啡店与精品店，门前有绿植点缀，整体明亮通透。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_176",
+      "filename": "2026110615462068431.jpg",
+      "local_path": "Pinterest图片下载/2026110615462068431.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nA revitalization of a scale rare in Hong Kong, Baker Circle’s balanced and harmonious tower composition creates a distinctive profile on the city skyline, while offering a rich urban experience at the pedestrian scale.\nSee more",
+      "raw_content": "Description\nA revitalization of a scale rare in Hong Kong, Baker Circle’s balanced and harmonious tower composition creates a distinctive profile on the city skyline, while offering a rich urban experience at the pedestrian scale.\nSee more",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/535928424420660103/",
+      "image_url": "https://i.pinimg.com/736x/19/58/93/195893cd5bc7cffb3fd21558448b0eb8.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:46:20",
+      "width": 736,
+      "height": 1055,
+      "aspect_ratio": 1.433,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "新中式",
+        "玻璃",
+        "混凝土",
+        "石材",
+        "绿植",
+        "中性色",
+        "低饱和",
+        "明亮通透",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "新中式"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "石材",
+          "绿植"
+        ],
+        "color_tone": [
+          "中性色",
+          "低饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代商业建筑街景，玻璃幕墙与混凝土结构结合，立面融入绿植与木质格栅，呈现新中式风格，空间通透，色调中性低饱和。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:54:42"
+      },
+      "ai_description": "现代商业建筑街景，玻璃幕墙与混凝土结构结合，立面融入绿植与木质格栅，呈现新中式风格，空间通透，色调中性低饱和。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_175",
+      "filename": "2026110615452732310.jpg",
+      "local_path": "Pinterest图片下载/2026110615452732310.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nRendering of Coy Apartments, Stockton, California, USA - Renderings - Animations - 3D models www.msdar.com Renderings www.instagram.com/msdar.renderings/ Animations https://www.youtube.com/richardowen-q2d\nSee more",
+      "raw_content": "Description\nRendering of Coy Apartments, Stockton, California, USA - Renderings - Animations - 3D models www.msdar.com Renderings www.instagram.com/msdar.renderings/ Animations https://www.youtube.com/richardowen-q2d\nSee more",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/847661961163330901/",
+      "image_url": "https://i.pinimg.com/736x/80/b3/15/80b315fd91e8503bf181262d8441737c.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:45:27",
+      "width": 736,
+      "height": 736,
+      "aspect_ratio": 1.0,
+      "tags": [
+        "商业建筑",
+        "公共建筑",
+        "现代主义",
+        "生态建筑",
+        "玻璃",
+        "砖",
+        "绿植",
+        "水体",
+        "金属",
+        "明亮通透",
+        "高饱和",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "公共建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "生态建筑"
+        ],
+        "materials": [
+          "玻璃",
+          "砖",
+          "绿植",
+          "水体",
+          "金属"
+        ],
+        "color_tone": [
+          "明亮通透",
+          "高饱和"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "商业建筑立面采用玻璃与红砖，搭配垂直绿化与中央喷泉，营造现代生态公共空间氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:54:34"
+      },
+      "ai_description": "商业建筑立面采用玻璃与红砖，搭配垂直绿化与中央喷泉，营造现代生态公共空间氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_174",
+      "filename": "2026110615450465927.jpg",
+      "local_path": "Pinterest图片下载/2026110615450465927.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/4604789957837104704/",
+      "image_url": "https://i.pinimg.com/236x/2b/23/8a/2b238a409d740d8b3aff9aa2d9cf6f85.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:45:04",
+      "width": 236,
+      "height": 236,
+      "aspect_ratio": 1.0,
+      "tags": [
+        "商业建筑",
+        "城市综合体",
+        "现代主义",
+        "参数化设计",
+        "玻璃",
+        "金属",
+        "绿植",
+        "水体",
+        "明亮通透",
+        "高对比",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "城市综合体"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "明亮通透",
+          "高对比"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业综合体效果图，玻璃幕墙与金属结构结合，底层设有绿化平台与水景，人群穿行其间，呈现都市活力氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:54:26"
+      },
+      "ai_description": "现代商业综合体效果图，玻璃幕墙与金属结构结合，底层设有绿化平台与水景，人群穿行其间，呈现都市活力氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_173",
+      "filename": "2026110615443473718.jpg",
+      "local_path": "Pinterest图片下载/2026110615443473718.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/4601130836996324416/",
+      "image_url": "https://i.pinimg.com/236x/35/b5/ca/35b5cacf3b92f4931b40468f5ddb95ca.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:44:34",
+      "width": 235,
+      "height": 333,
+      "aspect_ratio": 1.417,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "玻璃",
+        "金属",
+        "暖色系",
+        "明亮通透",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属"
+        ],
+        "color_tone": [
+          "暖色系",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "商业建筑外立面采用垂直金属条与玻璃组合，暖色金属在日光下通透发光，街道行人穿梭，呈现现代商业空间活力。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:54:17"
+      },
+      "ai_description": "商业建筑外立面采用垂直金属条与玻璃组合，暖色金属在日光下通透发光，街道行人穿梭，呈现现代商业空间活力。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_172",
+      "filename": "2026110615434520713.jpg",
+      "local_path": "Pinterest图片下载/2026110615434520713.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nBrickline - WRNS Studio",
+      "raw_content": "Description\nBrickline - WRNS Studio",
+      "likes": 7,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/505951339408650163/",
+      "image_url": "https://i.pinimg.com/736x/38/7a/8c/387a8c4f9e6271d74760c4701189a289.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:43:45",
+      "width": 736,
+      "height": 1104,
+      "aspect_ratio": 1.5,
+      "tags": [
+        "办公建筑",
+        "建筑立面",
+        "现代主义",
+        "工业风",
+        "玻璃",
+        "金属",
+        "木材",
+        "石材",
+        "绿植",
+        "冷色调",
+        "中性色",
+        "明亮通透",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "办公建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "工业风"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "木材",
+          "石材",
+          "绿植"
+        ],
+        "color_tone": [
+          "冷色调",
+          "中性色",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代办公建筑立面，玻璃幕墙与金属、木材饰面结合，底层设绿植花箱，蓝天背景下呈现简洁工业风设计。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:54:09"
+      },
+      "ai_description": "现代办公建筑立面，玻璃幕墙与金属、木材饰面结合，底层设绿植花箱，蓝天背景下呈现简洁工业风设计。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_171",
+      "filename": "2026110615421385312.jpg",
+      "local_path": "Pinterest图片下载/2026110615421385312.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nCampus Street and Plaza — corporate campus landscape design at TikTok ByteDance Campus, Xiamen, China. Landscape architecture by TOPOS Landscape Architects | Yi Zhu, PLA, ASLA.",
+      "raw_content": "Description\nCampus Street and Plaza — corporate campus landscape design at TikTok ByteDance Campus, Xiamen, China. Landscape architecture by TOPOS Landscape Architects | Yi Zhu, PLA, ASLA.",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/746330969546821752/",
+      "image_url": "https://i.pinimg.com/736x/6f/13/c2/6f13c2161cdcc0bcf9e1bc4b5bbe8738.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:42:13",
+      "width": 735,
+      "height": 507,
+      "aspect_ratio": 0.69,
+      "tags": [
+        "商业建筑",
+        "城市综合体",
+        "现代主义",
+        "生态建筑",
+        "玻璃",
+        "混凝土",
+        "绿植",
+        "灯光",
+        "冷色调",
+        "高饱和",
+        "明亮通透",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "城市综合体"
+        ],
+        "design_style": [
+          "现代主义",
+          "生态建筑"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "绿植",
+          "灯光"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业综合体入口，玻璃幕墙与绿植屋顶结合，红色主入口醒目，夜幕初降灯光亮起，氛围通透时尚。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:53:56"
+      },
+      "ai_description": "现代商业综合体入口，玻璃幕墙与绿植屋顶结合，红色主入口醒目，夜幕初降灯光亮起，氛围通透时尚。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_169",
+      "filename": "2026110615410272897.jpg",
+      "local_path": "Pinterest图片下载/2026110615410272897.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nSearch from thousands of royalty-free",
+      "raw_content": "Description\nSearch from thousands of royalty-free",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/290834088459389536/",
+      "image_url": "https://i.pinimg.com/736x/3f/8d/9d/3f8d9d723265726986cd80dc6bed6425.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:41:02",
+      "width": 426,
+      "height": 240,
+      "aspect_ratio": 0.563,
+      "tags": [
+        "住宅建筑",
+        "建筑立面",
+        "现代主义",
+        "极简主义",
+        "玻璃",
+        "混凝土",
+        "木材",
+        "绿植",
+        "暖色系",
+        "明亮通透",
+        "柔和自然",
+        "方案参考",
+        "住宅项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "木材",
+          "绿植"
+        ],
+        "color_tone": [
+          "暖色系",
+          "明亮通透",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "住宅项目"
+        ],
+        "image_description": "现代住宅建筑立面，玻璃幕墙与木质阳台结合，搭配绿植与水景，呈现明亮通透的温暖氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:53:48"
+      },
+      "ai_description": "现代住宅建筑立面，玻璃幕墙与木质阳台结合，搭配绿植与水景，呈现明亮通透的温暖氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_168",
+      "filename": "2026110615401987057.jpg",
+      "local_path": "Pinterest图片下载/2026110615401987057.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "Description\nFour mixed-use commercial facade concepts across Bangalore, Gurugram, Mumbai and Hyderabad - parametric metal facade design for India's mixed-use towers, 2 The post Mixed-Use Commercial Facade Design India 2026 Guide first appeared on SOGA Design Studio. The post Mixed-Use Commercial Facade Design India 2026 Guide appeared first on SOGA Design Studio.\nSee more",
+      "raw_content": "Description\nFour mixed-use commercial facade concepts across Bangalore, Gurugram, Mumbai and Hyderabad - parametric metal facade design for India's mixed-use towers, 2 The post Mixed-Use Commercial Facade Design India 2026 Guide first appeared on SOGA Design Studio. The post Mixed-Use Commercial Facade Design India 2026 Guide appeared first on SOGA Design Studio.\nSee more",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/963981495294207021/",
+      "image_url": "https://i.pinimg.com/736x/a9/cf/68/a9cf6869646559c12cc64db78ca54c7a.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:40:19",
+      "width": 736,
+      "height": 1318,
+      "aspect_ratio": 1.791,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "新古典主义",
+        "玻璃",
+        "混凝土",
+        "石材",
+        "灯光",
+        "暖色系",
+        "暮色夜景",
+        "高饱和",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "新古典主义"
+        ],
+        "materials": [
+          "玻璃",
+          "混凝土",
+          "石材",
+          "灯光"
+        ],
+        "color_tone": [
+          "暖色系",
+          "暮色夜景",
+          "高饱和"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "高层商业建筑立面，玻璃幕墙与混凝土格栅结合，底层石材基座配暖光照明，暮色天空下呈现现代与古典融合的精致感。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:53:44"
+      },
+      "ai_description": "高层商业建筑立面，玻璃幕墙与混凝土格栅结合，底层石材基座配暖光照明，暮色天空下呈现现代与古典融合的精致感。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_167",
+      "filename": "2026110615395796605.jpg",
+      "local_path": "Pinterest图片下载/2026110615395796605.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 1,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/332492385012761810/",
+      "image_url": "https://i.pinimg.com/736x/be/f3/22/bef3223f186c3297d40bedd46c9d907c.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:39:57",
+      "width": 735,
+      "height": 493,
+      "aspect_ratio": 0.671,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "未来主义",
+        "玻璃",
+        "金属",
+        "灯光",
+        "绿植",
+        "水体",
+        "冷色调",
+        "高饱和",
+        "明亮通透",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "未来主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "灯光",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业建筑夜景，玻璃幕墙与金属格栅构成流线型立面，灯光通透，底层设商业入口，前景有水体与绿植。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:53:41"
+      },
+      "ai_description": "现代商业建筑夜景，玻璃幕墙与金属格栅构成流线型立面，灯光通透，底层设商业入口，前景有水体与绿植。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_166",
+      "filename": "2026110615392619393.jpg",
+      "local_path": "Pinterest图片下载/2026110615392619393.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/4609926934232710720/",
+      "image_url": "https://i.pinimg.com/236x/29/33/d8/2933d87e2fa17b1b37a9ed53094d6a17.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:39:26",
+      "width": 236,
+      "height": 295,
+      "aspect_ratio": 1.25,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "生态建筑",
+        "玻璃",
+        "金属",
+        "绿植",
+        "冷色调",
+        "明亮通透",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "生态建筑"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "绿植"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业建筑立面，玻璃幕墙与金属格栅结合，顶部设垂直绿化，街道人流穿梭，呈现都市商业空间的通透与生态感。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:53:32"
+      },
+      "ai_description": "现代商业建筑立面，玻璃幕墙与金属格栅结合，顶部设垂直绿化，街道人流穿梭，呈现都市商业空间的通透与生态感。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "pinterest_165",
+      "filename": "2026110615385476733.jpg",
+      "local_path": "Pinterest图片下载/2026110615385476733.jpg",
+      "exists_locally": true,
+      "title": "Pinterest 灵感素材",
+      "raw_title": "无标题",
+      "author": "Pinterest 创作者",
+      "raw_author": "无用户名",
+      "content": "",
+      "raw_content": "无正文",
+      "likes": 0,
+      "collects": 0,
+      "url": "https://www.pinterest.com/pin/1126603663118107450/",
+      "image_url": "https://i.pinimg.com/736x/51/fc/46/51fc46fe4c582c799e79ab163203fccb.jpg",
+      "source": "Pinterest",
+      "source_key": "pinterest",
+      "tag_color": "#E60023",
+      "date": "2026-11-06 15:38:54",
+      "width": 735,
+      "height": 490,
+      "aspect_ratio": 0.667,
+      "tags": [
+        "商业建筑",
+        "建筑立面",
+        "现代主义",
+        "新古典主义",
+        "玻璃",
+        "石材",
+        "绿植",
+        "金属",
+        "明亮通透",
+        "中性色",
+        "方案参考",
+        "商业项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "商业建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "新古典主义"
+        ],
+        "materials": [
+          "玻璃",
+          "石材",
+          "绿植",
+          "金属"
+        ],
+        "color_tone": [
+          "明亮通透",
+          "中性色"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "商业项目"
+        ],
+        "image_description": "现代商业建筑立面，玻璃幕墙与石材基座结合，顶部设绿植，入口处有“INTERLINGUAS”标识，整体明亮通透。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:53:25"
+      },
+      "ai_description": "现代商业建筑立面，玻璃幕墙与石材基座结合，顶部设绿植，入口处有“INTERLINGUAS”标识，整体明亮通透。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_173",
+      "filename": "2026110615380297101.jpg",
+      "local_path": "小红书图片下载/2026110615380297101.jpg",
+      "exists_locally": true,
+      "title": "建筑外立面｜斜切耐候钢",
+      "raw_title": "建筑外立面｜斜切耐候钢",
+      "author": "GravityDesign",
+      "raw_author": "GravityDesign",
+      "content": "美国库克福克斯建筑事务所公布了布鲁斯・斯普林斯汀美国音乐中心项目。设计灵感源自这位音乐人身上的 “真诚、果敢与本真”。\n事务所表示，建筑外立面采用耐候钢板包覆，内部采用原木质感的重型木构体系，整体设计处处呼应布鲁斯・斯普林斯汀的音乐内核。\n#幕墙设计 #建筑外观改造 #工业风建筑 #钢结构 #建筑外立面 #耐候钢",
+      "raw_content": "美国库克福克斯建筑事务所公布了布鲁斯・斯普林斯汀美国音乐中心项目。设计灵感源自这位音乐人身上的 “真诚、果敢与本真”。\n事务所表示，建筑外立面采用耐候钢板包覆，内部采用原木质感的重型木构体系，整体设计处处呼应布鲁斯・斯普林斯汀的音乐内核。\n#幕墙设计 #建筑外观改造 #工业风建筑 #钢结构 #建筑外立面 #耐候钢",
+      "likes": 8,
+      "collects": 11,
+      "url": "https://www.xiaohongshu.com/explore/6a3b6f6c0000000006036cc1?xsec_token=ABHAC5sM0rJXv6H4EatKNdEUhn9N_8YFKXp71-rfl3PP4=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061538/6ff88c081612dcde7e888c63c8337653/notes_pre_post/1040g3k0321ph3sau7k3049jf0670oe5a393s5g0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:38:02",
+      "width": 1080,
+      "height": 1425,
+      "aspect_ratio": 1.319,
+      "tags": [
+        "幕墙设计",
+        "建筑外观改造",
+        "工业风建筑",
+        "钢结构",
+        "建筑外立面",
+        "耐候钢",
+        "文化建筑",
+        "建筑立面",
+        "现代主义",
+        "参数化设计",
+        "金属",
+        "绿植",
+        "水体",
+        "白色墙面",
+        "冷色调",
+        "高对比",
+        "明亮通透",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "参数化设计"
+        ],
+        "materials": [
+          "金属",
+          "绿植",
+          "水体",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "建筑外立面采用斜切耐候钢，搭配玻璃入口与木质平台，呈现现代主义风格。金属表皮与绿植、水体形成高对比，整体明亮通透。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:40"
+      },
+      "ai_description": "建筑外立面采用斜切耐候钢，搭配玻璃入口与木质平台，呈现现代主义风格。金属表皮与绿植、水体形成高对比，整体明亮通透。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_172",
+      "filename": "2026110615365623922.jpg",
+      "local_path": "小红书图片下载/2026110615365623922.jpg",
+      "exists_locally": true,
+      "title": "留白人间Vol.29｜建筑，坚硬之外",
+      "raw_title": "留白人间Vol.29｜建筑，坚硬之外",
+      "author": "留白人间｜理想居所",
+      "raw_author": "留白人间｜理想居所",
+      "content": "建筑，自有锋芒。\n有些建筑，不需要刻意柔和。\n锈红色的钢板\n裸露的清水混凝土\n未经雕琢的天然岩石\n材料之间没有过多修饰，\n却形成了鲜明的力量感。\n厚重的体块彼此穿插，\n利落的线条划分空间，\n金属表面的斑驳色泽，\n又让建筑有了丰富的层次。\n而那些看似冷峻的结构之间，\n依然留着树木、山景与流水的位置。\n坚硬与柔软\n粗粝与细腻\n在同一座建筑里彼此平衡。\n真正有力量的设计，\n不必刻意取悦目光。\n—— 留白空间\n#留白人间 #留白空间 #现代建筑 #粗野主义建筑 #建筑美学 #建筑设计 #耐候钢 #清水混凝土 #极简建筑 #空间美学 #住宅设计 #建筑灵感",
+      "raw_content": "建筑，自有锋芒。\n有些建筑，不需要刻意柔和。\n锈红色的钢板\n裸露的清水混凝土\n未经雕琢的天然岩石\n材料之间没有过多修饰，\n却形成了鲜明的力量感。\n厚重的体块彼此穿插，\n利落的线条划分空间，\n金属表面的斑驳色泽，\n又让建筑有了丰富的层次。\n而那些看似冷峻的结构之间，\n依然留着树木、山景与流水的位置。\n坚硬与柔软\n粗粝与细腻\n在同一座建筑里彼此平衡。\n真正有力量的设计，\n不必刻意取悦目光。\n—— 留白空间\n#留白人间 #留白空间 #现代建筑 #粗野主义建筑 #建筑美学 #建筑设计 #耐候钢 #清水混凝土 #极简建筑 #空间美学 #住宅设计 #建筑灵感",
+      "likes": 10,
+      "collects": 14,
+      "url": "https://www.xiaohongshu.com/explore/6ac9a77f000000001b02f88a?xsec_token=ABeAdvIfVnV6TRlke1qZboG86Ic9tacW5B2xf1l4uf_nU=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061536/e1a28acacdbcdabe3a29cd932a1bda14/notes_pre_post/1040g3k83264jp6qsk6a05pirknqhoqupp4o7an0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:36:56",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "留白人间",
+        "留白空间",
+        "现代建筑",
+        "粗野主义建筑",
+        "建筑美学",
+        "建筑设计",
+        "耐候钢",
+        "清水混凝土",
+        "极简建筑",
+        "空间美学",
+        "住宅设计",
+        "建筑灵感",
+        "建筑立面",
+        "现代主义",
+        "粗野主义",
+        "混凝土",
+        "金属",
+        "绿植",
+        "水体",
+        "暖色系",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "概念方案"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "粗野主义"
+        ],
+        "materials": [
+          "混凝土",
+          "金属",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "概念方案"
+        ],
+        "image_description": "混凝土与锈蚀金属构成的现代建筑立面，两侧绿植环绕，小径通向入口，暖光下呈现粗犷而宁静的氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:35"
+      },
+      "ai_description": "混凝土与锈蚀金属构成的现代建筑立面，两侧绿植环绕，小径通向入口，暖光下呈现粗犷而宁静的氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_171",
+      "filename": "2026110615354947565.jpg",
+      "local_path": "小红书图片下载/2026110615354947565.jpg",
+      "exists_locally": true,
+      "title": "耐候钢的使用方法",
+      "raw_title": "耐候钢的使用方法",
+      "author": "SOmepeople",
+      "raw_author": "SOmepeople",
+      "content": "时间的变化 材料的备书\n#耐候钢 #可持续建筑设计",
+      "raw_content": "时间的变化 材料的备书\n#耐候钢 #可持续建筑设计",
+      "likes": 11,
+      "collects": 8,
+      "url": "https://www.xiaohongshu.com/explore/6ad0d79100000000180382ad?xsec_token=ABGrB1x9elFtDHpt9yVslIA4aZYkc-Porj5wRD0VPXdSo=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061535/645f0375aac8a97ae0f6ba7330cdabb9/notes_pre_post/1040g3k8326bkg8ihl8l05nu5vc008kotrt5g1g8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:35:49",
+      "width": 1080,
+      "height": 1274,
+      "aspect_ratio": 1.18,
+      "tags": [
+        "耐候钢",
+        "可持续建筑设计",
+        "建筑立面",
+        "室内空间",
+        "工业风",
+        "粗野主义",
+        "金属",
+        "混凝土",
+        "木材",
+        "暖色系",
+        "低饱和",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面",
+          "室内空间"
+        ],
+        "design_style": [
+          "工业风",
+          "粗野主义"
+        ],
+        "materials": [
+          "金属",
+          "混凝土",
+          "木材"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "锈蚀金属门洞开，露出内部木质结构与混凝土台阶，粗犷工业风立面，暖调低饱和材质营造沉稳空间氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:31"
+      },
+      "ai_description": "锈蚀金属门洞开，露出内部木质结构与混凝土台阶，粗犷工业风立面，暖调低饱和材质营造沉稳空间氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_170",
+      "filename": "2026110615344278034.jpg",
+      "local_path": "小红书图片下载/2026110615344278034.jpg",
+      "exists_locally": true,
+      "title": "现代几何切出一方硬朗的寂静",
+      "raw_title": "现代几何切出一方硬朗的寂静",
+      "author": "造园的大白（13年只做一件事）",
+      "raw_author": "造园的大白（13年只做一件事）",
+      "content": "耐候钢、毛石、玻璃，这三种材料搭在一起，粗粝又锋利。\n\t\n锈色钢板像从土里长出来的，时间越久越沉；毛石墙不修边幅，留着山野的脾气；再用一整块玻璃把远山和松林借进来。这不是传统园林的曲径通幽，而是用现代几何切出一方硬朗的寂静。\n\t\n园子里没有繁花，几块孤石、一条白砾小径，便够了。人工痕迹被压到最低，让石头、金属和树自己去对话。\n\t\n所谓当代造园，大概就是这么回事：不讨好，不堆砌，往山里一嵌，安静地老下去。\n\t\nPS：照片及资料信息来自网络，经过消化整理，编辑输出。如有错误欢迎指正。\n如有侵权，请联系删除，谢谢。\n#创意 #自然与雅致 #现代与自然 #自然与建筑的关系 #灵感源于建筑 #几何设计感 #极简设计极尽思考 #自然与现代 #当代好设计 #设计美学",
+      "raw_content": "耐候钢、毛石、玻璃，这三种材料搭在一起，粗粝又锋利。\n\t\n锈色钢板像从土里长出来的，时间越久越沉；毛石墙不修边幅，留着山野的脾气；再用一整块玻璃把远山和松林借进来。这不是传统园林的曲径通幽，而是用现代几何切出一方硬朗的寂静。\n\t\n园子里没有繁花，几块孤石、一条白砾小径，便够了。人工痕迹被压到最低，让石头、金属和树自己去对话。\n\t\n所谓当代造园，大概就是这么回事：不讨好，不堆砌，往山里一嵌，安静地老下去。\n\t\nPS：照片及资料信息来自网络，经过消化整理，编辑输出。如有错误欢迎指正。\n如有侵权，请联系删除，谢谢。\n#创意 #自然与雅致 #现代与自然 #自然与建筑的关系 #灵感源于建筑 #几何设计感 #极简设计极尽思考 #自然与现代 #当代好设计 #设计美学",
+      "likes": 11,
+      "collects": 6,
+      "url": "https://www.xiaohongshu.com/explore/6ab72f9f000000001803bbb0?xsec_token=AB3DpM8Z229DBzLfB5qvNC21ZvqbFGSgQVmbvQrsKWr-g=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061534/fbe97c4ecc6cb14b320db63200b24524/1040g2sg325iin81258e05q0ccdf151uttigjph8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:34:42",
+      "width": 736,
+      "height": 977,
+      "aspect_ratio": 1.327,
+      "tags": [
+        "创意",
+        "自然与雅致",
+        "现代与自然",
+        "自然与建筑的关系",
+        "灵感源于建筑",
+        "几何设计感",
+        "极简设计极尽思考",
+        "自然与现代",
+        "当代好设计",
+        "设计美学",
+        "建筑立面",
+        "粗野主义",
+        "自然主义",
+        "混凝土",
+        "玻璃",
+        "石材",
+        "绿植",
+        "冷色调",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面"
+        ],
+        "design_style": [
+          "粗野主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "玻璃",
+          "石材",
+          "绿植"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "锈色混凝土立面建筑，玻璃入口，前景有巨石与枯草，整体呈现粗犷自然的冷调氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:27"
+      },
+      "ai_description": "锈色混凝土立面建筑，玻璃入口，前景有巨石与枯草，整体呈现粗犷自然的冷调氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_169",
+      "filename": "2026110615333609040.jpg",
+      "local_path": "小红书图片下载/2026110615333609040.jpg",
+      "exists_locally": true,
+      "title": "双奖力作｜大湾区花展大师园「自行花园」",
+      "raw_title": "双奖力作｜大湾区花展大师园「自行花园」",
+      "author": "林俊英工作室 · 造源设计",
+      "raw_author": "林俊英工作室 · 造源设计",
+      "content": "2026 粤港澳大湾区花展大师园重磅作品 👉 自行花园 由林俊英景观工作室 & 造源设计打造，斩获大金奖✨ + 最佳园艺奖✨双殊荣，是深圳本土设计的亮眼表达。\n\t\n🔹设计内核💡：依托深圳「山海连城」骑行城市理念 围绕自行自在、自然而然、自我超越三大精神展开，将骑行文化、机械美学、生态艺术融为一体。\n\t\n🔹材料巧思⚙️：践行可持续理念 大量运用废弃单车零件、耐候钢板、工业管材等废旧材料升级再造，低碳环保，让工业遗存焕发新生。\n\t\n🔹景观亮点🌷:\n速度小径🛤️：彩色胶粘石勾勒车轮轨迹，动感十足\n骑遇花车🚲：单车与繁花结合，工业风混搭浪漫花海\n自在空间💫：耐候钢打造简约座椅，静坐享悠然\n风语漩影🌬️：DMS动态矩阵装置，将风声转化为可视韵律\n紫色基调💜：以紫为魂，承载东方美好寓意\n\t\n一座花园，既是景观作品，也是城市骑行文化的缩影。\n#2026粤港澳大湾区花展 #花园 #骑行 #花园设计 #花园美学生活 #治愈 #有趣 #景观设计 #植物设计 #热点",
+      "raw_content": "2026 粤港澳大湾区花展大师园重磅作品 👉 自行花园 由林俊英景观工作室 & 造源设计打造，斩获大金奖✨ + 最佳园艺奖✨双殊荣，是深圳本土设计的亮眼表达。\n\t\n🔹设计内核💡：依托深圳「山海连城」骑行城市理念 围绕自行自在、自然而然、自我超越三大精神展开，将骑行文化、机械美学、生态艺术融为一体。\n\t\n🔹材料巧思⚙️：践行可持续理念 大量运用废弃单车零件、耐候钢板、工业管材等废旧材料升级再造，低碳环保，让工业遗存焕发新生。\n\t\n🔹景观亮点🌷:\n速度小径🛤️：彩色胶粘石勾勒车轮轨迹，动感十足\n骑遇花车🚲：单车与繁花结合，工业风混搭浪漫花海\n自在空间💫：耐候钢打造简约座椅，静坐享悠然\n风语漩影🌬️：DMS动态矩阵装置，将风声转化为可视韵律\n紫色基调💜：以紫为魂，承载东方美好寓意\n\t\n一座花园，既是景观作品，也是城市骑行文化的缩影。\n#2026粤港澳大湾区花展 #花园 #骑行 #花园设计 #花园美学生活 #治愈 #有趣 #景观设计 #植物设计 #热点",
+      "likes": 14,
+      "collects": 7,
+      "url": "https://www.xiaohongshu.com/explore/6a30c9e6000000000f00568a?xsec_token=ABdK7JpSmE3NZRaAa3lU3hj6bmm3-CzJZnO982dn2GY2o=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061533/443a5a29cb63a7642d11529dfc78b3d1/spectrum/1040g0k0321f8u1qan0005padje70l8rslsbosp8!nd_dft_wgth_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:33:36",
+      "width": 1620,
+      "height": 1080,
+      "aspect_ratio": 0.667,
+      "tags": [
+        "2026粤港澳大湾区花展",
+        "花园",
+        "骑行",
+        "花园设计",
+        "花园美学生活",
+        "治愈",
+        "有趣",
+        "景观设计",
+        "植物设计",
+        "热点",
+        "景观空间",
+        "现代主义",
+        "东方美学",
+        "玻璃",
+        "金属",
+        "绿植",
+        "灯光",
+        "暖色系",
+        "明亮通透",
+        "高饱和",
+        "景观设计参考",
+        "文旅项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "景观空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "东方美学"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "绿植",
+          "灯光"
+        ],
+        "color_tone": [
+          "暖色系",
+          "明亮通透",
+          "高饱和"
+        ],
+        "scene_usage": [
+          "景观设计参考",
+          "文旅项目"
+        ],
+        "image_description": "紫光灯饰拱门与繁花簇拥的景观小径，现代金属结构融合东方园林意境，色彩明艳，适合作为文旅景观设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:24"
+      },
+      "ai_description": "紫光灯饰拱门与繁花簇拥的景观小径，现代金属结构融合东方园林意境，色彩明艳，适合作为文旅景观设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_168",
+      "filename": "2026110615322929076.jpg",
+      "local_path": "小红书图片下载/2026110615322929076.jpg",
+      "exists_locally": true,
+      "title": "建筑美学｜会呼吸的金属光影",
+      "raw_title": "建筑美学｜会呼吸的金属光影",
+      "author": "中网装饰网",
+      "raw_author": "中网装饰网",
+      "content": "当极简的白色几何体块遇上自带岁月质感的耐候钢，建筑便不再只是冰冷的钢筋混凝土。\n分享一组极具高级感的建筑立面设计。设计师巧妙运用大面积白色穿孔铝板与锈红色耐候钢进行材质对比。在阳光照射下，穿孔网表面产生细腻的网点肌理，这种半透明的“金属面纱”赋予了建筑轻盈通透的视觉效果，随着时间推移，耐候钢表面会形成稳定的保护性锈层，无需额外涂装且维护成本低。\n🔸 视觉亮点：\n光影美学：穿孔率经过精密计算，阳光穿透时在地面投下规律的几何阴影，到了夜晚则如繁星般透光。\n虚实结合：远看是纯粹的几何体块，近看则是精密的孔洞排列。这种“金属表皮”不仅能遮阳通风，还极大减少了建筑对空调的依赖。\n色彩碰撞：清冷的纯白铝板与暖调的铁锈红相互交织，呈现出极具辨识度的工业风与极简风的平衡。\n💡 设计总结： 穿孔金属板与耐候钢的组合，既解决了建筑采光与通风的物理需求，又通过材质本身的变化赋予了建筑随时间演变的美感。无论是作为博物馆、城市馆还是商业空间的外立面，都是极具表现力的选择。\n#建筑设计  #幕墙设计  #建筑外立面 #建筑外观设计  #建筑美学 #商业空间设计 #幕墙设计   #外墙装饰   #设计案例分享   #金属网",
+      "raw_content": "当极简的白色几何体块遇上自带岁月质感的耐候钢，建筑便不再只是冰冷的钢筋混凝土。\n分享一组极具高级感的建筑立面设计。设计师巧妙运用大面积白色穿孔铝板与锈红色耐候钢进行材质对比。在阳光照射下，穿孔网表面产生细腻的网点肌理，这种半透明的“金属面纱”赋予了建筑轻盈通透的视觉效果，随着时间推移，耐候钢表面会形成稳定的保护性锈层，无需额外涂装且维护成本低。\n🔸 视觉亮点：\n光影美学：穿孔率经过精密计算，阳光穿透时在地面投下规律的几何阴影，到了夜晚则如繁星般透光。\n虚实结合：远看是纯粹的几何体块，近看则是精密的孔洞排列。这种“金属表皮”不仅能遮阳通风，还极大减少了建筑对空调的依赖。\n色彩碰撞：清冷的纯白铝板与暖调的铁锈红相互交织，呈现出极具辨识度的工业风与极简风的平衡。\n💡 设计总结： 穿孔金属板与耐候钢的组合，既解决了建筑采光与通风的物理需求，又通过材质本身的变化赋予了建筑随时间演变的美感。无论是作为博物馆、城市馆还是商业空间的外立面，都是极具表现力的选择。\n#建筑设计  #幕墙设计  #建筑外立面 #建筑外观设计  #建筑美学 #商业空间设计 #幕墙设计   #外墙装饰   #设计案例分享   #金属网",
+      "likes": 11,
+      "collects": 5,
+      "url": "https://www.xiaohongshu.com/explore/6ad1d8a6000000001c00dc41?xsec_token=ABkanlEoXQoEEvbzpYOZoa6RDrafVDF8DJkdazWeE4kTI=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061532/36987b119a303d1ba2dd3ee2a6114d20/spectrum/1040g34o326cjpcvc44b05p41f645767d0ov4350!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:32:29",
+      "width": 1080,
+      "height": 1464,
+      "aspect_ratio": 1.356,
+      "tags": [
+        "建筑设计",
+        "幕墙设计",
+        "建筑外立面",
+        "建筑外观设计",
+        "建筑美学",
+        "商业空间设计",
+        "外墙装饰",
+        "设计案例分享",
+        "金属网",
+        "建筑立面",
+        "现代主义",
+        "金属",
+        "玻璃",
+        "冷色调",
+        "高对比",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义"
+        ],
+        "materials": [
+          "金属",
+          "玻璃"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比"
+        ],
+        "scene_usage": [
+          "立面设计参考"
+        ],
+        "image_description": "建筑外立面采用金属穿孔板与玻璃组合，形成现代主义风格的竖向格栅肌理，金属材质与玻璃窗框在冷色调下呈现高对比视觉效果。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:20"
+      },
+      "ai_description": "建筑外立面采用金属穿孔板与玻璃组合，形成现代主义风格的竖向格栅肌理，金属材质与玻璃窗框在冷色调下呈现高对比视觉效果。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_167",
+      "filename": "2026110615312178676.jpg",
+      "local_path": "小红书图片下载/2026110615312178676.jpg",
+      "exists_locally": true,
+      "title": "废墟粗野主义 × 现代极简赤土风",
+      "raw_title": "废墟粗野主义 × 现代极简赤土风",
+      "author": "境墅",
+      "raw_author": "境墅",
+      "content": "这套别墅的设计保留了中世纪石拱与残墙，让风化肌理成为建筑最真实的表情；新增耐候红钢体块与超大玻璃幕墙，在古老遗迹与现代建筑之间形成强烈对话。\n\t\n场地留存中世纪石砌拱廊残垣，整体以废墟粗野主义 × 现代极简赤土风为设计语言，原有石拱、毛石残墙，不作翻新抹平，风化孔洞、斑驳肌理全部裸露作为建筑表皮，新增主体采用倾斜折面耐候红钢板体量，几何切割玻璃幕墙嵌入石遗迹一侧，现代金属与粗粝古石形成材质、时代双重碰撞，既保留历史记忆，也营造现代度假氛围。\n\t\n室内设计以三大核心材质构建层次：\n原始粗凿毛石墙面延续建筑废墟肌理；\n全屋统一赤土红调地面、木饰面、耐候红钢构件，统一内外色调；\n搭配深绿大花绿大理石、橄榄绿软装形成撞色。\n木作全部采用原木裸露斜向桁架屋顶，保留木材天然纹理，温暖中和红钢与原石的冷硬质感。\n\t\n室内完全延续建筑 “新旧碰撞” 核心语言，不刻意弱化废墟原石的粗糙，反而将风化石墙作为核心装饰元素；色彩上以地中海经典赤土、橄榄绿、深海绿构建在地色彩逻辑，材质粗（原石）、冷（金属、大理石）、暖（原木）三重平衡，实现历史废墟空间的现代化舒适度假改造。\n\t\n#废墟更新 #粗野主义 #现代极简 #耐候钢 #地中海住宅 #古建筑改造 #度假别墅 #室内设计 #建筑设计 #私宅设计",
+      "raw_content": "这套别墅的设计保留了中世纪石拱与残墙，让风化肌理成为建筑最真实的表情；新增耐候红钢体块与超大玻璃幕墙，在古老遗迹与现代建筑之间形成强烈对话。\n\t\n场地留存中世纪石砌拱廊残垣，整体以废墟粗野主义 × 现代极简赤土风为设计语言，原有石拱、毛石残墙，不作翻新抹平，风化孔洞、斑驳肌理全部裸露作为建筑表皮，新增主体采用倾斜折面耐候红钢板体量，几何切割玻璃幕墙嵌入石遗迹一侧，现代金属与粗粝古石形成材质、时代双重碰撞，既保留历史记忆，也营造现代度假氛围。\n\t\n室内设计以三大核心材质构建层次：\n原始粗凿毛石墙面延续建筑废墟肌理；\n全屋统一赤土红调地面、木饰面、耐候红钢构件，统一内外色调；\n搭配深绿大花绿大理石、橄榄绿软装形成撞色。\n木作全部采用原木裸露斜向桁架屋顶，保留木材天然纹理，温暖中和红钢与原石的冷硬质感。\n\t\n室内完全延续建筑 “新旧碰撞” 核心语言，不刻意弱化废墟原石的粗糙，反而将风化石墙作为核心装饰元素；色彩上以地中海经典赤土、橄榄绿、深海绿构建在地色彩逻辑，材质粗（原石）、冷（金属、大理石）、暖（原木）三重平衡，实现历史废墟空间的现代化舒适度假改造。\n\t\n#废墟更新 #粗野主义 #现代极简 #耐候钢 #地中海住宅 #古建筑改造 #度假别墅 #室内设计 #建筑设计 #私宅设计",
+      "likes": 16,
+      "collects": 11,
+      "url": "https://www.xiaohongshu.com/explore/6a57449e000000002103ea38?xsec_token=ABeBOujVzwjIazY6NF54tqxP85bpIjitmpeh0KPXh7apE=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061531/9333564ee71adeef8ab52b4a870a9941/spectrum/1040g34o322kstfas72j05pvptpch548joart340!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:31:21",
+      "width": 1080,
+      "height": 1280,
+      "aspect_ratio": 1.185,
+      "tags": [
+        "废墟更新",
+        "粗野主义",
+        "现代极简",
+        "耐候钢",
+        "地中海住宅",
+        "古建筑改造",
+        "度假别墅",
+        "室内设计",
+        "建筑设计",
+        "私宅设计",
+        "室内空间",
+        "现代主义",
+        "自然主义",
+        "玻璃",
+        "木材",
+        "石材",
+        "混凝土",
+        "织物",
+        "明亮通透",
+        "高对比",
+        "室内设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "室内空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "自然主义"
+        ],
+        "materials": [
+          "玻璃",
+          "木材",
+          "石材",
+          "混凝土",
+          "织物"
+        ],
+        "color_tone": [
+          "明亮通透",
+          "高对比"
+        ],
+        "scene_usage": [
+          "室内设计参考"
+        ],
+        "image_description": "室内空间以深色木构顶棚与玻璃幕墙围合，望向石砌拱廊与海景。地面为混凝土，配以白色坐凳与木质家具，光线明亮通透，形成高对比空间氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:12"
+      },
+      "ai_description": "室内空间以深色木构顶棚与玻璃幕墙围合，望向石砌拱廊与海景。地面为混凝土，配以白色坐凳与木质家具，光线明亮通透，形成高对比空间氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_166",
+      "filename": "2026110615301506179.jpg",
+      "local_path": "小红书图片下载/2026110615301506179.jpg",
+      "exists_locally": true,
+      "title": "望，对望，很有意境啊品品",
+      "raw_title": "望，对望，很有意境啊品品",
+      "author": "绿帽王羽凡",
+      "raw_author": "绿帽王羽凡",
+      "content": "张雷在鄂州四峰山327米山顶搞了座耐候钢观景台，三层悬挑看湖山，颜色像炉渣贼野，品品#建筑设计 #景观设计 #对望与凝视 #目光所及之处 #片刻的宁静 #发现另一个视界 #目光所及之处皆是风景 #对视与凝望 #不一样的风景",
+      "raw_content": "张雷在鄂州四峰山327米山顶搞了座耐候钢观景台，三层悬挑看湖山，颜色像炉渣贼野，品品#建筑设计 #景观设计 #对望与凝视 #目光所及之处 #片刻的宁静 #发现另一个视界 #目光所及之处皆是风景 #对视与凝望 #不一样的风景",
+      "likes": 16,
+      "collects": 12,
+      "url": "https://www.xiaohongshu.com/explore/6a262b68000000003501e9ac?xsec_token=ABKy4TJFHWA8MezgKBovpsedcl-ojleB_0IvC537X6AVo=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061530/0219845387389e0ceb4b52a071dee9cf/1040g2sg3214v0dlrn2e05oki28vode7pjjlt3f8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:30:15",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "建筑设计",
+        "景观设计",
+        "对望与凝视",
+        "目光所及之处",
+        "片刻的宁静",
+        "发现另一个视界",
+        "目光所及之处皆是风景",
+        "对视与凝望",
+        "不一样的风景",
+        "建筑立面",
+        "粗野主义",
+        "混凝土",
+        "金属",
+        "绿植",
+        "冷色调",
+        "低饱和",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面"
+        ],
+        "design_style": [
+          "粗野主义"
+        ],
+        "materials": [
+          "混凝土",
+          "金属",
+          "绿植"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "方案参考"
+        ],
+        "image_description": "锈色混凝土结构建筑立面，阶梯式体量穿插，背景为枯黄植被与浅灰天空，呈现粗犷工业美学。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:59:07"
+      },
+      "ai_description": "锈色混凝土结构建筑立面，阶梯式体量穿插，背景为枯黄植被与浅灰天空，呈现粗犷工业美学。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_165",
+      "filename": "2026110615290834668.jpg",
+      "local_path": "小红书图片下载/2026110615290834668.jpg",
+      "exists_locally": true,
+      "title": "户外夜景亮化锈板精神堡垒造型",
+      "raw_title": "户外夜景亮化锈板精神堡垒造型",
+      "author": "鑫超想广告连锁-文化墙 展厅 目视化研究院",
+      "raw_author": "鑫超想广告连锁-文化墙 展厅 目视化研究院",
+      "content": "整体采用耐候锈蚀钢板打造新中式户外景观，竖向立柱搭配飞鸟、游鱼、仙鹤镂空剪影，结合山水造型与励志古文标语，内嵌夜景氛围灯带，融合东方写意美学与廉洁实干文化内核。前期现场勘测园区绿植地形，贴合园林动线排布造型；数控激光精密镂空切割图案，钢板做自然锈化防腐处理；地基硬化加固后吊装拼接，绿植区无损预埋线路。甲方反馈夜景氛围感极强，文化意境与园林景观完美融合。\n为什么选择我们？100+成功案例，服务覆盖高校、名企、ZF项目原创设计，拒绝模板化方案全程透明沟通 售后无忧！\n点击头像查看更多设计，随时私信留言，专业团队为你定制方案!!!\n#南京图文广告 #办公室文化墙 #南京广告公司 #企业形象墙 #南京企业文化墙设计制作 #景观小品 #户外文旅亮化 #景区亮化灯光 #景观雕塑",
+      "raw_content": "整体采用耐候锈蚀钢板打造新中式户外景观，竖向立柱搭配飞鸟、游鱼、仙鹤镂空剪影，结合山水造型与励志古文标语，内嵌夜景氛围灯带，融合东方写意美学与廉洁实干文化内核。前期现场勘测园区绿植地形，贴合园林动线排布造型；数控激光精密镂空切割图案，钢板做自然锈化防腐处理；地基硬化加固后吊装拼接，绿植区无损预埋线路。甲方反馈夜景氛围感极强，文化意境与园林景观完美融合。\n为什么选择我们？100+成功案例，服务覆盖高校、名企、ZF项目原创设计，拒绝模板化方案全程透明沟通 售后无忧！\n点击头像查看更多设计，随时私信留言，专业团队为你定制方案!!!\n#南京图文广告 #办公室文化墙 #南京广告公司 #企业形象墙 #南京企业文化墙设计制作 #景观小品 #户外文旅亮化 #景区亮化灯光 #景观雕塑",
+      "likes": 23,
+      "collects": 15,
+      "url": "https://www.xiaohongshu.com/explore/6a41f183000000001102faaa?xsec_token=ABGO_lns7bmQTq_YVTKxomdl58dDZ1wdtnBMgTxzC9ujQ=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061529/5442bb3c72b69f148740c58ad1ee4742/spectrum/1040g34o32202t262n0005na3lhr4j5g8ge91ocg!nd_dft_wgth_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:29:08",
+      "width": 1921,
+      "height": 1080,
+      "aspect_ratio": 0.562,
+      "tags": [
+        "南京图文广告",
+        "办公室文化墙",
+        "南京广告公司",
+        "企业形象墙",
+        "南京企业文化墙设计制作",
+        "景观小品",
+        "户外文旅亮化",
+        "景区亮化灯光",
+        "景观雕塑",
+        "景观空间",
+        "东方美学",
+        "金属",
+        "绿植",
+        "石材",
+        "灯光",
+        "暖色系",
+        "暮色夜景",
+        "柔和自然",
+        "景观设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "景观空间"
+        ],
+        "design_style": [
+          "东方美学"
+        ],
+        "materials": [
+          "金属",
+          "绿植",
+          "石材",
+          "灯光"
+        ],
+        "color_tone": [
+          "暖色系",
+          "暮色夜景",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "景观设计参考"
+        ],
+        "image_description": "夜幕下金属镂空景观装置，配以绿植与灯光，呈现东方美学意境。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:58:57"
+      },
+      "ai_description": "夜幕下金属镂空景观装置，配以绿植与灯光，呈现东方美学意境。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_164",
+      "filename": "2026110615280152033.jpg",
+      "local_path": "小红书图片下载/2026110615280152033.jpg",
+      "exists_locally": true,
+      "title": "回乡自建房087",
+      "raw_title": "回乡自建房087",
+      "author": "建筑师LesleyHui",
+      "raw_author": "建筑师LesleyHui",
+      "content": "耐候钢的帐篷：一座在新南威尔士牧场上的“永久露营”舱\n在澳大利亚新南威尔士州奥兰治附近的一个工作牧场上，Casey Brown Architecture 完成了“永久露营 III”（PC3）——一个由两个耐候钢（Corten）舱体构成的短住精品住宿。项目的核心概念是帐篷概念的转化与露营极简主义的提炼。PC3 被构思为一种 “蒸馏版”的居住，只提供舒适所必需的要素。外部：粗糙、锈蚀的耐候钢表皮，向周围起伏的山丘与古老桉树致敬；内部：衬以涂油的回收铁皮木，搭配定制黄铜灯具与亮橙色漆面的钢细部。每个“帐篷”内设一张双人床，后方为带板条墙的浴室——这种墙提供通风，并让使用者沐浴时沉浸于景观，同时保持隐私。\n▪️ 概念：帐篷的转化与极简主义 PC3 是一系列迭代设计的产物。与前作一样，它被构想为一种 “居住的蒸馏版本” ，仅提供舒适所必要的要素。核心是去除一切冗余，回归到庇护的最本质形式。\n▪️ 材料：耐候钢与回收铁皮木的对比\n外部：耐候钢（Corten steel） 形成帐篷般的倾斜轮廓。其粗糙、锈蚀的表面与牧场环境融为一体，随时间推移会进一步变化。\n内部：墙面衬以涂油的回收铁皮木（ironbark），提供温暖与质感，与外部的冷峻形成对比。\n细部：定制黄铜灯具与亮橙色钢制细部在克制的调色板中提供视觉焦点与工艺感。\n▪️ 环境适应：自给自足与极端气候应对 场地特征为山丘、老桉树、高草，季节极端（冷冬有雪，热夏有森林火灾风险，强风，白蚁）。设计应对：\n热工：冬季由小炉子（potbelly stove） 供暖；夏季利用高而自通风的屋脊和中央风扇实现被动冷却。\n自给自足：完全离网运行。一个服务舱通过太阳能板发电，并存储柴火、电池与水泵。上坡的一个大型农棚收集雨水，通过重力为舱体供水（耐候钢不适合收集雨水）。\n▪️ 空间组织：单室与板条浴室 每个舱体为单一主空间，包含一张双人床。浴室** tucked behind 在后部。浴室的板条墙提供通风，并允许使用者在沐浴时沉浸在周围景观中**，同时保持私密。\n\t\n—— ✨ 关注我，一起走进 #回乡自建房 的无限可能。#\n#自建房设计  #澳大利亚建筑  #耐候钢  #帐篷建筑  #离网住宿  #Camping #每天认识一座建筑 #帐篷 #建在山里的房子",
+      "raw_content": "耐候钢的帐篷：一座在新南威尔士牧场上的“永久露营”舱\n在澳大利亚新南威尔士州奥兰治附近的一个工作牧场上，Casey Brown Architecture 完成了“永久露营 III”（PC3）——一个由两个耐候钢（Corten）舱体构成的短住精品住宿。项目的核心概念是帐篷概念的转化与露营极简主义的提炼。PC3 被构思为一种 “蒸馏版”的居住，只提供舒适所必需的要素。外部：粗糙、锈蚀的耐候钢表皮，向周围起伏的山丘与古老桉树致敬；内部：衬以涂油的回收铁皮木，搭配定制黄铜灯具与亮橙色漆面的钢细部。每个“帐篷”内设一张双人床，后方为带板条墙的浴室——这种墙提供通风，并让使用者沐浴时沉浸于景观，同时保持隐私。\n▪️ 概念：帐篷的转化与极简主义 PC3 是一系列迭代设计的产物。与前作一样，它被构想为一种 “居住的蒸馏版本” ，仅提供舒适所必要的要素。核心是去除一切冗余，回归到庇护的最本质形式。\n▪️ 材料：耐候钢与回收铁皮木的对比\n外部：耐候钢（Corten steel） 形成帐篷般的倾斜轮廓。其粗糙、锈蚀的表面与牧场环境融为一体，随时间推移会进一步变化。\n内部：墙面衬以涂油的回收铁皮木（ironbark），提供温暖与质感，与外部的冷峻形成对比。\n细部：定制黄铜灯具与亮橙色钢制细部在克制的调色板中提供视觉焦点与工艺感。\n▪️ 环境适应：自给自足与极端气候应对 场地特征为山丘、老桉树、高草，季节极端（冷冬有雪，热夏有森林火灾风险，强风，白蚁）。设计应对：\n热工：冬季由小炉子（potbelly stove） 供暖；夏季利用高而自通风的屋脊和中央风扇实现被动冷却。\n自给自足：完全离网运行。一个服务舱通过太阳能板发电，并存储柴火、电池与水泵。上坡的一个大型农棚收集雨水，通过重力为舱体供水（耐候钢不适合收集雨水）。\n▪️ 空间组织：单室与板条浴室 每个舱体为单一主空间，包含一张双人床。浴室** tucked behind 在后部。浴室的板条墙提供通风，并允许使用者在沐浴时沉浸在周围景观中**，同时保持私密。\n\t\n—— ✨ 关注我，一起走进 #回乡自建房 的无限可能。#\n#自建房设计  #澳大利亚建筑  #耐候钢  #帐篷建筑  #离网住宿  #Camping #每天认识一座建筑 #帐篷 #建在山里的房子",
+      "likes": 19,
+      "collects": 22,
+      "url": "https://www.xiaohongshu.com/explore/6a30b2dd000000002103e787?xsec_token=ABdK7JpSmE3NZRaAa3lU3hj-D4Sb4KJYt9o1RFBGTLOE0=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061528/f128cc328b3dd1054503e1706be475f2/spectrum/1040g34o321f7vto472e0445vghmda4irh2p6vt0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:28:01",
+      "width": 1080,
+      "height": 1619,
+      "aspect_ratio": 1.499,
+      "tags": [
+        "回乡自建房",
+        "自建房设计",
+        "澳大利亚建筑",
+        "耐候钢",
+        "帐篷建筑",
+        "离网住宿",
+        "Camping",
+        "每天认识一座建筑",
+        "帐篷",
+        "建在山里的房子",
+        "住宅建筑",
+        "建筑立面",
+        "地域性建筑",
+        "自然主义",
+        "金属",
+        "绿植",
+        "水体",
+        "木材",
+        "暖色系",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "住宅项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "地域性建筑",
+          "自然主义"
+        ],
+        "materials": [
+          "金属",
+          "绿植",
+          "水体",
+          "木材"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "住宅项目"
+        ],
+        "image_description": "三角形金属屋面住宅，嵌于桉树林中，搭配草地与水体，呈现自然融合的地域性设计。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:58:51"
+      },
+      "ai_description": "三角形金属屋面住宅，嵌于桉树林中，搭配草地与水体，呈现自然融合的地域性设计。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_163",
+      "filename": "2026110615265469896.jpg",
+      "local_path": "小红书图片下载/2026110615265469896.jpg",
+      "exists_locally": true,
+      "title": "工程学院建筑｜打破边界的未来实验室设计",
+      "raw_title": "工程学院建筑｜打破边界的未来实验室设计",
+      "author": "万树林实验室系统",
+      "raw_author": "万树林实验室系统",
+      "content": "这才是下一代工程学院该有的样子\n✨ 不再是隔间 + 封闭实验室的传统工科楼，建筑师直接重构工程教育空间逻辑\n\t\n▫️项目核心底层逻辑 打破工程学科壁垒，拒绝学科孤岛，重点打造社会学习空间 不止上课、做实验，鼓励跨专业协作，打造包容开放的工科学习环境\n\t\n🏗️外立面设计亮点\n▫️主体立面采用耐候锈蚀钢板，暖橙色调在校园极具辨识度\n▫️严格 1m 模数立面网格，垂直带状玻璃窗 内部墙体可自由调整，建筑拥有超长生命周期，适配未来改造\n▫️开放柱廊入口，面向主干道，弱化建筑距离感，营造友好入口界面\n\t\n🌳中庭｜整栋建筑的灵魂\n最惊艳的设计策略：向上放大的中庭空间\n受场地限制，楼层空间不均，建筑师反转体量布局\n取消传统冗长走廊！所有功能环绕中庭排布\n中庭顶部 1000㎡ CLT 胶合木屋顶 + 北向天窗\n自然光倾泻而下，三层空间视线互通\n一楼重型制造车间｜中层协作工位｜二层安静观景学习区\n站在任何一层都能看见楼下的实验、研讨活动\n独处晚自修的学生也不会感到封闭孤单，安全感拉满\n\t\n⚙️实验室 & 车间竖向分层智慧\n按照荷载与设备需求竖向堆叠，完美解决 20 + 实验室复杂需求\n✅一层：重型车间、制造工坊、大型专业实验室（重载设备）\n✅高层：轻型实验室、教学工作室、办公研讨室 功能分区清晰，管线、荷载规划更合理，极大降低运维成本\n\t\n♻️可持续低碳设计（加分亮点）\n目标碳中和 + BREEAM 优秀评级\n▪️CLT 木屋顶抵消 125 吨碳排放\n▪️耐候钢外立面免维护，窗体使用寿命 60 年以上\n▪️自然通风系统，疫情期间也能保障空间安全使用\n▪️标准化结构网格，高适应性，未来可灵活改造\n▪️服务管线沿中庭环形主干道布置，后期改造不用大规模拆改\n\t\n#实验室设计  #EPC总包   #工装档案   #教育建筑  #设计与工程学院  #现代化实验室 #科研 #实验室家具 #建筑数字化 #实验室定制",
+      "raw_content": "这才是下一代工程学院该有的样子\n✨ 不再是隔间 + 封闭实验室的传统工科楼，建筑师直接重构工程教育空间逻辑\n\t\n▫️项目核心底层逻辑 打破工程学科壁垒，拒绝学科孤岛，重点打造社会学习空间 不止上课、做实验，鼓励跨专业协作，打造包容开放的工科学习环境\n\t\n🏗️外立面设计亮点\n▫️主体立面采用耐候锈蚀钢板，暖橙色调在校园极具辨识度\n▫️严格 1m 模数立面网格，垂直带状玻璃窗 内部墙体可自由调整，建筑拥有超长生命周期，适配未来改造\n▫️开放柱廊入口，面向主干道，弱化建筑距离感，营造友好入口界面\n\t\n🌳中庭｜整栋建筑的灵魂\n最惊艳的设计策略：向上放大的中庭空间\n受场地限制，楼层空间不均，建筑师反转体量布局\n取消传统冗长走廊！所有功能环绕中庭排布\n中庭顶部 1000㎡ CLT 胶合木屋顶 + 北向天窗\n自然光倾泻而下，三层空间视线互通\n一楼重型制造车间｜中层协作工位｜二层安静观景学习区\n站在任何一层都能看见楼下的实验、研讨活动\n独处晚自修的学生也不会感到封闭孤单，安全感拉满\n\t\n⚙️实验室 & 车间竖向分层智慧\n按照荷载与设备需求竖向堆叠，完美解决 20 + 实验室复杂需求\n✅一层：重型车间、制造工坊、大型专业实验室（重载设备）\n✅高层：轻型实验室、教学工作室、办公研讨室 功能分区清晰，管线、荷载规划更合理，极大降低运维成本\n\t\n♻️可持续低碳设计（加分亮点）\n目标碳中和 + BREEAM 优秀评级\n▪️CLT 木屋顶抵消 125 吨碳排放\n▪️耐候钢外立面免维护，窗体使用寿命 60 年以上\n▪️自然通风系统，疫情期间也能保障空间安全使用\n▪️标准化结构网格，高适应性，未来可灵活改造\n▪️服务管线沿中庭环形主干道布置，后期改造不用大规模拆改\n\t\n#实验室设计  #EPC总包   #工装档案   #教育建筑  #设计与工程学院  #现代化实验室 #科研 #实验室家具 #建筑数字化 #实验室定制",
+      "likes": 22,
+      "collects": 18,
+      "url": "https://www.xiaohongshu.com/explore/6a801438000000002500e6be?xsec_token=ABhvg3MlLk58lbObzA9cJNGunakaGQEve61Mxrpg-lvKo=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061526/a43ea05a04e7b28acc7a2c892f24d698/spectrum/1040g34o323sogt580mg05peol341e5uo93l484o!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:26:54",
+      "width": 900,
+      "height": 1200,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "实验室设计",
+        "EPC总包",
+        "工装档案",
+        "教育建筑",
+        "设计与工程学院",
+        "现代化实验室",
+        "科研",
+        "实验室家具",
+        "建筑数字化",
+        "实验室定制",
+        "室内空间",
+        "现代主义",
+        "玻璃",
+        "金属",
+        "混凝土",
+        "白色墙面",
+        "中性色",
+        "明亮通透",
+        "方案参考",
+        "室内设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "教育建筑",
+          "室内空间"
+        ],
+        "design_style": [
+          "现代主义"
+        ],
+        "materials": [
+          "玻璃",
+          "金属",
+          "混凝土",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "中性色",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "室内设计参考"
+        ],
+        "image_description": "现代教育建筑室内空间，高挑空间配金属框架与玻璃窗，白色墙面与灰色工作台，自然光充足，呈现明亮通透的工业风学习氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:58:46"
+      },
+      "ai_description": "现代教育建筑室内空间，高挑空间配金属框架与玻璃窗，白色墙面与灰色工作台，自然光充足，呈现明亮通透的工业风学习氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_162",
+      "filename": "2026110615254793758.jpg",
+      "local_path": "小红书图片下载/2026110615254793758.jpg",
+      "exists_locally": true,
+      "title": "无",
+      "raw_title": "无",
+      "author": "徐浪-合造CLAB",
+      "raw_author": "徐浪-合造CLAB",
+      "content": "米拉莱斯的墓园，沉浸的大地。\n​墓园入口处的耐候锈蚀钢板长墙，刻着米拉莱斯的的一句话：No cal que sigui fosc per veure petites estrelles。（死亡不是只有黑暗，在日常、在白昼，也能看见微光与怀念。）\n米拉莱斯45岁去世，正值这个墓园快建完的时候，这个墓园的第一场葬礼正是设计它的建筑师。米拉莱斯葬在这里。\n​#米拉莱斯 #建筑设计 #建筑师 #西班牙 #巴塞罗那",
+      "raw_content": "米拉莱斯的墓园，沉浸的大地。\n​墓园入口处的耐候锈蚀钢板长墙，刻着米拉莱斯的的一句话：No cal que sigui fosc per veure petites estrelles。（死亡不是只有黑暗，在日常、在白昼，也能看见微光与怀念。）\n米拉莱斯45岁去世，正值这个墓园快建完的时候，这个墓园的第一场葬礼正是设计它的建筑师。米拉莱斯葬在这里。\n​#米拉莱斯 #建筑设计 #建筑师 #西班牙 #巴塞罗那",
+      "likes": 22,
+      "collects": 13,
+      "url": "https://www.xiaohongshu.com/explore/6ac5f6f9000000000a02316f?xsec_token=ABPGt3cItoAl-gQiOeQoiZHkLkGi41EhOyS03LOtlImCk=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061525/b00fbbfe0e5e890e76509fe03367b05b/1040g2sg32610h16c56904a68qvk9rjv4hsd9ps8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:25:47",
+      "width": 1080,
+      "height": 1620,
+      "aspect_ratio": 1.5,
+      "tags": [
+        "米拉莱斯",
+        "建筑设计",
+        "建筑师",
+        "西班牙",
+        "巴塞罗那",
+        "宗教建筑",
+        "建筑立面",
+        "粗野主义",
+        "自然主义",
+        "混凝土",
+        "木材",
+        "绿植",
+        "石材",
+        "中性色",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "景观设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "宗教建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "粗野主义",
+          "自然主义"
+        ],
+        "materials": [
+          "混凝土",
+          "木材",
+          "绿植",
+          "石材"
+        ],
+        "color_tone": [
+          "中性色",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "景观设计参考"
+        ],
+        "image_description": "混凝土墙体与木质格架构成的墓园立面，穿插树木与石板地面，呈现粗犷自然的材质肌理与宁静氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:58:42"
+      },
+      "ai_description": "混凝土墙体与木质格架构成的墓园立面，穿插树木与石板地面，呈现粗犷自然的材质肌理与宁静氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_161",
+      "filename": "2026110615251337788.jpg",
+      "local_path": "小红书图片下载/2026110615251337788.jpg",
+      "exists_locally": true,
+      "title": "谁家的仿锈钢板标识牌啊？！",
+      "raw_title": "谁家的仿锈钢板标识牌啊？！",
+      "author": "晶众标识",
+      "raw_author": "晶众标识",
+      "content": "版本1｜设计师/甲方种草款（主推，适配这张上下对比图）\n谁能拒绝一面昼夜双颜值的耐候钢文化景墙✨\n白天是复古醇厚的锈色肌理，自带沉稳工业质感\n夜幕降临，镂空文字与剪影透出暖光，氛围感直接拉满🌙\n▫️Q235NH耐候钢｜可控做锈+固锈工艺，户外耐腐蚀、不易流黄水，长期省心\n▫️高精度激光镂空雕刻，文字、线条、人物剪影一体成型\n▫️内置防水LED背光，白天做文化展示，夜晚变身景观夜景\n▫️可搭配树池、休闲坐凳一体化设计，打卡休憩两不误\n校园文化墙｜园区形象景墙｜文旅景观｜党建标识均可定制\n标识源头工厂｜图纸深化｜预制加工｜现场落地一站式交付\n耐候钢景墙 #户外美陈装置 钢镂空墙 校园文化墙 #景观标识 #标识标牌厂家 #文化景墙定制#景观墙设计 #景区指示牌 #景观小品 #户外指示牌 #企业文化墙 #广告设计与制作 #导视牌 #标识标牌",
+      "raw_content": "版本1｜设计师/甲方种草款（主推，适配这张上下对比图）\n谁能拒绝一面昼夜双颜值的耐候钢文化景墙✨\n白天是复古醇厚的锈色肌理，自带沉稳工业质感\n夜幕降临，镂空文字与剪影透出暖光，氛围感直接拉满🌙\n▫️Q235NH耐候钢｜可控做锈+固锈工艺，户外耐腐蚀、不易流黄水，长期省心\n▫️高精度激光镂空雕刻，文字、线条、人物剪影一体成型\n▫️内置防水LED背光，白天做文化展示，夜晚变身景观夜景\n▫️可搭配树池、休闲坐凳一体化设计，打卡休憩两不误\n校园文化墙｜园区形象景墙｜文旅景观｜党建标识均可定制\n标识源头工厂｜图纸深化｜预制加工｜现场落地一站式交付\n耐候钢景墙 #户外美陈装置 钢镂空墙 校园文化墙 #景观标识 #标识标牌厂家 #文化景墙定制#景观墙设计 #景区指示牌 #景观小品 #户外指示牌 #企业文化墙 #广告设计与制作 #导视牌 #标识标牌",
+      "likes": 23,
+      "collects": 18,
+      "url": "https://www.xiaohongshu.com/explore/6a7d908c0000000028031f27?xsec_token=ABVozF4CqOT1wzIQQcBJnLhnn0nbmfFoD2J8JfY2hgYKA=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061525/55b388d5ad28de0b3299a36902590628/notes_pre_post/1040g3k8323qa3binna005pgkiqhguc5pa33f7j8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:25:13",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "户外美陈装置",
+        "景观标识",
+        "标识标牌厂家",
+        "文化景墙定制",
+        "景观墙设计",
+        "景区指示牌",
+        "景观小品",
+        "户外指示牌",
+        "企业文化墙",
+        "广告设计与制作",
+        "导视牌",
+        "标识标牌",
+        "景观空间",
+        "公共建筑",
+        "现代主义",
+        "未来主义",
+        "耐候钢",
+        "灯光",
+        "绿植",
+        "水体",
+        "暮色夜景",
+        "低饱和",
+        "明亮通透",
+        "景观设计参考",
+        "文旅项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "景观空间",
+          "公共建筑"
+        ],
+        "design_style": [
+          "现代主义",
+          "未来主义"
+        ],
+        "materials": [
+          "耐候钢",
+          "灯光",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "暮色夜景",
+          "低饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "景观设计参考",
+          "文旅项目"
+        ],
+        "image_description": "校园景观墙采用耐候钢仿锈材质，夜间灯光勾勒图案，搭配绿植与水景，营造现代感与科技氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:58:29"
+      },
+      "ai_description": "校园景观墙采用耐候钢仿锈材质，夜间灯光勾勒图案，搭配绿植与水景，营造现代感与科技氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_160",
+      "filename": "2026110615245944434.jpg",
+      "local_path": "小红书图片下载/2026110615245944434.jpg",
+      "exists_locally": true,
+      "title": "巨大的“编织篮子”｜编织立面(上)·501",
+      "raw_title": "巨大的“编织篮子”｜编织立面(上)·501",
+      "author": "幕道赢家",
+      "raw_author": "幕道赢家",
+      "content": "国际建筑大师立面手法·第五季第01篇\n\t\n📌什么是编织立面？通常指由编织材料或非编织杆件交织形成的立面，如藤编、竹编、木编、金属网编、杆件编织等。\n🧩什么格构编织立面？格构式的大编织：其面板未必由编织材料，而是由立面构件、杆件或条带交织组合，形成整体编织效果。\n🧪编织立面细分：格构编织、面板编织、装饰条编织等 。\n\t\n🏛️案例：①俄罗斯圣彼得堡市费鲁姆1号、②英国索尔福德三位新贝利。\n🏗️案例①通过耐候钢板经纬交织呈现编织。\n“这座雕塑般的立面构建在一个几何网格之中，呈现为一种连贯、动态、有机流动的松散“经纬线”织物。三维的条带在水平和垂直方向上横跨矩形建筑。扁平模块与突出模块的交替，营造出了一种编织的错觉。”\n🏛️案例②通过红砖经纬交织呈现编织。\n“立面的设计根源——索尔福德的棉纺织历史。红砖“编织”立面是对当地19世纪仓库建筑红砖肌理的现代转译，旨在“赋予建筑身份并为之庆祝。”\n\t\n📍适用场景：历史街区、新建建筑等。\n⚠️避坑：注意自由曲面、几何扭转、编织点处理等。\n\t\n🏷️标签：#精致建筑#建筑作品集#建筑立面设计#建筑设计#立面改造#空间设计#设计灵感#建筑案例#建筑美学#建筑光影  。\n📌请收藏关注。下期讲\"巨大的“白石织物”｜编织立面(下)·502\"。",
+      "raw_content": "国际建筑大师立面手法·第五季第01篇\n\t\n📌什么是编织立面？通常指由编织材料或非编织杆件交织形成的立面，如藤编、竹编、木编、金属网编、杆件编织等。\n🧩什么格构编织立面？格构式的大编织：其面板未必由编织材料，而是由立面构件、杆件或条带交织组合，形成整体编织效果。\n🧪编织立面细分：格构编织、面板编织、装饰条编织等 。\n\t\n🏛️案例：①俄罗斯圣彼得堡市费鲁姆1号、②英国索尔福德三位新贝利。\n🏗️案例①通过耐候钢板经纬交织呈现编织。\n“这座雕塑般的立面构建在一个几何网格之中，呈现为一种连贯、动态、有机流动的松散“经纬线”织物。三维的条带在水平和垂直方向上横跨矩形建筑。扁平模块与突出模块的交替，营造出了一种编织的错觉。”\n🏛️案例②通过红砖经纬交织呈现编织。\n“立面的设计根源——索尔福德的棉纺织历史。红砖“编织”立面是对当地19世纪仓库建筑红砖肌理的现代转译，旨在“赋予建筑身份并为之庆祝。”\n\t\n📍适用场景：历史街区、新建建筑等。\n⚠️避坑：注意自由曲面、几何扭转、编织点处理等。\n\t\n🏷️标签：#精致建筑#建筑作品集#建筑立面设计#建筑设计#立面改造#空间设计#设计灵感#建筑案例#建筑美学#建筑光影  。\n📌请收藏关注。下期讲\"巨大的“白石织物”｜编织立面(下)·502\"。",
+      "likes": 24,
+      "collects": 18,
+      "url": "https://www.xiaohongshu.com/explore/6ac868c5000000001b02eee0?xsec_token=ABne5HozTy3W0y67yzwPbxfb22yneMzt41d3SPioD_DHc=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061524/793320c4d4e19e89c5427b279e39fbfa/spectrum/1040g34o3264jpc7q4a105q6nbum6skevhpg7aso!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:24:59",
+      "width": 1010,
+      "height": 1349,
+      "aspect_ratio": 1.336,
+      "tags": [
+        "精致建筑",
+        "建筑作品集",
+        "建筑立面设计",
+        "建筑设计",
+        "立面改造",
+        "空间设计",
+        "设计灵感",
+        "建筑案例",
+        "建筑美学",
+        "建筑光影",
+        "办公建筑",
+        "建筑立面",
+        "参数化设计",
+        "现代主义",
+        "金属",
+        "玻璃",
+        "暖色系",
+        "高饱和",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "办公建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "参数化设计",
+          "现代主义"
+        ],
+        "materials": [
+          "金属",
+          "玻璃"
+        ],
+        "color_tone": [
+          "暖色系",
+          "高饱和"
+        ],
+        "scene_usage": [
+          "方案参考"
+        ],
+        "image_description": "现代办公建筑外立面，金属表皮呈参数化编织形态，穿插玻璃窗，暖色金属与玻璃反射天空，造型富有动感。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:58:17"
+      },
+      "ai_description": "现代办公建筑外立面，金属表皮呈参数化编织形态，穿插玻璃窗，暖色金属与玻璃反射天空，造型富有动感。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_159",
+      "filename": "2026110615244546752.jpg",
+      "local_path": "小红书图片下载/2026110615244546752.jpg",
+      "exists_locally": true,
+      "title": "藏在山林里的 | 建筑美学",
+      "raw_title": "藏在山林里的 | 建筑美学",
+      "author": "NANTU®南图建筑空间摄影",
+      "raw_author": "NANTU®南图建筑空间摄影",
+      "content": "藏在益阳会龙山之中\n钢板如破碎书页层层翻折\n锈蚀的金属、锋利的三角几何\n清水混凝土如瀑布倾泻而下\n白天粗粝沉静，入夜灯光穿透钢板镂空和平鸽\n山林之间\n建筑本身就是一段无声的叙事\n\t\n#建筑摄影 #建筑美学 #解构建筑 #公建设计 #耐候钢建筑 #空间摄影 #建筑打卡 #湖南建筑 #建筑案例 #建筑师日常 #空间美学 #清水混凝土 #建筑光影 #建筑外立面 #建筑设计灵感 #景观建筑 #摄影作品 #空间美学打卡 #建筑事务所 #公共建筑 #建筑质感 #大地建筑 #建筑旅行 #建筑赏析 #设计灵感 #建筑摄影师 #纪实建筑 #建筑细节 #地标建筑 #长沙建筑空间摄影 #南图建筑空间摄影",
+      "raw_content": "藏在益阳会龙山之中\n钢板如破碎书页层层翻折\n锈蚀的金属、锋利的三角几何\n清水混凝土如瀑布倾泻而下\n白天粗粝沉静，入夜灯光穿透钢板镂空和平鸽\n山林之间\n建筑本身就是一段无声的叙事\n\t\n#建筑摄影 #建筑美学 #解构建筑 #公建设计 #耐候钢建筑 #空间摄影 #建筑打卡 #湖南建筑 #建筑案例 #建筑师日常 #空间美学 #清水混凝土 #建筑光影 #建筑外立面 #建筑设计灵感 #景观建筑 #摄影作品 #空间美学打卡 #建筑事务所 #公共建筑 #建筑质感 #大地建筑 #建筑旅行 #建筑赏析 #设计灵感 #建筑摄影师 #纪实建筑 #建筑细节 #地标建筑 #长沙建筑空间摄影 #南图建筑空间摄影",
+      "likes": 23,
+      "collects": 22,
+      "url": "https://www.xiaohongshu.com/explore/6aabb3f4000000002601fd89?xsec_token=ABfu1yHfBzRjLBSmaadt2nGHRg-IKpgLznS8-1ejZvFiw=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061524/69b002bb22d085750475a433b8f3c848/notes_pre_post/1040g3k83257bqsq6kk4g48trtq2i99agc0ah3lg!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:24:45",
+      "width": 1080,
+      "height": 1153,
+      "aspect_ratio": 1.068,
+      "tags": [
+        "建筑摄影",
+        "建筑美学",
+        "解构建筑",
+        "公建设计",
+        "耐候钢建筑",
+        "空间摄影",
+        "建筑打卡",
+        "湖南建筑",
+        "建筑案例",
+        "建筑师日常",
+        "空间美学",
+        "清水混凝土",
+        "建筑光影",
+        "建筑外立面",
+        "建筑设计灵感",
+        "景观建筑",
+        "摄影作品",
+        "空间美学打卡",
+        "建筑事务所",
+        "公共建筑",
+        "建筑质感",
+        "大地建筑",
+        "建筑旅行",
+        "建筑赏析",
+        "设计灵感",
+        "建筑摄影师",
+        "纪实建筑",
+        "建筑细节",
+        "地标建筑",
+        "长沙建筑空间摄影",
+        "南图建筑空间摄影",
+        "文化建筑",
+        "建筑立面",
+        "新中式",
+        "自然主义",
+        "瓦屋面",
+        "玻璃",
+        "灯光",
+        "暮色夜景",
+        "低饱和",
+        "明亮通透",
+        "方案参考",
+        "文旅项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "文化建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "新中式",
+          "自然主义"
+        ],
+        "materials": [
+          "瓦屋面",
+          "玻璃",
+          "灯光"
+        ],
+        "color_tone": [
+          "暮色夜景",
+          "低饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "文旅项目"
+        ],
+        "image_description": "山林间夜景中的文化建筑，红瓦层叠如书页，玻璃幕墙透出暖光，灯光勾勒轮廓，营造静谧而现代的东方意境。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:58:09"
+      },
+      "ai_description": "山林间夜景中的文化建筑，红瓦层叠如书页，玻璃幕墙透出暖光，灯光勾勒轮廓，营造静谧而现代的东方意境。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_158",
+      "filename": "2026110615233854750.jpg",
+      "local_path": "小红书图片下载/2026110615233854750.jpg",
+      "exists_locally": true,
+      "title": "无",
+      "raw_title": "无",
+      "author": "长沙野宿建筑",
+      "raw_author": "长沙野宿建筑",
+      "content": "藏于山林的极简小方盒🌿 预制模块化林间小屋，工厂整体制作，现场直接吊装落地。 大面积落地玻璃，把整片森林搬进房间。 耐候钢 + 原木质感，抗风雨耐户外，民宿、森林书房、度假小居所都可做。 源头工厂定制，尺寸户型按需改造，林地也能快速建成。#装配式建筑 #建筑设计灵感 #木结构 #治愈系木屋 #花园小木屋 #森林里的小木屋",
+      "raw_content": "藏于山林的极简小方盒🌿 预制模块化林间小屋，工厂整体制作，现场直接吊装落地。 大面积落地玻璃，把整片森林搬进房间。 耐候钢 + 原木质感，抗风雨耐户外，民宿、森林书房、度假小居所都可做。 源头工厂定制，尺寸户型按需改造，林地也能快速建成。#装配式建筑 #建筑设计灵感 #木结构 #治愈系木屋 #花园小木屋 #森林里的小木屋",
+      "likes": 28,
+      "collects": 24,
+      "url": "https://www.xiaohongshu.com/explore/6a801abe000000000502825f?xsec_token=ABhvg3MlLk58lbObzA9cJNGrgwuzUTZkbR0UGkmzFVv70=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061523/f805fd420d41f8dd0cd88e71e3d0b28d/spectrum/1040g34o323spb1mb0m505p8m0e98sq4onmheiq0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:23:38",
+      "width": 1080,
+      "height": 1337,
+      "aspect_ratio": 1.238,
+      "tags": [
+        "装配式建筑",
+        "建筑设计灵感",
+        "木结构",
+        "治愈系木屋",
+        "花园小木屋",
+        "森林里的小木屋",
+        "住宅建筑",
+        "景观空间",
+        "日式风格",
+        "自然主义",
+        "木材",
+        "玻璃",
+        "绿植",
+        "水体",
+        "暖色系",
+        "柔和自然",
+        "方案参考",
+        "景观设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "景观空间"
+        ],
+        "design_style": [
+          "日式风格",
+          "自然主义"
+        ],
+        "materials": [
+          "木材",
+          "玻璃",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "暖色系",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "景观设计参考"
+        ],
+        "image_description": "木结构小屋嵌入林间，玻璃幕墙通透，暖光内透，绿植环绕，营造静谧自然的栖居氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:57:58"
+      },
+      "ai_description": "木结构小屋嵌入林间，玻璃幕墙通透，暖光内透，绿植环绕，营造静谧自然的栖居氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_157",
+      "filename": "2026110615230417401.jpg",
+      "local_path": "小红书图片下载/2026110615230417401.jpg",
+      "exists_locally": true,
+      "title": "审美积累：硅谷半山宅的“反冰冷”哲学",
+      "raw_title": "审美积累：硅谷半山宅的“反冰冷”哲学",
+      "author": "予余设计DESIGN",
+      "raw_author": "予余设计DESIGN",
+      "content": "预算决定不了高级感，真正拉开差距的是审美积累！今天用加州硅谷顶流社区 Los Altos Hills 的 6,000 平方英尺（约 557㎡）全拆重塑大宅，为你提炼 3 个能直接抄回家的高阶设计思路。\n👇 精简干货，高级感只看这 3 点：\n人字山墙引光入室： 破除大平层采光死角。建筑背立面改造成整面通顶人字山墙落地窗（Gable Window Wall），配合天然石材与原木外立面，让加州林地的自然光线无遮挡倾泻入室，将室外森林全幅定格为室内背景。\n三种壁炉材质叙事： 拒绝同质化背景墙。公区以异形手工艺术灰泥壁炉充当功能雕塑定调全屋；家庭休闲区整墙覆贴做旧耐候钢板（Corten Panels）营造深邃私密气场；主卧则用线性肌理灰泥点睛，用材质冲突为不同空间赋予专属情绪。\n木石相融与克制灯光： 告别现代大宅容易陷入的冰冷样板感。全屋墙面与天花通铺显纹橡木饰面打底，餐厨区混搭奢雅的 Calacatta Monet 大理石，并悬挂一组 15 英尺（约 4.5 米）极简几何吊灯，用硬朗工业线条克制地平衡原生态木石的松弛温润。\n#审美积累#国外室内设计#高级感装修#小红书设计委#设计灵感#予余设计#硬装设计#独立设计师#建筑美学#软装搭配",
+      "raw_content": "预算决定不了高级感，真正拉开差距的是审美积累！今天用加州硅谷顶流社区 Los Altos Hills 的 6,000 平方英尺（约 557㎡）全拆重塑大宅，为你提炼 3 个能直接抄回家的高阶设计思路。\n👇 精简干货，高级感只看这 3 点：\n人字山墙引光入室： 破除大平层采光死角。建筑背立面改造成整面通顶人字山墙落地窗（Gable Window Wall），配合天然石材与原木外立面，让加州林地的自然光线无遮挡倾泻入室，将室外森林全幅定格为室内背景。\n三种壁炉材质叙事： 拒绝同质化背景墙。公区以异形手工艺术灰泥壁炉充当功能雕塑定调全屋；家庭休闲区整墙覆贴做旧耐候钢板（Corten Panels）营造深邃私密气场；主卧则用线性肌理灰泥点睛，用材质冲突为不同空间赋予专属情绪。\n木石相融与克制灯光： 告别现代大宅容易陷入的冰冷样板感。全屋墙面与天花通铺显纹橡木饰面打底，餐厨区混搭奢雅的 Calacatta Monet 大理石，并悬挂一组 15 英尺（约 4.5 米）极简几何吊灯，用硬朗工业线条克制地平衡原生态木石的松弛温润。\n#审美积累#国外室内设计#高级感装修#小红书设计委#设计灵感#予余设计#硬装设计#独立设计师#建筑美学#软装搭配",
+      "likes": 30,
+      "collects": 26,
+      "url": "https://www.xiaohongshu.com/explore/6adf1e6c000000001703cebf?xsec_token=ABuwlg92Ouvc-OjAzXXC7Er4azW6ePwvtudhDoxRIh9ZA=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061523/7e717f433a6552dd774c04e7d2db62e5/spectrum/1040g0k0326pik8ptka4g5n8mrns5lscl6qnergo!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:23:04",
+      "width": 1080,
+      "height": 1620,
+      "aspect_ratio": 1.5,
+      "tags": [
+        "审美积累",
+        "国外室内设计",
+        "高级感装修",
+        "小红书设计委",
+        "设计灵感",
+        "予余设计",
+        "硬装设计",
+        "独立设计师",
+        "建筑美学",
+        "软装搭配",
+        "住宅建筑",
+        "建筑立面",
+        "现代主义",
+        "自然主义",
+        "玻璃",
+        "石材",
+        "金属",
+        "绿植",
+        "水体",
+        "冷色调",
+        "低饱和",
+        "暮色夜景",
+        "方案参考",
+        "住宅项目"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "自然主义"
+        ],
+        "materials": [
+          "玻璃",
+          "石材",
+          "金属",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和",
+          "暮色夜景"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "住宅项目"
+        ],
+        "image_description": "现代风格住宅夜景，玻璃幕墙与石材基座结合，庭院水池倒映灯光，前景芦苇与绿植营造静谧氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:57:53"
+      },
+      "ai_description": "现代风格住宅夜景，玻璃幕墙与石材基座结合，庭院水池倒映灯光，前景芦苇与绿植营造静谧氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_156",
+      "filename": "2026110615215729083.jpg",
+      "local_path": "小红书图片下载/2026110615215729083.jpg",
+      "exists_locally": true,
+      "title": "苏拉热博物馆：锈钢板与艺术的对话✨",
+      "raw_title": "苏拉热博物馆：锈钢板与艺术的对话✨",
+      "author": "小东西Littleguys",
+      "raw_author": "小东西Littleguys",
+      "content": "RCR用耐候钢打造的粗粝建筑，与苏拉热的抽象黑画形成了奇妙呼应。厚重的锈色立方体，像从土地里生长出来的雕塑，时间在钢板上留下的痕迹，也让建筑本身成为一件不断变化的艺术品。\n💡设计参考：\n材料叙事：耐候钢板随时间变化的锈迹，让建筑拥有持续生长的生命力；\n空间张力：厚重的体块、下沉式庭院，创造出静谧而富有仪式感的观展氛围；\n光影控制：狭长的窗洞，让自然光像画笔一样在空间中流动。\n+项目名称：苏拉热博物馆\n+设计师：Rcr Arquitectes、Passelac & Roques Architectes\n+关键词：#抬头看艺术 #建筑设计案例分享 #建筑作品集 #设计灵感 #建筑艺术 #艺术构筑物 #建筑设计灵感 #展览类建筑 #耐候钢\n+图片：arc.only\n——💗点个关注不迷路💗——",
+      "raw_content": "RCR用耐候钢打造的粗粝建筑，与苏拉热的抽象黑画形成了奇妙呼应。厚重的锈色立方体，像从土地里生长出来的雕塑，时间在钢板上留下的痕迹，也让建筑本身成为一件不断变化的艺术品。\n💡设计参考：\n材料叙事：耐候钢板随时间变化的锈迹，让建筑拥有持续生长的生命力；\n空间张力：厚重的体块、下沉式庭院，创造出静谧而富有仪式感的观展氛围；\n光影控制：狭长的窗洞，让自然光像画笔一样在空间中流动。\n+项目名称：苏拉热博物馆\n+设计师：Rcr Arquitectes、Passelac & Roques Architectes\n+关键词：#抬头看艺术 #建筑设计案例分享 #建筑作品集 #设计灵感 #建筑艺术 #艺术构筑物 #建筑设计灵感 #展览类建筑 #耐候钢\n+图片：arc.only\n——💗点个关注不迷路💗——",
+      "likes": 35,
+      "collects": 30,
+      "url": "https://www.xiaohongshu.com/explore/6a1e25af000000003503be46?xsec_token=ABmQBSXSepwccEqLYUVbC_97njmw3EL9gwdueaBoKDyKc=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061521/3eca5fa534741e502756425257c74104/notes_pre_post/1040g3k0320t46aie6u505pqvi4cm2mpo2avojc8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:21:57",
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 1.25,
+      "tags": [
+        "抬头看艺术",
+        "建筑设计案例分享",
+        "建筑作品集",
+        "设计灵感",
+        "建筑艺术",
+        "艺术构筑物",
+        "建筑设计灵感",
+        "展览类建筑",
+        "耐候钢",
+        "建筑立面",
+        "粗野主义",
+        "混凝土",
+        "金属",
+        "绿植",
+        "水体",
+        "中性色",
+        "低饱和",
+        "方案参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面"
+        ],
+        "design_style": [
+          "粗野主义"
+        ],
+        "materials": [
+          "混凝土",
+          "金属",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "中性色",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "方案参考"
+        ],
+        "image_description": "建筑立面采用粗犷混凝土与锈蚀金属构件，搭配玻璃窗与阶梯入口，呈现工业风的硬朗质感。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:57:43"
+      },
+      "ai_description": "建筑立面采用粗犷混凝土与锈蚀金属构件，搭配玻璃窗与阶梯入口，呈现工业风的硬朗质感。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_155",
+      "filename": "2026110615205010957.jpg",
+      "local_path": "小红书图片下载/2026110615205010957.jpg",
+      "exists_locally": true,
+      "title": "佛山宝藏拍车地",
+      "raw_title": "佛山宝藏拍车地",
+      "author": "小鹿乱创📷",
+      "raw_author": "小鹿乱创📷",
+      "content": "导航到佛山这片工业区的时候，本来只是路过。\n\t\n结果转角处一整面红色钢结构出现在眼前——硬朗的H型钢柱、铆钉裸露的横梁、锈红色的耐候钢板幕墙，在下午的光里泛着粗粝的金属光泽。那种工业时代的力量感，像一座沉默的钢铁森林。\n\t\n我把车停在钢构架下方，精灵1号停稳的那一刻，自己先愣了一下。\n\t\n红色的硬朗直线和时光绿的流畅弧线，在同一个画面里形成了某种奇妙的张力。钢架是刚的、方的、有棱角的；车身是柔的、圆的、流动的。一个像楷书，一个像草书，笔法完全不同，写在同一个画面里却意外地和谐。建筑在诉说重工业的秩序感，搭子在回应现代设计的呼吸感，两种语言在取景框里完成了一场安静的对话。\n\t\n工业风的场景拍车，最怕的就是车被背景吃掉。但今天没有，红色够烈，绿得够沉，互相成全。\n\t\n最后说几句实在话：\n\t\n地点是工业区，不是公园。 来拍照前记得先跟门卫或管理方报备，有些区域是生产区，不能随便进。最重要的是——走的时候把垃圾带走，别留下任何东西。 好的拍摄地是靠大家共同维护的，别让一次拍摄变成最后一次。\n\t\n地点:广东工业设计城创新中心\n\t\n#城市里的几何美学 #howto把车门变成任意门 #smart #smart精灵1号 #汽车拍摄 #佛山拍车",
+      "raw_content": "导航到佛山这片工业区的时候，本来只是路过。\n\t\n结果转角处一整面红色钢结构出现在眼前——硬朗的H型钢柱、铆钉裸露的横梁、锈红色的耐候钢板幕墙，在下午的光里泛着粗粝的金属光泽。那种工业时代的力量感，像一座沉默的钢铁森林。\n\t\n我把车停在钢构架下方，精灵1号停稳的那一刻，自己先愣了一下。\n\t\n红色的硬朗直线和时光绿的流畅弧线，在同一个画面里形成了某种奇妙的张力。钢架是刚的、方的、有棱角的；车身是柔的、圆的、流动的。一个像楷书，一个像草书，笔法完全不同，写在同一个画面里却意外地和谐。建筑在诉说重工业的秩序感，搭子在回应现代设计的呼吸感，两种语言在取景框里完成了一场安静的对话。\n\t\n工业风的场景拍车，最怕的就是车被背景吃掉。但今天没有，红色够烈，绿得够沉，互相成全。\n\t\n最后说几句实在话：\n\t\n地点是工业区，不是公园。 来拍照前记得先跟门卫或管理方报备，有些区域是生产区，不能随便进。最重要的是——走的时候把垃圾带走，别留下任何东西。 好的拍摄地是靠大家共同维护的，别让一次拍摄变成最后一次。\n\t\n地点:广东工业设计城创新中心\n\t\n#城市里的几何美学 #howto把车门变成任意门 #smart #smart精灵1号 #汽车拍摄 #佛山拍车",
+      "likes": 39,
+      "collects": 30,
+      "url": "https://www.xiaohongshu.com/explore/6ab1d7270000000033038caa?xsec_token=AB3HtBANJgFVJ3rPnB1nxuUlQz7BoyqySqXlWuZ-CknIM=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061520/ab9533c51f3157f0bf90e252d11d3ae6/1040g2sg325dbj0234q5g5nbflo7099ui4itqdv8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:20:50",
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 1.25,
+      "tags": [
+        "城市里的几何美学",
+        "howto把车门变成任意门",
+        "smart",
+        "smart精灵1号",
+        "汽车拍摄",
+        "佛山拍车",
+        "室内空间",
+        "工业风",
+        "金属",
+        "混凝土",
+        "绿植",
+        "玻璃",
+        "暖色系",
+        "高饱和",
+        "明亮通透",
+        "方案参考",
+        "室内设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "室内空间"
+        ],
+        "design_style": [
+          "工业风"
+        ],
+        "materials": [
+          "金属",
+          "混凝土",
+          "绿植",
+          "玻璃"
+        ],
+        "color_tone": [
+          "暖色系",
+          "高饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "室内设计参考"
+        ],
+        "image_description": "银色SUV停于橙红色工业风室内空间，金属结构与混凝土柱体构成纵深通道，地面铺装与绿植点缀，暖色调灯光营造明亮通透氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:57:39"
+      },
+      "ai_description": "银色SUV停于橙红色工业风室内空间，金属结构与混凝土柱体构成纵深通道，地面铺装与绿植点缀，暖色调灯光营造明亮通透氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_154",
+      "filename": "2026110615194337638.jpg",
+      "local_path": "小红书图片下载/2026110615194337638.jpg",
+      "exists_locally": true,
+      "title": "和平·签证主题馆// 杨瑛",
+      "raw_title": "和平·签证主题馆// 杨瑛",
+      "author": "不爱玩剧本杀的暴躁牛马",
+      "raw_author": "不爱玩剧本杀的暴躁牛马",
+      "content": "二战期间，中国驻维也纳总领事何凤山先生，通过发放前往中国的签证，挽救了数千名犹太人的生命。\n2019年，为纪念何先生的义举，和平·签证主题馆在中国益阳市落成。\n\t\n建筑以“签证”为基本元素。耐候钢板叠加成“签证板”，既形成遮阳，也定义了内部动线，象征一条由签证引导的“生命通道”。\n\t\nArchitects // 杨瑛\n📷杨瑛设计工作室\n📍中国.益阳\n\t\n#设计灵感 #美学 #建筑美学",
+      "raw_content": "二战期间，中国驻维也纳总领事何凤山先生，通过发放前往中国的签证，挽救了数千名犹太人的生命。\n2019年，为纪念何先生的义举，和平·签证主题馆在中国益阳市落成。\n\t\n建筑以“签证”为基本元素。耐候钢板叠加成“签证板”，既形成遮阳，也定义了内部动线，象征一条由签证引导的“生命通道”。\n\t\nArchitects // 杨瑛\n📷杨瑛设计工作室\n📍中国.益阳\n\t\n#设计灵感 #美学 #建筑美学",
+      "likes": 41,
+      "collects": 25,
+      "url": "https://www.xiaohongshu.com/explore/6a1a5682000000003501fdcf?xsec_token=ABFa1UK0Zp75aLmOJcXfVAnpxolU_qK8HK7I9q6uqFOog=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061519/c7b0acf07dc67da9b253431088031d38/notes_pre_post/1040g3k0320pd4ve35c6g5n1tgtehcj0cov7jp40!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:19:43",
+      "width": 1080,
+      "height": 1436,
+      "aspect_ratio": 1.33,
+      "tags": [
+        "设计灵感",
+        "美学",
+        "建筑美学",
+        "建筑立面",
+        "参数化设计",
+        "未来主义",
+        "金属",
+        "混凝土",
+        "灯光",
+        "冷色调",
+        "高对比",
+        "暮色夜景",
+        "方案参考",
+        "概念方案"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "建筑立面"
+        ],
+        "design_style": [
+          "参数化设计",
+          "未来主义"
+        ],
+        "materials": [
+          "金属",
+          "混凝土",
+          "灯光"
+        ],
+        "color_tone": [
+          "冷色调",
+          "高对比",
+          "暮色夜景"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "概念方案"
+        ],
+        "image_description": "建筑立面采用参数化金属与混凝土构成锐利几何体，夜幕下灯光勾勒出未来主义轮廓，地面嵌入点状光源强化空间戏剧感。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:57:30"
+      },
+      "ai_description": "建筑立面采用参数化金属与混凝土构成锐利几何体，夜幕下灯光勾勒出未来主义轮廓，地面嵌入点状光源强化空间戏剧感。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_153",
+      "filename": "2026110615183661359.jpg",
+      "local_path": "小红书图片下载/2026110615183661359.jpg",
+      "exists_locally": true,
+      "title": "卓越手绘｜设计竞赛获奖作品案例分享",
+      "raw_title": "卓越手绘｜设计竞赛获奖作品案例分享",
+      "author": "卓越手绘",
+      "raw_author": "卓越手绘",
+      "content": "设计以\"唤醒旧城记忆，延续工业文脉\"为核心理念，对长沙油脂厂工业遗址进行活化更新，将废弃的工业生产空间转化为承载城市历史与公共生活的文化地标。\n保留原有油脂厂筒仓、厂房等典型工业构架，植入博物馆、图书馆、餐饮手工坊、空中步道等新功能，让老工业基地焕发新生。\n面向大学生、老年人、游客及周边居民等多类人群，打造\"披着长沙工业文化遗址外衣的三馆一厅\"，使不同年龄层的人群都能在此找到归属感，重温城市发展的集体记忆。\n利用锈蚀钢板、红砖墙、耐候钢板等工业材质与新建筑有机结合，不仅实现了新旧空间的对话与融合，也让建筑内部与外部形成良好的互动关系。\n#设计竞赛  #作品分享  #设计作品  #设计灵感  #设计大赛  #艺术设计  #作品集",
+      "raw_content": "设计以\"唤醒旧城记忆，延续工业文脉\"为核心理念，对长沙油脂厂工业遗址进行活化更新，将废弃的工业生产空间转化为承载城市历史与公共生活的文化地标。\n保留原有油脂厂筒仓、厂房等典型工业构架，植入博物馆、图书馆、餐饮手工坊、空中步道等新功能，让老工业基地焕发新生。\n面向大学生、老年人、游客及周边居民等多类人群，打造\"披着长沙工业文化遗址外衣的三馆一厅\"，使不同年龄层的人群都能在此找到归属感，重温城市发展的集体记忆。\n利用锈蚀钢板、红砖墙、耐候钢板等工业材质与新建筑有机结合，不仅实现了新旧空间的对话与融合，也让建筑内部与外部形成良好的互动关系。\n#设计竞赛  #作品分享  #设计作品  #设计灵感  #设计大赛  #艺术设计  #作品集",
+      "likes": 43,
+      "collects": 27,
+      "url": "https://www.xiaohongshu.com/explore/6a1fa2ad000000000800134b?xsec_token=ABp1GSkQ94wQ149Ioi5gC4_-z74iuWj7zT1wxicCzm7Rw=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061518/fd8e0dca5e3d8e8b2e532c45c9eed482/spectrum/1040g34o320uiqlbe72405ntt6ij08rkvgmutbb0!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:18:36",
+      "width": 1080,
+      "height": 1528,
+      "aspect_ratio": 1.415,
+      "tags": [
+        "设计竞赛",
+        "作品分享",
+        "设计作品",
+        "设计灵感",
+        "设计大赛",
+        "艺术设计",
+        "作品集",
+        "工业建筑",
+        "公共建筑",
+        "地域性建筑",
+        "工业风",
+        "混凝土",
+        "金属",
+        "玻璃",
+        "砖",
+        "中性色",
+        "低饱和",
+        "柔和自然",
+        "毕业设计",
+        "规划汇报"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "工业建筑",
+          "公共建筑"
+        ],
+        "design_style": [
+          "地域性建筑",
+          "工业风"
+        ],
+        "materials": [
+          "混凝土",
+          "金属",
+          "玻璃",
+          "砖"
+        ],
+        "color_tone": [
+          "中性色",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "毕业设计",
+          "规划汇报"
+        ],
+        "image_description": "工业遗址改造项目设计图纸，展示原厂房结构与功能布局，以混凝土、金属与玻璃为主要材料，呈现复古工业风与地域性建筑特征。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:57:18"
+      },
+      "ai_description": "工业遗址改造项目设计图纸，展示原厂房结构与功能布局，以混凝土、金属与玻璃为主要材料，呈现复古工业风与地域性建筑特征。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_152",
+      "filename": "2026110615172973887.jpg",
+      "local_path": "小红书图片下载/2026110615172973887.jpg",
+      "exists_locally": true,
+      "title": "DDL遗产更新设计不会做？看这里重构城市交通",
+      "raw_title": "DDL遗产更新设计不会做？看这里重构城市交通",
+      "author": "RY火火设计师",
+      "raw_author": "RY火火设计师",
+      "content": "🤔废弃长途车站如何重新成为城市活力心脏？\n这套方案目标把废弃旧汽车站，改造为复合市民公共中心，融合市集、商业、休闲、社区活动空间，激活城市片区。\n✦ 设计核心思路\n1. 保留基底，轻量介入\n不把原有建筑全盘推倒，保留场地大尺度骨架；新增构件采用耐候红锈钢板+钢桁架，标志性斜向桁架廊道作为城市视觉锚点，既是交通连廊，也是场地符号，新旧形成清晰对话。\n2. 多层次公共空间体系\n• 底层：全开敞的半室外市集、沿街商铺，界面通透，面向街道开放，市民可自由穿行；\n• 二层：平台、休闲卡座、中庭挑空，打造观景与社交空间；\n• 地下层：配套服务、后勤空间；\n• 大面积挑檐屋面，适配高原强烈日照，形成灰空间，遮阳避雨，鼓励全天候城市活动。\n3. 城市缝合策略\n场地分析图展示城市路网、水系、绿地关系，方案打通城市步行流线，将旧车站从封闭交通枢纽，转变为城市公共节点，联动周边城市步道与城市电梯（当地城市特色竖向交通）。\n4. 材料语言\n清水混凝土、耐候钢、原木格栅组合。粗粝厚重的混凝土承担结构，红锈钢作为视觉焦点，木格栅柔化室内商铺氛围，兼顾地域气候与工业遗产气质。\n✦ 图纸展板叙事逻辑\n• L1：总鸟瞰轴测+城市区位+整体效果图，先讲城市定位与整体形态\n• L2：一层/二层总平面图，清晰区分公共开放区、商业、配套\n• L3：地下层平面+爆炸分解轴测，拆解空间叠合关系\n• L4：剖面+立面+室内人视效果图，表达竖向空间、采光、灰空间体验\n📐展板叙事完整闭环：从城市区位分析、场地策略，到平面排布、剖面竖向逻辑，再到人视空间渲染，清晰传递空间策略与项目故事。\n💡🉑️建筑/景观/城市设计协助\nConcept梳理｜方案深化｜Diagram分析图｜建模渲染｜展板叙事排版等\n#建筑竞赛 #旧建筑更新 #公共建筑设计 #遗产改造 #建筑展板#建筑设计 #建筑作品集 #分析图 #作品集排版 #景观设计",
+      "raw_content": "🤔废弃长途车站如何重新成为城市活力心脏？\n这套方案目标把废弃旧汽车站，改造为复合市民公共中心，融合市集、商业、休闲、社区活动空间，激活城市片区。\n✦ 设计核心思路\n1. 保留基底，轻量介入\n不把原有建筑全盘推倒，保留场地大尺度骨架；新增构件采用耐候红锈钢板+钢桁架，标志性斜向桁架廊道作为城市视觉锚点，既是交通连廊，也是场地符号，新旧形成清晰对话。\n2. 多层次公共空间体系\n• 底层：全开敞的半室外市集、沿街商铺，界面通透，面向街道开放，市民可自由穿行；\n• 二层：平台、休闲卡座、中庭挑空，打造观景与社交空间；\n• 地下层：配套服务、后勤空间；\n• 大面积挑檐屋面，适配高原强烈日照，形成灰空间，遮阳避雨，鼓励全天候城市活动。\n3. 城市缝合策略\n场地分析图展示城市路网、水系、绿地关系，方案打通城市步行流线，将旧车站从封闭交通枢纽，转变为城市公共节点，联动周边城市步道与城市电梯（当地城市特色竖向交通）。\n4. 材料语言\n清水混凝土、耐候钢、原木格栅组合。粗粝厚重的混凝土承担结构，红锈钢作为视觉焦点，木格栅柔化室内商铺氛围，兼顾地域气候与工业遗产气质。\n✦ 图纸展板叙事逻辑\n• L1：总鸟瞰轴测+城市区位+整体效果图，先讲城市定位与整体形态\n• L2：一层/二层总平面图，清晰区分公共开放区、商业、配套\n• L3：地下层平面+爆炸分解轴测，拆解空间叠合关系\n• L4：剖面+立面+室内人视效果图，表达竖向空间、采光、灰空间体验\n📐展板叙事完整闭环：从城市区位分析、场地策略，到平面排布、剖面竖向逻辑，再到人视空间渲染，清晰传递空间策略与项目故事。\n💡🉑️建筑/景观/城市设计协助\nConcept梳理｜方案深化｜Diagram分析图｜建模渲染｜展板叙事排版等\n#建筑竞赛 #旧建筑更新 #公共建筑设计 #遗产改造 #建筑展板#建筑设计 #建筑作品集 #分析图 #作品集排版 #景观设计",
+      "likes": 43,
+      "collects": 32,
+      "url": "https://www.xiaohongshu.com/explore/6ad71d51000000002603180e?xsec_token=ABOS5YFeyHDC1xkaYrQskxFKNmf8df6bEfxO9l0g4bLR0=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061517/1c6850342eb5b1a284e8fe29f6bc796d/notes_pre_post/1040g3k0326hofkbcl0005qbacnctogdl1csfkp8!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:17:29",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "建筑竞赛",
+        "旧建筑更新",
+        "公共建筑设计",
+        "遗产改造",
+        "建筑展板",
+        "建筑设计",
+        "建筑作品集",
+        "分析图",
+        "作品集排版",
+        "景观设计",
+        "公共建筑",
+        "建筑模型",
+        "室内空间",
+        "现代主义",
+        "工业风",
+        "金属",
+        "玻璃",
+        "木材",
+        "混凝土",
+        "中性色",
+        "低饱和",
+        "明亮通透",
+        "概念方案",
+        "规划汇报",
+        "毕业设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "公共建筑",
+          "建筑模型",
+          "室内空间"
+        ],
+        "design_style": [
+          "现代主义",
+          "工业风"
+        ],
+        "materials": [
+          "金属",
+          "玻璃",
+          "木材",
+          "混凝土"
+        ],
+        "color_tone": [
+          "中性色",
+          "低饱和",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "概念方案",
+          "规划汇报",
+          "毕业设计"
+        ],
+        "image_description": "多图拼贴展示建筑概念方案，含模型、室内空间与规划图纸，金属与玻璃材质，呈现现代工业风格的公共建筑设计。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:57:09"
+      },
+      "ai_description": "多图拼贴展示建筑概念方案，含模型、室内空间与规划图纸，金属与玻璃材质，呈现现代工业风格的公共建筑设计。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_151",
+      "filename": "2026110615162304920.jpg",
+      "local_path": "小红书图片下载/2026110615162304920.jpg",
+      "exists_locally": true,
+      "title": "Doshi Retreat 🍂锈红色弯曲奇迹",
+      "raw_title": "Doshi Retreat 🍂锈红色弯曲奇迹",
+      "author": "Huy",
+      "raw_author": "Huy",
+      "content": "去 Vitra 博物馆，别只顾着拍 VitraHaus！在 Piet Oudolf 的草本花园旁边，藏着一座超有质感的新落成景观建筑——Doshi Retreat 🍂\n这是印度建筑大师、普利兹克奖得主巴克里希纳·多西（Balkrishna Doshi）在印度本土之外的唯一一件作品，也是大师的终山遗作，气场真的完全不一样！\n💡 必打卡亮点\n锈红色耐候钢迷宫：巨大的耐候钢板（Corten Steel）顺着草坪蜿蜒沉降，就像一条红锈色的金属长龙。随着岁月和风雨的侵蚀，钢板的质感会自然变化，野性又高级！\n梦境般的蛇形曲线：听说灵感来自大师梦中的“双蛇”，走在下沉式的弯曲小径里，两边的钢墙包围着你，光影拉得极长，怎么拍都有大片感。\n沉浸式冥想小室：沿着小路走到尽头，会发现一个圆顶静修空间，里面播放着空灵的铜锣音律，顶上还有印度手工打制的黄铜曼陀罗，逛累了在这里站一会儿特别治愈。\n📸 拍照出片建议\n服装搭配：建议穿白色、黑色或大地色系服装，与暖红色的锈钢墙壁对比度拉满！\n光影时刻：下午两三点阳光斜射进来的时候，钢板上的光影折射和线条感最绝。\n📍 地点：Vitra Campus Garden 区域\n🏷️ 标签：#VitraCampus #VitraDesignMuseum #DoshiRetreat #建筑大师 #小众建筑打卡 #德国旅行 #小红书旅行图鉴 #巴塞尔周边游",
+      "raw_content": "去 Vitra 博物馆，别只顾着拍 VitraHaus！在 Piet Oudolf 的草本花园旁边，藏着一座超有质感的新落成景观建筑——Doshi Retreat 🍂\n这是印度建筑大师、普利兹克奖得主巴克里希纳·多西（Balkrishna Doshi）在印度本土之外的唯一一件作品，也是大师的终山遗作，气场真的完全不一样！\n💡 必打卡亮点\n锈红色耐候钢迷宫：巨大的耐候钢板（Corten Steel）顺着草坪蜿蜒沉降，就像一条红锈色的金属长龙。随着岁月和风雨的侵蚀，钢板的质感会自然变化，野性又高级！\n梦境般的蛇形曲线：听说灵感来自大师梦中的“双蛇”，走在下沉式的弯曲小径里，两边的钢墙包围着你，光影拉得极长，怎么拍都有大片感。\n沉浸式冥想小室：沿着小路走到尽头，会发现一个圆顶静修空间，里面播放着空灵的铜锣音律，顶上还有印度手工打制的黄铜曼陀罗，逛累了在这里站一会儿特别治愈。\n📸 拍照出片建议\n服装搭配：建议穿白色、黑色或大地色系服装，与暖红色的锈钢墙壁对比度拉满！\n光影时刻：下午两三点阳光斜射进来的时候，钢板上的光影折射和线条感最绝。\n📍 地点：Vitra Campus Garden 区域\n🏷️ 标签：#VitraCampus #VitraDesignMuseum #DoshiRetreat #建筑大师 #小众建筑打卡 #德国旅行 #小红书旅行图鉴 #巴塞尔周边游",
+      "likes": 42,
+      "collects": 20,
+      "url": "https://www.xiaohongshu.com/explore/6a88a7d300000000240263b9?xsec_token=ABIjoOFcdmsMuRCi46UZmXVwdWnAulK7T9ryYMxAUeL6Q=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061516/4599f8fdb05dfa94ac5c296dba4b8cf5/note_pre_post_uhdr/1040g3r832454cju1nu8g44s4jl7oggk2ivm2v9g!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:16:23",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "VitraCampus",
+        "VitraDesignMuseum",
+        "DoshiRetreat",
+        "建筑大师",
+        "小众建筑打卡",
+        "德国旅行",
+        "小红书旅行图鉴",
+        "巴塞尔周边游",
+        "景观空间",
+        "未来主义",
+        "自然主义",
+        "金属",
+        "绿植",
+        "水体",
+        "冷色调",
+        "低饱和",
+        "景观设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "景观空间"
+        ],
+        "design_style": [
+          "未来主义",
+          "自然主义"
+        ],
+        "materials": [
+          "金属",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "冷色调",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "景观设计参考"
+        ],
+        "image_description": "金属构筑物形成蜿蜒通道，顶部覆盖植被，地面为红土，背景为阴天，呈现未来感与自然融合的景观空间。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:59"
+      },
+      "ai_description": "金属构筑物形成蜿蜒通道，顶部覆盖植被，地面为红土，背景为阴天，呈现未来感与自然融合的景观空间。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_150",
+      "filename": "2026110615151623702.jpg",
+      "local_path": "小红书图片下载/2026110615151623702.jpg",
+      "exists_locally": true,
+      "title": "A+获奖作品｜木材与耐候钢，兼具实用与美学",
+      "raw_title": "A+获奖作品｜木材与耐候钢，兼具实用与美学",
+      "author": "Architizer Awards",
+      "raw_author": "Architizer Awards",
+      "content": "▪️项目：Cayucos Ridge Barn\n▪️公司：Clayton Korte\n▪️荣誉：商业类-工厂与仓库，2024 A+Awards入围奖\n▪️图源：Architizer\n-\n▪️这座简约农用谷仓坐落于加州圣卢西亚山脉一处占地 150 英亩的地块东侧，其中 30 英亩土地种植西拉葡萄藤。建筑服务葡萄园生产作业，同时充分呼应加州中央海岸独有的场地环境。建筑巧妙设于林地与葡萄园交界地带，西侧开设大面积通敞开间，与耕作原野形成通透的视觉联结。宽大的挑檐为实用作业门廊遮阳，遮挡午后强光直射的卷帘大门，充分落实被动式节能设计思路。\n-\n▪️谷仓的朝向设计与选材体系，以简约、耐用、高性能践行可持续理念。整体采用木框架结构，墙面与屋面均铺设波纹耐候钢。该材料耐久度高、无需后期维护，经年累月会形成层次丰富的自然锈色肌理，随场地一同沉淀岁月质感。建筑两端的推拉谷仓门板，取材于 Saxum Winery 旧建筑废料，旧材再利用减少全新饰面材料的消耗，赋予废旧建材全新功能。\n-\n▪️建筑采用离网自给能源系统，屋面铺设晶体光伏板，为场地储能电池组供电，完全脱离外部市政供电。卷帘大门内嵌聚碳酸酯透光板，自然光可充分渗入室内，大幅减少日间人工照明需求。\n-\n▪️谷仓内部存放葡萄园管护与年度采收所需全套设备，涵盖重型农机、葡萄采收箱、工具储藏区及露天作业工坊。室内木构架完全裸露，墙面采用原生胶合板，搭配漆面收纳柜，质朴实用的工业风肌理与场地郊野氛围相得益彰。整座建筑兼顾高实用性与气候适配性，保障农业生产高效运转，同时诠释出建筑的耐久韧性、资源循环思维，以及与土地共生的设计内核。\n-\n@摄影薯 @薯队长 @小红书创作助手 @小红书REDesign @小红书成长笔记 @设计薯 @艺术薯\n-\n#Architizer #建筑设计 #木结构 #设计案例分享 #空间设计 #乡村建筑 #审美积累 #建筑美学",
+      "raw_content": "▪️项目：Cayucos Ridge Barn\n▪️公司：Clayton Korte\n▪️荣誉：商业类-工厂与仓库，2024 A+Awards入围奖\n▪️图源：Architizer\n-\n▪️这座简约农用谷仓坐落于加州圣卢西亚山脉一处占地 150 英亩的地块东侧，其中 30 英亩土地种植西拉葡萄藤。建筑服务葡萄园生产作业，同时充分呼应加州中央海岸独有的场地环境。建筑巧妙设于林地与葡萄园交界地带，西侧开设大面积通敞开间，与耕作原野形成通透的视觉联结。宽大的挑檐为实用作业门廊遮阳，遮挡午后强光直射的卷帘大门，充分落实被动式节能设计思路。\n-\n▪️谷仓的朝向设计与选材体系，以简约、耐用、高性能践行可持续理念。整体采用木框架结构，墙面与屋面均铺设波纹耐候钢。该材料耐久度高、无需后期维护，经年累月会形成层次丰富的自然锈色肌理，随场地一同沉淀岁月质感。建筑两端的推拉谷仓门板，取材于 Saxum Winery 旧建筑废料，旧材再利用减少全新饰面材料的消耗，赋予废旧建材全新功能。\n-\n▪️建筑采用离网自给能源系统，屋面铺设晶体光伏板，为场地储能电池组供电，完全脱离外部市政供电。卷帘大门内嵌聚碳酸酯透光板，自然光可充分渗入室内，大幅减少日间人工照明需求。\n-\n▪️谷仓内部存放葡萄园管护与年度采收所需全套设备，涵盖重型农机、葡萄采收箱、工具储藏区及露天作业工坊。室内木构架完全裸露，墙面采用原生胶合板，搭配漆面收纳柜，质朴实用的工业风肌理与场地郊野氛围相得益彰。整座建筑兼顾高实用性与气候适配性，保障农业生产高效运转，同时诠释出建筑的耐久韧性、资源循环思维，以及与土地共生的设计内核。\n-\n@摄影薯 @薯队长 @小红书创作助手 @小红书REDesign @小红书成长笔记 @设计薯 @艺术薯\n-\n#Architizer #建筑设计 #木结构 #设计案例分享 #空间设计 #乡村建筑 #审美积累 #建筑美学",
+      "likes": 61,
+      "collects": 50,
+      "url": "https://www.xiaohongshu.com/explore/6a45d557000000001603c1e2?xsec_token=ABOkyDNmWbCs8XkoHXVmRMoUcT06vJ9lf_yPCDNRp_v9U=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061515/5b4c23382f1f669d4e8f9a965aec2ecf/spectrum/1040g0k03223scjn5n4005ovmp3843veoiinggoo!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:15:16",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "Architizer",
+        "建筑设计",
+        "木结构",
+        "设计案例分享",
+        "空间设计",
+        "乡村建筑",
+        "审美积累",
+        "建筑美学",
+        "室内空间",
+        "工业建筑",
+        "工业风",
+        "粗野主义",
+        "混凝土",
+        "木材",
+        "金属",
+        "白色墙面",
+        "暖色系",
+        "低饱和",
+        "柔和自然",
+        "方案参考",
+        "毕业设计"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "室内空间",
+          "工业建筑"
+        ],
+        "design_style": [
+          "工业风",
+          "粗野主义"
+        ],
+        "materials": [
+          "混凝土",
+          "木材",
+          "金属",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "暖色系",
+          "低饱和",
+          "柔和自然"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "毕业设计"
+        ],
+        "image_description": "室内空间采用裸露混凝土与木材结构，金属立柱支撑高挑屋顶，暖色调灯光营造柔和自然氛围。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:56"
+      },
+      "ai_description": "室内空间采用裸露混凝土与木材结构，金属立柱支撑高挑屋顶，暖色调灯光营造柔和自然氛围。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_149",
+      "filename": "2026110615140940475.jpg",
+      "local_path": "小红书图片下载/2026110615140940475.jpg",
+      "exists_locally": true,
+      "title": "把钢板像纸一样折起来",
+      "raw_title": "把钢板像纸一样折起来",
+      "author": "盐Salt",
+      "raw_author": "盐Salt",
+      "content": "折板其实是一个很简单的逻辑。\n一张原本没有多少刚度的平面，只要沿着几条线折起来，就会突然获得结构性。所以我们很熟悉纸、布、薄塑料这些柔性的材料被折叠，但看到 Yaku 的时候，我还是很喜欢它把这个逻辑直接放大到了一张厚重的耐候钢板上。\n钢板在这里反而看起来有点像纸。\n没有复杂的曲面，也没有为了轻盈刻意把结构藏起来。几道很明确的折线把一张板变成屋盖，折出来的脊线同时提供刚度，又把雨水引向最低的尖角。雨水在那里汇成一股水，直接落进下面粗糙的石质集水器，再进入整个雨水收集、储存和渗透系统。\n所以这个顶棚最喜欢的地方，是很多事情几乎在同一个动作里完成了。\n折一下，板有了刚度；再折一下，屋顶有了坡度；坡度形成谷线，谷线开始排水；最低点变成落水口。下面的钢架既托住集水器，也继续延伸成可以坐下来的横杆。屋盖、排水、集水、座椅和植物没有被分别设计成五件东西，而是顺着同一个构造逻辑接了下来。\n材料之间的关系也很直接。耐候钢是薄而锋利的，石质集水器却粗糙、厚重，植物又从这些很硬的构件之间长出来。尤其下雨的时候，一张看起来很重的钢板，最后只在尖端落下一条很细的水线，反而显得特别轻。\n它不是先画出一个造型，再想办法把它建出来。\n而是一个很普通的构造动作，在解决刚度的同时顺便解决了形状、排水和空间。\n一张钢板，折几下，就开始像建筑了。\n项目：Yaku – 城市雨水可持续管理模块\n设计与建造：El Sindicato Arquitectura\n地点：基多，厄瓜多尔\n景观：Bioma Arquitectura y Paisaje\n摄影：Andrés Villota\n#建筑师日常 #折板结构 #耐候钢 #雨水管理 #公共空间 #城市家具 #建筑构造 #低技术建筑 #海绵城市 #建筑材料",
+      "raw_content": "折板其实是一个很简单的逻辑。\n一张原本没有多少刚度的平面，只要沿着几条线折起来，就会突然获得结构性。所以我们很熟悉纸、布、薄塑料这些柔性的材料被折叠，但看到 Yaku 的时候，我还是很喜欢它把这个逻辑直接放大到了一张厚重的耐候钢板上。\n钢板在这里反而看起来有点像纸。\n没有复杂的曲面，也没有为了轻盈刻意把结构藏起来。几道很明确的折线把一张板变成屋盖，折出来的脊线同时提供刚度，又把雨水引向最低的尖角。雨水在那里汇成一股水，直接落进下面粗糙的石质集水器，再进入整个雨水收集、储存和渗透系统。\n所以这个顶棚最喜欢的地方，是很多事情几乎在同一个动作里完成了。\n折一下，板有了刚度；再折一下，屋顶有了坡度；坡度形成谷线，谷线开始排水；最低点变成落水口。下面的钢架既托住集水器，也继续延伸成可以坐下来的横杆。屋盖、排水、集水、座椅和植物没有被分别设计成五件东西，而是顺着同一个构造逻辑接了下来。\n材料之间的关系也很直接。耐候钢是薄而锋利的，石质集水器却粗糙、厚重，植物又从这些很硬的构件之间长出来。尤其下雨的时候，一张看起来很重的钢板，最后只在尖端落下一条很细的水线，反而显得特别轻。\n它不是先画出一个造型，再想办法把它建出来。\n而是一个很普通的构造动作，在解决刚度的同时顺便解决了形状、排水和空间。\n一张钢板，折几下，就开始像建筑了。\n项目：Yaku – 城市雨水可持续管理模块\n设计与建造：El Sindicato Arquitectura\n地点：基多，厄瓜多尔\n景观：Bioma Arquitectura y Paisaje\n摄影：Andrés Villota\n#建筑师日常 #折板结构 #耐候钢 #雨水管理 #公共空间 #城市家具 #建筑构造 #低技术建筑 #海绵城市 #建筑材料",
+      "likes": 79,
+      "collects": 75,
+      "url": "https://www.xiaohongshu.com/explore/6a89cadc000000000b024ccf?xsec_token=ABjhojitbMfR_dreNdQnuyciCbbrXQo3stg9deqm7BX4E=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061514/8b713814f7c4cf16cfb0f1fecb427d67/notes_pre_post/1040g3k8324686b4c7udg5ot7qes9gulf5s77100!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:14:09",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "建筑师日常",
+        "折板结构",
+        "耐候钢",
+        "雨水管理",
+        "公共空间",
+        "城市家具",
+        "建筑构造",
+        "低技术建筑",
+        "海绵城市",
+        "建筑材料",
+        "景观空间",
+        "现代主义",
+        "金属",
+        "石材",
+        "绿植",
+        "水体",
+        "冷色调",
+        "中性色",
+        "低饱和",
+        "景观设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "景观空间"
+        ],
+        "design_style": [
+          "现代主义"
+        ],
+        "materials": [
+          "金属",
+          "石材",
+          "绿植",
+          "水体"
+        ],
+        "color_tone": [
+          "冷色调",
+          "中性色",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "景观设计参考"
+        ],
+        "image_description": "锈蚀金属框架支撑着粗犷石材构件，搭配自然绿植与水景，呈现现代景观装置的工业质感与生态融合。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:51"
+      },
+      "ai_description": "锈蚀金属框架支撑着粗犷石材构件，搭配自然绿植与水景，呈现现代景观装置的工业质感与生态融合。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_148",
+      "filename": "2026110615130268405.jpg",
+      "local_path": "小红书图片下载/2026110615130268405.jpg",
+      "exists_locally": true,
+      "title": "立体镂空景观LOGO字｜营地入口标识小品✨",
+      "raw_title": "立体镂空景观LOGO字｜营地入口标识小品✨",
+      "author": "景观设计师-迪迪",
+      "raw_author": "景观设计师-迪迪",
+      "content": "营地入口精神标识，镂空立体金属大字。\n不是实心厚重字体，采用镂空框架结构，减轻自重，节省材料。\n字母内部通透，阳光穿过会在地面投下丰富的光影，和背后乔木草坪融为一体。\n简约现代的粗体字，兼具导视功能与打卡属性，\n作为场地第一印象，一眼点明露营主题，拍照自带氛围感。\n\t\n节点重点：\n✅钢板镂空焊接，户外耐候喷漆，抗雨水日晒\n✅落地式基础，不用高墙体，草坪/铺装边直接摆放\n✅兼顾导视+网红打卡，文旅、露营公园、口袋公园都适用\n景观节点深化/施工图外包可私信📩\n\t\n#景观设计 #景观标识 #精神堡垒 #景观小品 #营地标识 #施工图代画 #景观节点",
+      "raw_content": "营地入口精神标识，镂空立体金属大字。\n不是实心厚重字体，采用镂空框架结构，减轻自重，节省材料。\n字母内部通透，阳光穿过会在地面投下丰富的光影，和背后乔木草坪融为一体。\n简约现代的粗体字，兼具导视功能与打卡属性，\n作为场地第一印象，一眼点明露营主题，拍照自带氛围感。\n\t\n节点重点：\n✅钢板镂空焊接，户外耐候喷漆，抗雨水日晒\n✅落地式基础，不用高墙体，草坪/铺装边直接摆放\n✅兼顾导视+网红打卡，文旅、露营公园、口袋公园都适用\n景观节点深化/施工图外包可私信📩\n\t\n#景观设计 #景观标识 #精神堡垒 #景观小品 #营地标识 #施工图代画 #景观节点",
+      "likes": 111,
+      "collects": 127,
+      "url": "https://www.xiaohongshu.com/explore/6acf21080000000018005042?xsec_token=ABQ_Zxo_JmwV0HnBYJfFUSTzOL8Bp9IJqhSZffsawR_AU=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061513/def1d228077ac2fa6e9e1218cae64dff/notes_uhdr/1040g3qo3269v0nod507049184r5nbegf6df4s4g!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:13:02",
+      "width": 1080,
+      "height": 1440,
+      "aspect_ratio": 1.333,
+      "tags": [
+        "景观设计",
+        "景观标识",
+        "精神堡垒",
+        "景观小品",
+        "营地标识",
+        "施工图代画",
+        "景观节点",
+        "景观空间",
+        "现代主义",
+        "金属",
+        "石材",
+        "绿植",
+        "冷色调",
+        "明亮通透",
+        "文旅项目",
+        "景观设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "景观空间"
+        ],
+        "design_style": [
+          "现代主义"
+        ],
+        "materials": [
+          "金属",
+          "石材",
+          "绿植"
+        ],
+        "color_tone": [
+          "冷色调",
+          "明亮通透"
+        ],
+        "scene_usage": [
+          "文旅项目",
+          "景观设计参考"
+        ],
+        "image_description": "现代风格金属字母雕塑立于景观区，背景绿树成荫，地面铺石材，整体氛围明亮通透，适合作为文旅项目景观设计参考。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:47"
+      },
+      "ai_description": "现代风格金属字母雕塑立于景观区，背景绿树成荫，地面铺石材，整体氛围明亮通透，适合作为文旅项目景观设计参考。",
+      "has_ai_tags": true
+    },
+    {
+      "id": "xiaohongshu_147",
+      "filename": "2026110615115551111.jpg",
+      "local_path": "小红书图片下载/2026110615115551111.jpg",
+      "exists_locally": true,
+      "title": "改造没氛围感？试试融入金属，瞬间拉开差距",
+      "raw_title": "改造没氛围感？试试融入金属，瞬间拉开差距",
+      "author": "田字格建筑改造研究室",
+      "raw_author": "田字格建筑改造研究室",
+      "content": "不少建筑外立面改造完成后观感平淡，墙体材质、色彩方案都落地，整体却缺少张力，很难形成记忆点。想要低成本打破单调，巧妙植入金属构件是高效方案，无需大幅度改动主体结构，适度运用就能拉开立面层次。\n1，选型优先贴合建筑风格：哑光耐候钢自带复古肌理，适配低密公建、旧建筑更新；拉丝深灰不锈钢线条简洁利落，适合极简现代外立面；铝单板可塑性强，可做折边、镂空造型，新旧项目都适用。切忌大面积满铺金属，容易造成视觉压抑、光污染。\n2，落地可以参考这些位置：立面分割线条、窗框收边、檐口压顶、悬挑构件、镂空格栅、入口门头装饰、竖向装饰立柱。利用金属和涂料、石材、清水混凝土形成材质对比。\n3，实用搭配要点：同一立面金属色系控制在 1～2 种。混凝土、石材立面搭配深灰金属；原木质感外墙搭配古铜金属。依靠材质冷暖、肌理虚实形成反差，让改造后的外立面精致度与立体感显著提升。#杭州田字格建筑  #建筑细节  #扶手  #建筑材料  #空间美学  #建筑构造  #建筑外立面改造 #建筑外观改造 #老城区改造 #打造完美空间",
+      "raw_content": "不少建筑外立面改造完成后观感平淡，墙体材质、色彩方案都落地，整体却缺少张力，很难形成记忆点。想要低成本打破单调，巧妙植入金属构件是高效方案，无需大幅度改动主体结构，适度运用就能拉开立面层次。\n1，选型优先贴合建筑风格：哑光耐候钢自带复古肌理，适配低密公建、旧建筑更新；拉丝深灰不锈钢线条简洁利落，适合极简现代外立面；铝单板可塑性强，可做折边、镂空造型，新旧项目都适用。切忌大面积满铺金属，容易造成视觉压抑、光污染。\n2，落地可以参考这些位置：立面分割线条、窗框收边、檐口压顶、悬挑构件、镂空格栅、入口门头装饰、竖向装饰立柱。利用金属和涂料、石材、清水混凝土形成材质对比。\n3，实用搭配要点：同一立面金属色系控制在 1～2 种。混凝土、石材立面搭配深灰金属；原木质感外墙搭配古铜金属。依靠材质冷暖、肌理虚实形成反差，让改造后的外立面精致度与立体感显著提升。#杭州田字格建筑  #建筑细节  #扶手  #建筑材料  #空间美学  #建筑构造  #建筑外立面改造 #建筑外观改造 #老城区改造 #打造完美空间",
+      "likes": 158,
+      "collects": 133,
+      "url": "https://www.xiaohongshu.com/explore/6a70695e00000000280332c7?xsec_token=ABWP7KnUeUpvGir52Y8gFjusTiAL2bNBU97Sq_oURH3eM=&xsec_source=pc_search&source=web_explore_feed",
+      "image_url": "https://sns-webpic-qc.xhscdn.com/202611061511/15489c834d7e55cd361b54222cd93e6c/spectrum/1040g0k0323df2j1nmu005pvdb293jlil8bcfi00!nd_dft_wlteh_webp_3",
+      "source": "小红书",
+      "source_key": "xiaohongshu",
+      "tag_color": "#FF2442",
+      "date": "2026-11-06 15:11:55",
+      "width": 1080,
+      "height": 1350,
+      "aspect_ratio": 1.25,
+      "tags": [
+        "杭州田字格建筑",
+        "建筑细节",
+        "扶手",
+        "建筑材料",
+        "空间美学",
+        "建筑构造",
+        "建筑外立面改造",
+        "建筑外观改造",
+        "老城区改造",
+        "打造完美空间",
+        "住宅建筑",
+        "建筑立面",
+        "现代主义",
+        "极简主义",
+        "混凝土",
+        "绿植",
+        "白色墙面",
+        "中性色",
+        "低饱和",
+        "方案参考",
+        "立面设计参考"
+      ],
+      "ai_tags": {
+        "space_type": [
+          "住宅建筑",
+          "建筑立面"
+        ],
+        "design_style": [
+          "现代主义",
+          "极简主义"
+        ],
+        "materials": [
+          "混凝土",
+          "绿植",
+          "白色墙面"
+        ],
+        "color_tone": [
+          "中性色",
+          "低饱和"
+        ],
+        "scene_usage": [
+          "方案参考",
+          "立面设计参考"
+        ],
+        "image_description": "现代住宅建筑立面，混凝土结构与白色墙面结合，嵌入式花槽种植绿植，呈现极简风格与自然融合的视觉效果。",
+        "reasoning_summary": "",
+        "tagged_at": "2026-11-06 15:56:33"
+      },
+      "ai_description": "现代住宅建筑立面，混凝土结构与白色墙面结合，嵌入式花槽种植绿植，呈现极简风格与自然融合的视觉效果。",
+      "has_ai_tags": true
+    },
     {
       "id": "pinterest_164",
       "filename": "2026103113091046010.jpg",
