@@ -4,7 +4,7 @@ import TechText from './reactbits/TechText';
 import './AtriumHero.css';
 
 const SLOT_COUNT = 7;          // 右侧马赛克中的照片槽位数
-const ROTATE_INTERVAL = 2000; // 每 2 秒替换一张照片
+const ROTATE_INTERVAL = 1000; // 每 1 秒替换一张照片
 
 // 预加载一张图片：本地图优先，失败再试远程图；都失败返回 null
 function preloadImage(item) {
@@ -102,7 +102,7 @@ export function AtriumHero({ items = [], onExploreClick, onOpenDetail }) {
       }
     })();
 
-    // 3. 自动轮换：每 2 秒随机替换一个槽位；页面不可见、鼠标停在图墙上或系统要求减少动效时暂停
+    // 3. 自动轮换：每 1 秒随机替换一个槽位；页面不可见、鼠标停在图墙上或系统要求减少动效时暂停
     const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     let busy = false;
     const timer = reduceMotion
