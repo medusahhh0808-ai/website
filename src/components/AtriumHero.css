@@ -375,6 +375,20 @@
   -webkit-user-drag: none;
 }
 
+/* 自动轮换：旧图垫底，新图淡入 */
+.atrium-cell-img-prev,
+.atrium-cell-img-in {
+  position: absolute;
+  inset: 0;
+}
+.atrium-cell-img-in {
+  animation: atriumImgIn 0.9s ease both;
+}
+@keyframes atriumImgIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .atrium-cell.ph:hover .atrium-cell-img {
   transform: scale(1.06);
 }
