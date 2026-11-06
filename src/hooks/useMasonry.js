@@ -4,19 +4,16 @@ export function useMasonry(items) {
   const [columnCount, setColumnCount] = useState(4);
 
   useEffect(() => {
+    // 列数按"版心实际可用宽度 / 目标卡片宽度"计算，避免大屏卡片被放大、小屏卡片被挤扁
+    // 约：手机 1 列 | 平板 2 列 | 小笔记本 3-4 列 | 1920 大屏 5 列
     function updateColumns() {
       const width = window.innerWidth;
-      if (width >= 1600) {
-        setColumnCount(4); // 1700px 版心下 4 列宽幅卡片，极具设计呼吸感
-      } else if (width >= 1200) {
-        setColumnCount(4);
-      } else if (width >= 860) {
-        setColumnCount(3);
-      } else if (width >= 560) {
-        setColumnCount(2);
-      } else {
-        setColumnCount(1);
-      }
+      const padding = width > 1200 ? 72 : width > 600 ? 40 : 32;
+      const containerWidth = Math.min(width, 1700) - padding;
+      const gap = width > 1200 ? 22 : 16;
+      const minCardWidth = 270;
+      const count = Math.floor((containerWidth + gap) / (minCardWidth + gap));
+      setColumnCount(Math.max(1, Math.min(5, count)));
     }
 
     updateColumns();

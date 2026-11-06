@@ -166,7 +166,9 @@ export default function App() {
       setTimeout(() => {
         const el = document.getElementById(targetId) || document.getElementById('gallery-section');
         if (el) {
-          const navOffset = 82; // 导航栏 72px + 10px 间距
+          // 导航栏高度随断点变化（窄屏为两行），按实际高度 + 10px 间距计算
+          const header = document.querySelector('.site-header');
+          const navOffset = (header ? header.offsetHeight : 72) + 10;
           const elementPosition = el.getBoundingClientRect().top + window.pageYOffset;
           const offsetPosition = Math.max(0, elementPosition - navOffset);
           window.scrollTo({

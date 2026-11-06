@@ -716,7 +716,9 @@ function InlineDock({
             key={idx}
             onClick={() => triggerHop(idx, item.onClick)}
             type="button"
-            className="inline-dock-item"
+            className={`inline-dock-item${isActive ? ' is-active' : ''}`}
+            aria-label={item.label}
+            title={item.label}
             style={{
               '--dock-scale': scale,
               transform: `scale(${scale})`,
@@ -761,9 +763,10 @@ function InlineDock({
                 {item.icon}
               </span>
             )}
-            {item.label && <span>{item.label}</span>}
+            {item.label && <span className="inline-dock-label">{item.label}</span>}
             {item.badge !== undefined && item.badge !== null && (
               <span
+                className="inline-dock-badge"
                 style={{
                   display: 'inline-flex',
                   alignItems: 'center',

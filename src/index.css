@@ -1848,3 +1848,184 @@ body {
   word-break: break-all;
 }
 
+
+
+/* ============================================================
+   09. 响应式导航 (Responsive Navbar)
+   断点：>1440 完整搜索框 | ≤1440 搜索收为图标 | ≤1024 两行导航 | ≤600 胶囊仅保留图标
+   ============================================================ */
+.header-inner {
+  height: 72px;
+  min-width: 0;
+}
+
+.brand-group {
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+.brand-title {
+  white-space: nowrap;
+}
+
+.navbar-dock-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.header-actions {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.search-toggle-btn {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: var(--bg-surface-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-apple);
+}
+
+.search-toggle-btn:hover,
+.search-toggle-btn.is-open {
+  background: #ffffff;
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
+/* 已有搜索词时，在图标右上角显示蓝点提示 */
+.search-toggle-btn.has-query::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent-blue);
+}
+
+.search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+@media (max-width: 1440px) {
+  .brand-subtitle {
+    display: none;
+  }
+  .search-toggle-btn {
+    display: inline-flex;
+  }
+  .search-input-wrap {
+    display: none;
+  }
+  .search-input-wrap.is-open,
+  .search-input-wrap.is-open:focus-within {
+    display: flex;
+    position: absolute;
+    top: calc(100% + 14px);
+    right: 0;
+    width: min(400px, calc(100vw - 32px));
+    height: 44px;
+    border-radius: var(--radius-full);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.14);
+    z-index: 5;
+  }
+  .search-input-wrap.is-open .search-input {
+    height: 44px;
+    line-height: 44px;
+    background: #ffffff;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .header-inner {
+    gap: 12px;
+  }
+  .inline-dock-item {
+    padding: 6px 10px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-inner {
+    height: auto;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    padding: 10px 0;
+  }
+  .brand-group {
+    order: 1;
+  }
+  .header-actions {
+    order: 2;
+    margin-left: auto;
+  }
+  .navbar-dock-wrap {
+    order: 3;
+    flex: 1 0 100%;
+  }
+  .inline-dock-nav {
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .inline-dock-nav::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .content-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .brand-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .brand-title {
+    font-size: 14px;
+  }
+  /* 未选中的胶囊仅显示图标；选中项显示图标 + 文字 + 计数 */
+  .inline-dock-nav {
+    gap: 2px !important;
+    padding: 4px 5px !important;
+  }
+  .inline-dock-item {
+    padding: 7px 10px !important;
+    gap: 5px !important;
+  }
+  .inline-dock-item:not(.is-active) .inline-dock-label,
+  .inline-dock-item:not(.is-active) .inline-dock-badge {
+    display: none !important;
+  }
+}
+
+/* ============================================================
+   10. 响应式画廊控制条与瀑布流
+   ============================================================ */
+@media (max-width: 1200px) {
+  .masonry-layout-grid,
+  .masonry-col-unit {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .masonry-layout-grid,
+  .masonry-col-unit {
+    gap: 14px;
+  }
+}

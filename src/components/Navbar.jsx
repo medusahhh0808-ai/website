@@ -21,7 +21,27 @@ export function Navbar({
   // 状态 3：鼠标是否正悬停在导航栏自身上 (悬停时不隐去)
   const [isNavHovered, setIsNavHovered] = useState(false);
 
+  // 状态 4：窄屏/触屏设备（没有鼠标移动事件，导航常驻显示）
+  const [isCompactDevice, setIsCompactDevice] = useState(false);
+  // 状态 5：窄屏下搜索框由图标展开
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
   const hideTimerRef = useRef(null);
+  const searchInputRef = useRef(null);
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 1024px), (hover: none)');
+    const update = () => setIsCompactDevice(mq.matches);
+    update();
+    mq.addEventListener ? mq.addEventListener('change', update) : mq.addListener(update);
+    return () => {
+      mq.removeEventListener ? mq.removeEventListener('change', update) : mq.removeListener(update);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (isSearchOpen && searchInputRef.current) searchInputRef.current.focus();
+  }, [isSearchOpen]);
 
   useEffect(() => {
     // 监听页面滚动：判断是否离开 Hero 进入画廊
@@ -65,7 +85,7 @@ export function Navbar({
   }, []);
 
   // 计算当前导航栏是否可见
-  const isVisible = isGalleryPinned || isNavHovered || isMouseActiveInHero;
+  const isVisible = isGalleryPinned || isNavHovered || isMouseActiveInHero || isCompactDevice || isSearchOpen;
 
   const dockItems = [
     {
@@ -127,7 +147,7 @@ export function Navbar({
       role="banner"
     >
       <div className="content-container">
-        <div className="header-inner" style={{ height: '72px' }}>
+        <div className="header-inner">
           {/* 左侧：品牌 Logo 与标题 */}
           <div className="brand-group" onClick={onReset} title="点击回顶部并重置视图">
             <div className="brand-icon">
@@ -145,7 +165,7 @@ export function Navbar({
           </div>
 
           {/* 中间：ReactBits Dock 动效导航栏 */}
-          <div className="navbar-dock-wrap" style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+          <div className="navbar-dock-wrap">
             <Dock
               inline={true}
               items={dockItems}
@@ -154,12 +174,23 @@ export function Navbar({
             />
           </div>
 
-          {/* 右侧：全局搜索框 */}
+          {/* 右侧：全局搜索框（中小屏收起为图标，点击后在导航下方展开） */}
           <div className="header-actions">
-            <div className="search-input-wrap">
+            <button
+              type="button"
+              className={`search-toggle-btn ${isSearchOpen ? 'is-open' : ''} ${searchQuery ? 'has-query' : ''}`}
+              onClick={() => setIsSearchOpen((v) => !v)}
+              aria-label={isSearchOpen ? '收起搜索' : '搜索'}
+              aria-expanded={isSearchOpen}
+              title="搜索建筑、风格、材料"
+            >
+              {isSearchOpen ? <X size={17} /> : <Search size={17} />}
+            </button>
+            <div className={`search-input-wrap ${isSearchOpen ? 'is-open' : ''}`}>
               <Search className="search-icon-svg" size={15} />
               <input
-                type="text"
+                ref={searchInputRef}
+                type="search"
                 className="search-input"
                 placeholder="搜索建筑、风格、材料..."
                 value={searchQuery}
@@ -167,6 +198,9 @@ export function Navbar({
                 onKeyDown={(e) => {
                   if (e.key === 'Enter') {
                     onSearchSubmit && onSearchSubmit();
+                    setIsSearchOpen(false);
+                  } else if (e.key === 'Escape') {
+                    setIsSearchOpen(false);
                   }
                 }}
               />

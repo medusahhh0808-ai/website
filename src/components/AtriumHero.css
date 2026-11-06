@@ -462,79 +462,124 @@
   background-size: 100% 100%;
 }
 
-/* 响应式调整 */
-@media (max-width: 1180px) {
-  .atrium-hdr {
-    left: 20px;
-    right: 20px;
-  }
-  .atrium-hero-left {
-    left: 40px;
-    top: 150px;
-    width: 480px;
-  }
-  .atrium-techtext-line {
-    height: 95px;
-  }
-  .atrium-title {
-    font-size: 64px;
-    line-height: 60px;
-  }
-  .atrium-grid {
-    right: 20px;
-  }
+/* ==========================================================================
+   响应式布局
+   - ≥1025px：左文右图并排，右侧马赛克列宽 / 标题字号随视口线性缩放
+   - ≤1024px：上下堆叠，马赛克改为全宽横向铺满
+   - ≤600px：马赛克收为两列
+   ========================================================================== */
+.atrium-hero-section {
+  --col: clamp(150px, 13.6vw, 205.33px);
+  --gap: clamp(10px, 0.7vw, 13px);
+  --pitch: calc(var(--col) * 1.376);
+  --hero-pad-left: clamp(40px, calc(64px + (100vw - 1400px) * 0.12), 110px);
+  --grid-right: clamp(32px, calc(60px + (100vw - 1380px) * 0.22), 170px);
+  min-height: 600px;
 }
 
-@media (max-width: 900px) {
+.atrium-hero-left {
+  left: var(--hero-pad-left);
+  top: clamp(104px, 18vh, 175px);
+  width: 660px;
+  max-width: calc(100vw - var(--hero-pad-left) - var(--grid-right) - 3 * var(--col) - 2 * var(--gap) - 48px);
+}
+
+.atrium-title-badge {
+  margin-bottom: clamp(12px, 2.2vh, 22px);
+}
+
+.atrium-techtext-line {
+  height: clamp(72px, min(8.2vw, 13vh), 125px);
+}
+
+.atrium-desc {
+  margin-top: clamp(20px, 4vh, 48px);
+  font-size: clamp(14.5px, 1.1vw, 16.5px);
+  line-height: 1.7;
+}
+
+.atrium-acts {
+  margin-top: clamp(20px, 3.5vh, 40px);
+}
+
+.atrium-grid {
+  right: var(--grid-right);
+}
+
+@media (max-width: 1024px) {
   .atrium-hero-section {
+    --gap: 12px;
     height: auto;
-    min-height: 820px;
-    padding-bottom: 60px;
-  }
-  .atrium-util {
-    display: none;
-  }
-  .atrium-main-row {
-    height: 72px;
-    padding: 0 16px;
-  }
-  .atrium-main-nav .atrium-nav-link, .atrium-nav-sep {
-    display: none;
-  }
-  .atrium-tickets-circle {
-    display: none;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 140px 32px 40px; /* 导航在 ≤1024px 时为两行 */
   }
   .atrium-hero-left {
     position: relative;
-    top: 100px;
-    left: 20px;
-    width: calc(100% - 40px);
-    max-width: none;
+    left: auto;
+    top: auto;
+    width: 100%;
+    max-width: 760px;
     z-index: 25;
   }
   .atrium-techtext-line {
-    height: 70px;
-  }
-  .atrium-title {
-    font-size: 48px;
-    line-height: 48px;
+    height: clamp(60px, 12vw, 112px);
   }
   .atrium-desc {
-    margin-top: 24px;
+    max-width: 640px;
     font-size: 15px;
-  }
-  .atrium-acts {
-    margin-top: 24px;
   }
   .atrium-grid {
     position: relative;
-    width: 100%;
     right: auto;
-    top: 130px;
-    height: 460px;
-    opacity: 0.55;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    height: clamp(320px, 52vw, 480px);
+    margin-top: 36px;
+    border-radius: 22px;
   }
-  .atrium-col.c3 {
-    display: none;
+  .atrium-col {
+    width: calc((100% - 2 * var(--gap)) / 3);
   }
+  .atrium-col.c1 { left: 0; top: 40px; }
+  .atrium-col.c2 { left: calc((100% - 2 * var(--gap)) / 3 + var(--gap)); top: -20px; }
+  .atrium-col.c3 { left: calc(2 * ((100% - 2 * var(--gap)) / 3 + var(--gap))); top: 40px; }
+  .atrium-cell {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 205.33 / 282.5;
+  }
+}
+
+@media (max-width: 600px) {
+  .atrium-hero-section {
+    --gap: 10px;
+    padding: 132px 16px 32px;
+  }
+  .atrium-title-badge {
+    font-size: 10px;
+    letter-spacing: 0.06em;
+  }
+  .atrium-techtext-line {
+    height: clamp(52px, 15vw, 80px);
+  }
+  .atrium-desc {
+    font-size: 14.5px;
+  }
+  .atrium-hero-cta-btn {
+    height: 48px;
+    padding: 0 30px;
+    font-size: 15px;
+  }
+  .atrium-grid {
+    height: clamp(280px, 90vw, 380px);
+    margin-top: 28px;
+  }
+  .atrium-col {
+    width: calc((100% - var(--gap)) / 2);
+  }
+  .atrium-col.c2 { left: calc((100% - var(--gap)) / 2 + var(--gap)); }
+  .atrium-col.c3 { display: none; }
 }
